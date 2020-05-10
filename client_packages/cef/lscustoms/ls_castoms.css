@@ -1,20 +1,14 @@
-
 .box {
-    border-radius: 17px;
     width: 540px;
     height: 725px;
-    box-shadow: 2px 2px 30px rgba(122,122,122,0.3);
-    background-color: #fff;
-    background-image: url(images/Classic-main_bg.png);
-  
+    background: rgba(9, 10, 15, 0.3);
 }
 
 .header {
     display: flex;
     width: 540px;
     height: 115px;
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px; 
+    background-image: url(images/header.png);
 }
 
 .main {
@@ -22,6 +16,7 @@
     flex-direction: column;
     width: 540px;
     height: 495px;
+    background: rgba(9, 10, 15, 0.65);
     background-size: 100% 100%;
 }
 
@@ -29,11 +24,10 @@
     display: flex;
     width: 540px;
     height: 115px;
-    border-bottom-left-radius: 17px;
-    border-bottom-right-radius: 17px;
+    background: rgba(9, 10, 15, 0.65);
     border-top-style: solid;
     border-top-width: 1px;
-    border-top-color: #da6900;
+    border-top-color: #fff;
 }
 
 
@@ -46,6 +40,7 @@
 }
 
 .left_part p, .right_part p {
+    color: #fff;
     display: flex;
     margin: 0;
     font-family: Montserrat, sans-serif;
@@ -59,7 +54,18 @@
 progress {
     margin-left: 40px;
     width: 180px;
+    background: #fff;
+    border-radius: 27px;
 }
+
+progress::-webkit-progress-bar {
+    border: solid 1px #fff;
+    border-radius: 27px;
+  }
+  progress::-webkit-progress-value {
+    background: #fff;
+    border-radius: 27px;
+  }
 
 /* !!!ИНДИКАТОРЫ!!! */
 .speed_indicator, .braking_indicator, .boost_indicartor, .clutch_indicator {
@@ -77,7 +83,7 @@ progress {
     position: absolute; 
     height: 10px; width: 50%; /* Число в процентах - заполнение шкалы */
     /*border-radius: 7px;*/
-    background: linear-gradient(to right, #3c3c3c, #ed7301);
+    background: linear-gradient(to right, #3c3c3c, #292929);
     border: 1px solid ;
     box-shadow: 3px 0 3px rgba(0,0,0,0.3);
     box-shadow: inset 0 0 5px;
@@ -88,7 +94,7 @@ progress {
     position: absolute; 
     height: 10px; width: 38%; /* Число в процентах - заполнение шкалы */
     /*border-radius: 7px;*/
-    background: linear-gradient(to right, #3c3c3c, #ed8701);
+    background: linear-gradient(to right, #3c3c3c, #292929);
     border: 1px solid ;
     box-shadow: 3px 0 3px rgba(0,0,0,0.3);
     box-shadow: inset 0 0 5px;
@@ -99,7 +105,7 @@ progress {
     position: absolute; 
     height: 10px; width: 76%; /* Число в процентах - заполнение шкалы */
     /*border-radius: 7px;*/
-    background: linear-gradient(to right, #3c3c3c, #ed7301);
+    background: linear-gradient(to right, #3c3c3c, #292929);
     border: 1px solid ;
     box-shadow: 3px 0 3px rgba(0,0,0,0.3);
     box-shadow: inset 0 0 5px;
@@ -110,7 +116,7 @@ progress {
     position: absolute; 
     height: 10px; width: 33%; /* Число в процентах - заполнение шкалы */
     /*border-radius: 7px;*/
-    background: linear-gradient(to right, #3c3c3c, #ed7301);
+    background: linear-gradient(to right, #3c3c3c, #292929);
     border: 1px solid ;
     box-shadow: 3px 0 3px rgba(0,0,0,0.3);
     box-shadow: inset 0 0 5px;
@@ -133,11 +139,12 @@ progress {
     width: 540px;
     height: 61px;
     border-bottom-style: solid;
-    border-bottom-color: #a35700;
+    border-bottom-color: #fff;
     border-bottom-width: 1px;
 }
 
 .categories p {
+    color: #fff;
     margin-left: 20px;
     margin-bottom: 0;
     margin-top: 0;
@@ -162,7 +169,7 @@ progress {
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    color: #ca6e05;
+    color: #fff;
 }
 
 .content_box {
@@ -190,12 +197,11 @@ progress {
 
 /* для контента на главной странице */
 .content_home {
+    padding: 13px 0;
     display: flex;
     width: 500px;
     height: 54px;
-    border-radius: 10px;
-    margin-top: 13px;
-    margin-bottom: 12px;
+    border-radius: 2px;
     color: #000;
     transition: all 0.3s ease;
 }
@@ -207,7 +213,7 @@ progress {
     align-items: center;
     border-right-style: solid;
     border-right-width: 2px;
-    border-right-color: #a34f00;
+    border-right-color: #fff;
 }
 
 .left_c_h img {
@@ -219,7 +225,7 @@ progress {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     font-size: 20px;
-    color: #db5902;
+    color: #fff;
     padding-left: 12px;
 }
 
@@ -235,10 +241,11 @@ progress {
     margin-left: 10px;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
-    color: #000;
+    color: #fff;
 }
 
 .content_home:hover{
+    cursor: pointer;
     background: rgba(0,0,0,0.18);
 }
 
@@ -254,8 +261,8 @@ a {
     margin-top: 14px;
     width: 500px;
     min-height: 60px;
-    background: linear-gradient(to right, #e39400, #a66400);
-    border-radius: 12px;
+    background: #000;
+    border-radius: 2px;
     color: #fff;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
@@ -275,21 +282,18 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 500px;
-    min-height: 38px;
-    border-radius: 12px;
-    border-bottom-style: solid;
-    border-bottom-color: #ce7603;
-    border-bottom-width: 1px;
+    min-height: 50px;
+    border-radius: 2px;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
-    font-weight: 500;
-    color: #000;
+    color: #fff;
     transition: all 0.3s ease;
 }
 
 .item:hover {
-    background-color: #e68200;
-    color: #fff;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
 }
 
 .item p {

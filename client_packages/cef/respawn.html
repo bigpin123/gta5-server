@@ -1,66 +1,60 @@
 ﻿<!DOCTYPE html>
 <html>
     <head>
-        <title>Classic Role Play - Respawn selector</title>
-        <link rel="stylesheet" href="css/respawn.css">
-        <link rel="stylesheet" href="css/fontslogin.css">
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/respawn.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function () {
-    
-                $("body").css("display", "none");
-    
-                $("body").fadeIn(2000);
-    
-            });
-        </script>
-    </head>
-    <body>
-        <div class="wraper">
-            <div class="box1">
-                <div class="respawnOnExit">
-                    <img class="logoImages" src="img/logo-smallpng.png" alt="logo">
-                    <p class="text"><br /><span>МЕСТО ВЫХОДА</span></p>
-                    <hr style="width: 65%; color: #ffffff; margin-top: 3.8%">
-                    <p class="textDescription">Всё сохраняется.</p>
-                    <button onclick="spawn(0)" type="button" class="button">Вернуться обратно</button>
-                </div>
-            </div>
-    
-            <div class="box2">
-                <div class="respawnFraction">
-                    <img class="logoImages" src="img/logo-smallpng.png" alt="logo">
-                    <p class="text"><br /><span>ОРГАНИЗАЦИЯ</span></p>
-                    <hr style="width: 65%; color: #ffffff; margin-top: 3.8%">
-                    <p class="textDescription">При заходе в игру весь инвентарь удаляется, кроме одежды.</p>
-                    <button onclick="spawn(1)" type="button" class="button">Вернуться во фракции</button>
-                </div>
-            </div>
-    
-            <div class="noBox2">
-                <div class="noHome">
-                    <p class="notext">Вступите во фракцию,<br /> чтобы <span>разблокировать<br /> и появляться</span> там</p>
-                    <img class="lockImg" src="img/logo-smallpng.png" alt="lock">
-                </div>
-            </div>
-    
-            <div class="box3">
-                <div class="respawnHome">
-                    <img class="logoImages" src="img/logo-smallpng.png" alt="logo">
-                    <p class="text"><br /><span>ДОМ</span></p>
-                    <hr style="width: 65%; color: #ffffff; margin-top: 3.8%">
-                    <p class="textDescription">При заходе в игру весь инвентарь удаляется, кроме одежды.</p>
-                    <button onclick="spawn(2)" type="button" class="button">Появиться дома</button>
-                </div>
-            </div>
-    
-            <div class="noBox3">
-                <div class="noHome">
-                    <p class="notext">Купите себе дом,<br /> чтобы <span>разблокировать<br /> и появляться</span> в нем</p>
-                    <img class="lockImg" src="img/logo-smallpng.png" alt="lock">
-                </div>
+
+
+<link rel="stylesheet" href="css/respawn.css">
+<link rel="stylesheet" href="css/fontslogin.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/respawn.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("body").css("display", "none");
+
+        $("body").fadeIn(2000);
+
+    });
+</script>
+</head>
+<body>
+<div class="wrapper_respawn">
+    <h1>Выбор спавна</h1>
+    <div class="spawn_position">
+        <div class="respaw_nO_nExit">
+            <div>
+                <button onclick="spawn(0)" type="button" class="button">Точка выхода</button>
+                <p>Появиться на последней точке</p>
             </div>
         </div>
+
+        <div class="respawn_Fraction">
+            <div>
+                <button onclick="spawn(1)" type="button" class="button">Фракция</button>
+                <p>Появиться на спавне организации</p>
+            </div>
+        </div>
+
+        <div class="spawn_home">
+            <div>
+                <button onclick="spawn(2)" type="button" class="button">Дом</button>
+                <p>Появиться в доме</p>
+            </div>
+        </div>
+
+        <div class="respawn_Fraction_no">
+            <div>
+                <p>Вступите во фракцию чтобы появиться там.</p>
+            </div>
+        </div>
+
+        <div class="spawn_home_no">
+            <div>
+                <p>Купите дом чтобы появиться в нем.</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
     </body>
 </html>

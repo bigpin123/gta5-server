@@ -20,32 +20,20 @@
     margin: 5px;
     padding: 10px;
     font-size: 16pt;
-    border-radius: 5px;
-}
-.stock .title:hover{
-    background-color: rgba(253, 139, 8, 0.925);
 }
 .stock .count{
     background-color: #ffffff;
     margin: 5px;
     padding: 10px;
     font-size: 14pt;
-    border-radius: 5px;
-}
-.stock .count:hover{
-    background-color: rgba(253, 139, 8, 0.925);
 }
 .stock .exit{
     color: white;
-    background-color: #f18e0b;
+    background-color: #f44336;
     margin: 5px;
     padding: 10px;
     font-size: 14pt;
     cursor: pointer;
-    border-radius: 5px;
-}
-.stock .exit:hover{
-    background-color: rgb(131, 17, 17);
 }
 .stock .title span{cursor: pointer}
 .stock .title #L{
@@ -61,15 +49,12 @@
     width: 151px;
     display: inline-block;
     padding: 10px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    font-size: 14pt;
+    background-color: #ffffff;
     cursor: pointer;
 }
-.stock .btn:hover{
-    background-color: rgba(253, 139, 8, 0.925);
-}
-.stock.weaponsstock{background-image: url('../res/Classic-weapstock.png')}
-.stock.weapons{background-image: url('../res/Classic-weap.png')}
-.stock.weed{background-image: url('../res/Classic-weed.png')}
-.stock.healkit{background-image: url('../res/Classic-hkit.png')}
-.stock.cash{background-image: url('../res/Classic-cash.png')}
+.stock.weaponsstock{background-image: url('../res/weapstock.png')}
+.stock.weapons{background-image: url('../res/weap.png')}
+.stock.weed{background-image: url('../res/weed.png')}
+.stock.healkit{background-image: url('../res/hkit.png')}
+.stock.cash{background-image: url('../res/cash.png')}

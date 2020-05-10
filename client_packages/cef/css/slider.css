@@ -9,12 +9,12 @@
 }
 
 .rangeslider {
-    background: #e6e6e6;
+    background: #fff;
     position: relative
 }
 
 .rangeslider--horizontal {
-    height: 10px;
+    height: 12px;
     width: 100%;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .rangeslider__fill {
-    background: rgb(231, 157, 72);
+    background: #fff;
     position: absolute
 }
 
@@ -45,17 +45,16 @@
 }
 
 .rangeslider__handle {
-    border: 1px solid #000;
     cursor: pointer;
     display: inline-block;
-    width: 20px;
+    width: 12px;
     height: 20px;
     position: absolute;
-    border-radius: 50%;
-    background-color: rgb(206, 105, 47);
+    border-radius: 12%;
+    background-color: #5AC138;
 }
 .rangeslider--horizontal .rangeslider__handle {
-    top: -7px;
+    top: -5px;
     touch-action: pan-y;
     -ms-touch-action: pan-y
 }
@@ -67,7 +66,7 @@
 }
 
 input[type=range]:focus+.rangeslider .rangeslider__handle {
-    -moz-box-shadow: 0 0 8px rgba(207, 104, 7, 0.9)
-    -webkit-box-shadow: 0 0 8px rgba(207, 104, 7, 0.9)
-    box-shadow: 0 0 8px rgba(207, 104, 7, 0.9)
+    -moz-box-shadow: 0 0 8px rgba(255,0,255,.9);
+    -webkit-box-shadow: 0 0 8px rgba(255,0,255,.9);
+    box-shadow: 0 0 8px rgba(255,0,255,.9)
 }

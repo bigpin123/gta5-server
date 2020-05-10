@@ -1,12 +1,12 @@
 ﻿function set(data) {
     data = JSON.parse(data);
-    $('.box1').css('display', 'flex');
+    $('.respaw_nO_nExit').css('display', 'grid');
 
-    if (data[1] === true) $('.box2').css('display', 'flex');
-    else $('.noBox2').css('display', 'flex');
+    if (data[1] === true) $('.respawn_Fraction').css('display', 'grid');
+    else $('.respawn_Fraction_no').css('display', 'grid');
 
-    if (data[2] === true) $('.box3').css('display', 'flex');
-    else $('.noBox3').css('display', 'flex');
+    if (data[2] === true) $('.spawn_home').css('display', 'flex');
+    else $('.spawn_home_no').css('display', 'grid');
 }
 
 function spawn(id) {

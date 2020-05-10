@@ -71,18 +71,6 @@ function addHeader(id, index, text, col, color) {
     $('.main').append(card);
 }
 function addBtn(id, index, title, col, big) {
-    var callback = "call('" + id + "','button1');";
-    var pure = "pure-u-";
-    var style = "button1";
-    if (col === 1) pure = pure + col;
-    else pure = pure + '1-2';
-    if (big == true) style = style + " big";
-
-    var btn = '<div id="' + index + '" data-id="' + id + '" class="' + pure + '">\
-    <div onClick="'+ callback + '" class="' + style + '">' + title + '</div></div>';
-    $('.main').append(btn);
-}
-function addBtn(id, index, title, col, big) {
     var callback = "call('" + id + "','button');";
     var pure = "pure-u-";
     var style = "button";
@@ -230,7 +218,7 @@ function getData() {
 }
 
 function reset() {
-    $('.debug').html(" ");
+    $('.debug').html("AppID: ");
     App = null;
     Close = null;
     Items = {};

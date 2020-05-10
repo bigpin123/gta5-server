@@ -6,16 +6,14 @@ var jobselector = new Vue({
         level: 1,
         list: 
         [
-            {class: "svar", name: "Сварщик", level: 0, jobid: 9},
-            {class: "spais", name: "Спайс", level: 0, jobid: 10},
             {class: "electro", name: "Электрик", level: 0, jobid: 1},
-            {class: "taxi", name: "Таксист", level: 1, jobid: 3},
-            {class: "bus", name: "Водитель автобуса", level: 1, jobid: 4},
-            {class: "mechanic", name: "Автомеханик", level: 1, jobid: 8},
-            {class: "truck", name: "Дальнобойщик", level: 1, jobid: 6},
-            {class: "inkos", name: "Инкассатор", level: 1, jobid: 7},
-            {class: "gazon", name: "Скоро", level: 20, jobid: 5},
-            {class: "pochta", name: "Скоро", level: 20, jobid: 2},
+            {class: "gazon", name: "Газонокосильщик", level: 0, jobid: 5},
+            {class: "pochta", name: "Почтальон", level: 1, jobid: 2},
+            {class: "taxi", name: "Таксист", level: 2, jobid: 3},
+            {class: "bus", name: "Водитель автобуса", level: 2, jobid: 4},
+            {class: "mechanic", name: "Автомеханик", level: 4, jobid: 8},
+            {class: "truck", name: "Дальнобойщик", level: 5, jobid: 6},
+            {class: "inkos", name: "Инкассатор", level: 8, jobid: 7},
         ],
     },
     methods: {

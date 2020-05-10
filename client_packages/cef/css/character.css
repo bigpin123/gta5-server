@@ -2,30 +2,56 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+hr{
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    height: 2px;
+    width: 88%;
+}
+
+.editor .header_block_info{
+    position: relative;
+    display: inline-block;
+    background: url(../img/character_users.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid;
+    color: #fff;
+    top: -5px;
+}
+
+.editor .header_block_info h1{
+    text-align: left;
+    font-size: 26px;
+}
+
+.editor .header_block_info p{
+    text-align: left;
+    width: 70%;
+}
+
+
 .editor {
-    width: 375px;
-    height: 645px;
+    width: 42vh;
+    height: 98vh;
     max-height: 98vh;
     overflow: hidden;
     overflow-y: scroll;
     position: absolute;
-    background-image: url(../img/Classic-sozd.png);
-    /*background-color: rgba(0, 0, 0, 0.7);*/
+    background: rgba(9, 10, 15, 0.65);
     text-align: center;
     color: white;
-    margin-top:100px;
 }
 
-    .editor h1 {
-        background: rgb(223, 133, 16);
-        box-shadow: 0 0 15px rgb(236, 150, 21);
+    /* .editor h1 {
         color: white;
         padding: 8px;
         margin: 10px;
         font-size: 10pt;
         text-align: center;
         font-weight: 300;
-    }
+    } */
 
     .editor h3 {
         margin: 8px;
@@ -35,11 +61,11 @@
     }
 
     .editor .button {
-        background: rgb(223, 133, 16);
-        box-shadow: 0 0 15px rgb(236, 150, 21);
+        background: #090A0F;
+        border-radius: 3px;
         color: white;
-        padding: 8px;
-        margin: 10px;
+        padding: 12px;
+        margin: 12px;
         font-size: 10pt;
         text-align: center;
         font-weight: 300;
@@ -47,7 +73,8 @@
     }
 
         .editor .button:hover {
-            background: rgb(223, 133, 16);;
+            background: #fff;
+            color: #090A0F;
         }
     .editor .slider {
         margin-left: 5%;
@@ -56,6 +83,17 @@
         margin-bottom: 10px;
     }
 
+
+.info_character{
+    display: flex;
+}
+
+.info_character hr{
+    width: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+}
+
 .element {
     padding: 8px;
     color: white;
@@ -63,6 +101,7 @@
 
 
 .switch{
+    margin: 10px 0;
     display: block;
 }
 .switch .btn{
@@ -70,10 +109,13 @@
     padding: 10px 20px;
     margin-top: 10px;
     cursor: pointer;
-    background-color: rgb(55, 55, 55);
+    color: #fff;
+    border-radius: 3px;
+    background: rgba(9, 10, 15, 0.8);
 }
 .switch .on{
-    background-color: rgb(223, 133, 16);
+    background-color: #fff;
+    color: #000;
 }
 .list {
     margin-top: 8px;
@@ -84,16 +126,16 @@
         padding: 8px;
         width: 57%;
         text-align: center;
-        background-color: rgb(223, 133, 16);
+        background-color: #fff;
         border-radius: 5px;
         border: 1px solid rgba(0, 0, 0, 0.2);
-        color: white;
+        color: #090A0F;
         display: inline-block;
     }
 
     .list .left {
-        background-color: rgb(223, 133, 16);
-        color: white;
+        background-color: #fff;
+        color: #090A0F;
         padding: 8px;
         border-radius: 5px;
         border: 1px solid rgba(0, 0, 0, 0.2);
@@ -101,8 +143,8 @@
     }
 
     .list .right {
-        background-color: rgb(223, 133, 16);
-        color: white;
+        background-color: #fff;
+        color: #090A0F;
         padding: 8px;
         border-radius: 5px;
         border: 1px solid rgba(0, 0, 0, 0.2);
@@ -110,12 +152,14 @@
     }
 
         .list input:hover, .list .right:hover, .list .left:hover {
-            background-color: rgb(223, 133, 16);
+            background-color: #090A0F;
+            color: #fff;
             cursor: pointer;
         }
 
         .list input:active, .list .right:active, .list .left:active {
-            background-color: rgb(223, 133, 16);
+            background-color: #fff;
+            color: #090A0F;
             cursor: pointer;
         }
 ::-webkit-scrollbar {

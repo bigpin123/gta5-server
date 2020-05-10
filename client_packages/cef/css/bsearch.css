@@ -1,5 +1,5 @@
 .bsearch{
-    background-image: url('../res/Classic-bsearch.png');
+    background-image: url('../res/bsearch.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -36,7 +36,7 @@
     background-image: url('../res/exit.svg');
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(255, 115, 0);
+    background-color: red;
     background-size: 15px;
     border-radius: 30px;
     cursor: pointer;

@@ -6,13 +6,13 @@
     height: 540px;
     width: 370px;
     top: 50%;
-    color: #f59a11;
+    color: #51c1a3;
 }
 .body.barber{
-    background-image: url('../res/Classic-barber.png');
+    background-image: url('../res/barber.png');
 }
 .body.tattoo{
-    background-image: url('../res/Classic-tattoo.png');
+    background-image: url('../res/tattoo.png');
 }
 .body .right{
     float: right;
@@ -42,7 +42,7 @@
     padding: 5px;
 }
 .body .btn:hover{
-	background-color: #c56f0d;
+	background-color: #51c1a3;
 	color: white;
 }
 .body .right p{
@@ -67,7 +67,7 @@
     cursor: pointer;
 }
 .body i:hover{
-    color: #da8609;
+    color: #51c1a3;
 }
 .body i.left-arrow{
     float: left;

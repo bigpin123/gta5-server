@@ -5,18 +5,16 @@
 .dialog {
     position: absolute;
     left: 50%;
+    border-radius: 5px;
     top: 50%;
     margin: -200px 0 0 -230px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 535px;
-    height: 240px;
-    border-bottom-left-radius: 30px;
-    border-top-right-radius: 30px;
-    background-color: rgba(41,41,41,0.9);
-    box-shadow: 1px 1px 50px rgba(122,122,122,0.5);
+    width: 480px;
+    height: 220px;
+    background-color: rgba(43, 42, 47, 0.89);
 }
 
     .dialog .field_ques {
@@ -29,19 +27,15 @@
     }
 
     .dialog .question {
-        display: flex;
-        max-width: 400px;
+        max-width: 360px;
         height: auto;
-        border-left: solid 8px yellow;
+        text-align: center;
     }
 
         .dialog .question p {
-            margin-top: 8px;
-            margin-bottom: 8px;
             font-family: 'Roboto', sans-serif;
             font-size: 20px;
             font-weight: 700;
-            margin-left: 4%;
             color: #fff;
         }
 
@@ -49,21 +43,21 @@
         justify-content: space-around;
         align-items: center;
         display: flex;
-        width: 535px;
-        height: 70px;
-        background-color: rgb(255,255,255);
+        width: 410px;
+        height: 100px;
         border-bottom-left-radius: inherit;
     }
 
 .dialog button {
-    width: 125px;
-    height: 37px;
+    padding: 10px 60px;
+    border-radius: 3px;
     border-style: none;
-    border-radius: 5px;
 }
 
     .dialog .yes {
-        background-color: #00bd00;
+        transition: .6s;
+        background: none;
+        border-bottom: solid 2px #00bd00;
         color: #fff;
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
@@ -71,9 +65,21 @@
     }
 
     .dialog .no {
-        background-color: #f24841;
+        transition: .6s;
+        background: none;
+        border-bottom: solid 2px #f24841;
         color: #fff;
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
         font-weight: 300;
+    }
+
+    .dialog .yes:hover{
+        cursor: pointer;
+        background: #00bd00;
+    }
+
+    .dialog .no:hover{
+        cursor: pointer;
+        background: #f24841;
     }

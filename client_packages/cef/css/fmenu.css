@@ -10,7 +10,7 @@
     position: absolute;
     font-family: 'Uni Neue';
     font-weight: normal;
-    color:rgb(255, 255, 255);
+    color:#fff;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -26,8 +26,7 @@
   .box {
     width: 414px;
     height: 678px;
-    background-image: url(../img/Classic-frac.png);
-    /*background: rgba(0, 0, 0, 0.75);*/
+    background: rgba(0, 0, 0, 0.75);
     border-radius: 4px;
   }
   .header {
@@ -38,7 +37,7 @@
   .arrow {
     width: 22px;
     height: 22px;
-    background: url(../images/fmenu/Classic-arrow.svg);
+    background: url(../images/fmenu/arrow.svg);
     margin-top: 16px;
     margin-left: 10px;
     cursor: pointer;
@@ -53,10 +52,9 @@
     margin-left: 66px;
   }
   .menubox {
-    width: 390px;
+    width: 414px;
     height: 52px;
-    background: rgba(129, 24, 133, 0.75);
-    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.75);
     align-items: center;
     flex-wrap: wrap;
   }
@@ -70,7 +68,7 @@
   .tabs>input { display:none; }
   .tabs>div {
       display: none;
-      height: 352px;
+      height: 552px;
   }
   .tabs>label {
       display: inline-block;
@@ -96,31 +94,28 @@
     margin-top: -9px;
   }
   .fractable p {
-    font-size: 16px;
+    font-size: 12px;
   }
   .toptable {
-    height: 30px;
-    /*background: rgb(255, 255, 255);*/
+    height: 20px;
+    background: rgba(108, 108, 108, 0.2);
     display: flex;
     flex-wrap: wrap;
-    margin-top: 3px;
-    border-radius: 8px;
+    margin-top: 10px;
   }
   .topinfouser {
     height: 20px;
-    /*background: rgb(255, 255, 255);*/
+    background: rgba(108, 108, 108, 0.2);
     display: flex;
     flex-wrap: wrap;
-    border-radius: 8px;
   }
   .toptable p {
     margin-top: 2px;
   }
   .userline {
     height: 20px;
-    /*background: rgb(255, 255, 255);*/
+    background: rgba(200, 200, 200, 0.2);
     margin-top: 1px;
-    border-radius: 8px;
   }
   .tableID {
     margin-left: 22px;
@@ -172,8 +167,8 @@
   }
   .userinfo {
     height: 20px;
-    /*background: rgb(253, 251, 251);*/
-    margin-top: 4px;
+    background: rgba(200, 200, 200, 0.2);
+    margin-top: 1px;
   }
   .infoid {
     width: 19px;
@@ -190,28 +185,25 @@
     height: 20px;
   }
   .onlinecircle {
-    width: 37px;
-    height: 24px;
-    background-image: url(../img/Classic-on.png);
-    /*background: #588941;*/
+    width: 6px;
+    height: 6px;
+    background: #588941;
     border-radius: 50%;
-    margin-left: 15px;
+    margin-left: 41px;
   }
   .offlinecircle {
-    width: 37px;
-    height: 24px;
-    /*background:  #A54742;*/
-    background-image: url(../img/Classic-off.png);
+    width: 6px;
+    height: 6px;
+    background:  #A54742;
     border-radius: 50%;
-    margin-left: 15px;
+    margin-left: 41px;
   }
   .boxes {height: 491px; width: 414px; overflow: hidden;}
   .boxreports {width: 105%;height: 100%;padding: 0 25px 0 0;overflow: auto;}
   .addorgaz {
-    width: 390px;
+    width: 414px;
     height: 41px;
     background: rgba(200, 200, 200, 0.2);
-    border-radius: 25px;
     margin-top: 1px;
     display: flex;
     align-items: center;
@@ -241,7 +233,7 @@
   .arrowadd {
     width: 22px;
     height: 22px;
-    background: url(../images/fmenu/Classic-arrow-back.svg);
+    background: url(../images/fmenu/arrow-back.svg);
     margin-left: 44px;
     cursor: pointer;
   }
@@ -257,7 +249,7 @@
     height: 8px;
     position: absolute;
     content: '';
-    -webkit-mask: url("../res/Classic-arrow.svg") no-repeat;
+    -webkit-mask: url("../res/arrow.svg") no-repeat;
     -webkit-mask-size: cover;
     padding: 0px 7px 0px 7px;
     mask-size: cover;

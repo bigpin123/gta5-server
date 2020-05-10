@@ -1,17 +1,13 @@
-.GC{
-    /*background-image: url('../res/GC.png');*/
+.starbucks{
+    background-image: url('../res/starbucks.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
 .donate{
-    /*background-color: rgba(0, 0, 0, 0.8);*/
-    margin-top: 200px;
-    margin-left: 550px;
-    background-image: url('../res/donat/Classic-donat.png');
+    background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
-    width: 800px;
-    height: 800px;
-    border-radius: 15px;
+    width: 100%;
+    height: 100%;
 }
 .donate .balance{
     color: white;
@@ -20,7 +16,7 @@
     margin-top: 24px;
     display: flex;
 }
-.donate .balance .GC{
+.donate .balance .starbucks{
     width: 60px;
     height: 60px;
     margin-top: 20px;
@@ -33,424 +29,31 @@
     margin-top: 5%;
 }
 .donate input{
-    background-image: url(../res/donat/Classic-18.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 80px;
-    width: 200px;
-    margin-left: 100px;
-    margin-bottom: 2%;
+    width: 80%;
+    background-color: black;
+    border: 0;
     color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
+    padding: 35px;
+    font-size: 14pt;
+    margin-bottom: 10px;
 }
 .donate .btn{
-    background-image: url(../res/donat/Classic-1.png);
-    /*background-color: black;*/
+    background-color: black;
     /*margin-left: 1%;
     margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
+    width: 80%;
     margin-bottom: 2%;
     color: white;
     text-align: center;
-    border-radius: 10px;
-    
+    padding: 20px;
+    font-size: 14pt;
     display: inline-block;
 }
 .donate .btn:hover{
-    background-color: rgb(83, 83, 83);
-    
+    border: 1px solid #009300;
+    cursor: pointer;
 }
 .donate .btns{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn1{
-    background-image: url(../res/donat/Classic-2.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-    
-    display: inline-block;
-}
-.donate .btn1:hover{
-    background-color: rgb(83, 83, 83);
-   
-}
-.donate .btns1{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn2{
-    background-image: url(../res/donat/Classic-3.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    border-radius: 10px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    
-    display: inline-block;
-}
-.donate .btn2:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns2{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn3{
-    background-image: url(../res/donat/Classic-4.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    border-radius: 10px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-  
-    display: inline-block;
-}
-.donate .btn3:hover{
-    background-color: rgb(83, 83, 83);
-    
-
-}
-.donate .btn4{
-    background-image: url(../res/donat/Classic-5.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    border-radius: 10px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    
-    display: inline-block;
-}
-.donate .btn4:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btn5{
-    background-image: url(../res/donat/Classic-6.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn5:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns3{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn6{
-    background-image: url(../res/donat/Classic-66.png); /*Отмена*/
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn6:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btn7{
-    background-image: url(../res/donat/Classic-7.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn7:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns4{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn8{
-    background-image: url(../res/donat/Classic-8.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn8:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns5{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn9{
-    background-image: url(../res/donat/Classic-9.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn9:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns6{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn10{
-    background-image: url(../res/donat/Classic-10.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn10:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns6{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn11{
-    background-image: url(../res/donat/Classic-11.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn11:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns7{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn12{
-    background-image: url(../res/donat/Classic-12.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn12:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns7{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn13{
-    background-image: url(../res/donat/Classic-13.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn13:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns8{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn14{
-    background-image: url(../res/donat/Classic-14.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn14:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns8{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn15{
-    background-image: url(../res/donat/Classic-15.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn15:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns8{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn16{
-    background-image: url(../res/donat/Classic-16.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn16:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns8{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-.donate .btn17{
-    background-image: url(../res/donat/Classic-17.png);
-    /*background-color: black;*/
-    /*margin-left: 1%;
-    margin-right: 1%;*/
-    height: 150px;
-    width: 150px;
-    margin-bottom: 2%;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    
-    display: inline-block;
-}
-.donate .btn17:hover{
-    background-color: rgb(83, 83, 83);
-    
-}
-.donate .btns9{
-    display: flow-root;
-    position: relative;
-    text-align: center;
-}
-
-
-
-.donate .btns3{
     display: flow-root;
     position: relative;
     text-align: center;
@@ -461,11 +64,10 @@
     text-align: center;
 }
 .donate .info{
-    height: 150px;
-    width: 500px;
-    background-image: url(../res/donat/Classic-info.png);
+    width: 80%;
+    background-color: black;
     color: white;
     display: inline-block;
     margin-bottom: 10px;
-    border-radius: 5px;
+    padding: 30px;
 }

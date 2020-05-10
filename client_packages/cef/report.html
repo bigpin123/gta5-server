@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
     <link rel="stylesheet" href="css/report.css">
-    <title>Classic Role Play - Report</title>
+    <title>Report</title>
     <meta charset="utf-8">
     <title></title>
     <script src="js/vue.js"></script>
@@ -13,8 +13,7 @@
             <div class="ticketfull" v-if="active">
                 <div class="ticketinside">
                     <div class="report">
-                        <br>
-                        <p class="reporttext"></p> <!-- Репорты ;) -->
+                        <p class="reporttext">Репорты</p>
                         <div class="boxes">
                             <div class="boxreports">
                                 <div class="onereport" v-for="(value, index) in reports" @click="get(index)">
@@ -39,8 +38,7 @@
                         </div>
                     </div>
                     <div class="answer">
-                        <br>
-                        <p class="reporttext"></p> <!-- Ответы ;) -->
+                        <p class="reporttext">Ответы</p>
                         <div class="boxes">
                             <div class="boxreports">
                                 <div class="onereport" v-if="quser != ''">
@@ -73,8 +71,7 @@
                         </div>
                     </div><!--answer -->
                     <div class="template">
-                        <br>
-                        <p class="reporttext"></p> <!-- Шаблоны ;) -->
+                        <p class="reporttext">Шаблоны</p>
                         <div class="boxestempl">
                             <div class="boxtemplates">
                                 <div class="templ" v-for="(item, index) in templates">

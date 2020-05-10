@@ -1,32 +1,27 @@
 .menu{
     display: none;
     position: absolute;
-    width: 750px;
-    height: 600px;
-    color: white;
+    width: 350px;
+    height: 500px;
     border-radius: 15px;
-    background-image: url(../res/mag/Classic-24fon.png);
-    /*background-color: #e0e0e0;*/
+    background-color: #e0e0e0;
     top: 50%;
     margin-top: -250px;
-    margin-left: 650px;
 }
-.menu h1{  /*Верхнее меню описания магазина*/
+.menu h1{
     margin: 0;
     padding: 15px;
     font-weight: 400;
     font-size: 18pt;
-    color: rgba(255, 255, 255, 0);
+    color: white;
     text-align: center;
     text-transform: uppercase;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.menu .elements{  /*Окно предметов мантировка ит.д.*/
-    width: 500px;
-    height: 350px;
-    font-size: 14pt;
-    border-radius: 20px;
+.menu .elements{
+    padding: 10px;
+    height: 370px;
     margin-bottom: 5px;
     overflow: hidden;
     overflow-y: scroll;
@@ -36,8 +31,7 @@
     display: flow-root;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #46464648; /*Фон внутреннего блока основного предметов*/
-    border-radius: 20px;
+    border-bottom: 1px solid black;
 }
 .menu .block span{
     float: left;
@@ -45,21 +39,18 @@
     font-size: 14pt;
     padding: 8px;
     padding-top: 0;
-    color: rgb(230, 135, 10);
-    font-size: 14px;
+    color: green;
 }
-/*.menu .left{
+.menu .left{
     float: left;
     padding: 7px;
+    width: 60%;
     font-size: 14pt;
-    margin-left: 60px;
-    
-}*/
-.menu .right{  /*Кнопка купить*/
+}
+.menu .right{
     float: right;
-    width: 100px;
-    height: 30px; 
-    background-color: #00a2ff;
+    padding: 10px;
+    background-color: #60db56;
     color:white;
     border-radius: 10px;
     font-size: 10pt;
@@ -67,7 +58,7 @@
     text-transform: uppercase;
 }
 .menu .right:hover{
-    background-color: #995d19;
+    background-color: #35c22c;
 }
 
 .menu .buttons{
@@ -90,18 +81,15 @@
 
 .menu#shop h1,
 .menu#work h1{
-    background-image: url(../res/mag/Classic-24.png);
+    background-color: #b63f3f;
 }
 .menu#shop .exit,
 .menu#work .exit{
-    width: 150px;
-    height: 20px;
-    margin-left: -100px;
-    background-color: #cf8e16;
+    background-color: #b63f3f;
 }
 .menu#shop .exit:hover,
 .menu#work .exit:hover{
-    background-color: #7a4010;
+    background-color: #c22222;
 }
 .menu#work .resign{
     background-color: #2b83b0;
@@ -109,56 +97,25 @@
 .menu#work .resign:hover{
     background-color: #007bbb;
 }
+.menu#fib h1{ background-color: #0e1024; }
+.menu#fib .exit{ background-color: #0e1024; }
+.menu#fib .exit:hover{ background-color: #000644; }
+.menu#fib .right{ background-color: #364455; }
+.menu#fib .right:hover{ background-color: #364455; }
 
+.menu#lspd h1 { background-color: #214984; }
+.menu#lspd .exit{ background-color: #214984; }
+.menu#lspd .exit:hover{ background-color: #214984; }
 
+.menu#army h1{ background-color: #2a2b26; }
+.menu#army .exit{ background-color: #2a2b26; }
+.menu#army .exit:hover{ background-color: #2a2b26; }
+.menu#army .right{ background-color: #524630; }
+.menu#army .right:hover{ background-color: #524630; }
 
-.menu#fib h1{ background-image: url(../res/mag/Classic-fib.png); }
-.menu#fib .exit{
-    width: 150px;
-    height: 20px;
-    margin-left: -100px;
-    background-color: #cf8e16;
-}
-.menu#fib .exit:hover{
-     background-color: #1056c0; }
-.menu#fib .right{ background-color: #cf8e16; }
-.menu#fib .right:hover{ background-color: #1056c0; }
-
-
-
-.menu#lspd h1 { background-image: url(../res/mag/Classic-lspd.png); }
-.menu#lspd .exit{
-    width: 150px;
-    height: 20px;
-    margin-left: -100px;
-    background-color: #cf8e16;
-}
-.menu#lspd .exit:hover{
-     background-color: #1056c0; }
-
-
-     
-.menu#army h1{ background-image: url(../res/mag/Classic-army.png); }
-.menu#army .exit{
-    width: 150px;
-    height: 20px;
-    margin-left: -100px;
-    background-color: #cf8e16;
-}
-.menu#army .exit:hover{ 
-    background-color: #1056c0;}
-.menu#army .right{ background-color: #cf8e16; }
-.menu#army .right:hover{ background-color: #1056c0; }
-
-.menu#black h1 { background-image: url(../res/mag/Classic-black.png); }
-.menu#black .exit{
-    width: 150px;
-    height: 20px;
-    margin-left: -100px;
-    background-color: #cf8e16;
-}
-.menu#black .exit:hover{ 
-    background-color: #1056c0;}
+.menu#black h1 { background-color: #121212; }
+.menu#black .exit{ background-color: #121212; }
+.menu#black .exit:hover{ background-color: #121212; }
 
 .menu#gang h1 { background-color: #121212; }
 .menu#gang .exit{ background-color: #121212; }
@@ -168,12 +125,6 @@
 .menu#mafia .exit{ background-color: #121212; }
 .menu#mafia .exit:hover{ background-color: #121212; }
 
-.menu#gov h1 { background-image: url(../res/mag/Classic-gov.png); }
-.menu#gov .exit{
-    width: 150px;
-    height: 20px;
-    margin-left: -100px;
-    background-color: #cf8e16;
-}
-.menu#gov .exit:hover{ 
-    background-color: #1056c0;}
+.menu#gov h1 { background-color: #121212; }
+.menu#gov .exit{ background-color: #121212; }
+.menu#gov .exit:hover{ background-color: #121212; }

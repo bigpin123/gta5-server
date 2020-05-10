@@ -16,7 +16,7 @@ var weapData = [
 var matsGang = [
     [
         ["Pistol",1],
-        ["Revolver",1]
+        ["SNSPistol",1]
     ],
     [
         ["DoubleBarrelShotgun",1],
@@ -29,7 +29,7 @@ var matsGang = [
 ]
 var matsMafia = [
     [
-        ["Pistol",1], //Тут пишем из серверной части названия
+        ["Pistol",1],
         ["Pistol50",1],
         ["VintagePistol",1]
     ],
@@ -37,7 +37,7 @@ var matsMafia = [
         ["PumpShotgun",1],
     ],
     [
-        ["MiniSMG", 1],
+        ["MiniSMG", 1]
     ],
     [
         ["AssaultRifle",1],
@@ -141,7 +141,7 @@ var wcraft = new Vue({
         active: false,
         btns: [true,false,false,false,false],
         index: 1,
-        items: [["Pistol",1],["Revolver",1]],
+        items: [["Pistol",1],["SNSPistol",1]],
 		sliderActive: false,
 		sliders: [],
     },

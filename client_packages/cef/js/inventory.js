@@ -212,17 +212,17 @@ var inventory = new Vue({
 			},
 			23:
             {
-                name: "\"BAKON\"",
+                name: "\"Asahi\"",
             	type: ""
 			},
 			24:
             {
-                name: "\"INFERNO\"",
+                name: "\"Midori\"",
             	type: ""
 			},
 			25:
             {
-                name: "\"Chilli vodka\"",
+                name: "\"Yamazaki\"",
             	type: ""
 			},
 			26:

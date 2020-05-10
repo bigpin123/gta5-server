@@ -47,7 +47,7 @@
 .joblist .arrow {
     width: 22px;
     height: 22px;
- 
+    background: url(../images/joblist/arrow.svg);
     margin-top: 16px;
     margin-left: 10px;
     cursor: pointer;
@@ -76,7 +76,18 @@
 .joblist .blocktxt {
     opacity: 0.3;
 }
-
+.joblist .electro {
+    background-image: url(../images/joblist/electro.svg);
+}
+.joblist .taxi {
+    background-image: url(../images/joblist/taxi.svg);
+}
+.joblist .gazon {
+    background-image: url(../images/joblist/gazon.svg);
+}
+.joblist .inkos {
+    background-image: url(../images/joblist/inca.svg);
+}
 .joblist .inkoslvl {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -109,7 +120,17 @@
 .joblist .inkoslvl:hover {
     display:block;
 }
-
+.joblist .pochta {
+    background-image: url(../images/joblist/pochta.svg);
+}
+.joblist .bus {
+    background-image: url(../images/joblist/bus.svg);
+}
+.joblist .truck {
+    background-image: url(../images/joblist/truck.svg);
+}
+.joblist .mechanic {
+    background-image: url(../images/joblist/mechanic.svg);
 }
 .joblist .textboxwork {
     font-size: 15px;

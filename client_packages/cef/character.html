@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>ZEYS Role Play - Character editor</title>
+    <title>Character Editor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/character.css" />
@@ -18,21 +18,23 @@
     </style>
 </head>
 <body>
+    
     <div class="editor" v-if="active">
-        <h1>Редактор персонажа</h1>
+        <div class="header_block_info">
+            <h1>Редактор персонажа</h1>
+            <p>Создайте своего личного персонажа передвигая ползунки</p>
+        </div>
+        <!-- <h1>Редактор персонажа</h1> -->
         <div class="element">
-            <label>Выберите пол:</label>
-            <!--div id="gender" class="switch-field">
-                <input @click="genderSw(1)" type="radio" id="switch_left" name="switch_2" value="male" checked />
-                <label for="switch_left">Мужской</label>
-                <input @click="genderSw(0)" type="radio" id="switch_right" name="switch_2" value="female" />
-                <label for="switch_right">Женский</label>
-            </div-->
+            <div class="info_character">
+                <hr><label>Выберите пол:</label><hr>
+            </div>
             <div class="switch">
                 <div id="gendermale" class="btn on">Мужской</div>
                 <div id="genderfemale" class="btn">Женский</div>
             </div>
         </div>
+        <hr>
         <div class="element">
             <label>Отец:</label>
             <list id="father" num=""></list>
@@ -57,6 +59,7 @@
             </div>
             <output id="skin">0</output>
         </div>
+        <hr>
         <h3>Лицо</h3>
         <div class="element">
             <label>Ширина носа:</label>
@@ -218,6 +221,7 @@
             </div>
             <output id="neck">0</output>
         </div>
+        <hr>
         <div v-if="!isSurgery">
             <h3>Внешность</h3>
             <div class="element">

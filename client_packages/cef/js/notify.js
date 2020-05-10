@@ -6,7 +6,7 @@ function notify(type, layout, message, time) {
     new Noty({
         type: types[type],
         layout: layouts[layout],
-        theme: 'Classic',
+        theme: 'fivestar',
         text: message,
         timeout: time,
         progressBar: true,

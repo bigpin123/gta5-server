@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Classic Role Play - Menu</title>
+    <title>Menu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
@@ -31,7 +31,9 @@
     <link rel="stylesheet" href="css/pc.css">
     <link rel="stylesheet" href="css/docs.css">
     <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/joblist.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/atm.css">
     <link rel="stylesheet" href="css/lift.css">
     <link rel="stylesheet" href="css/petrol.css">
     <link rel="stylesheet" href="css/fmenu.css">
@@ -42,8 +44,6 @@
     <link rel="stylesheet" href="css/bsearch.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/weapons.css">
-	<link rel="stylesheet" href="css/font-awesoma.css">
-	<link rel="stylesheet" href="css/font-awesomj.css">
     <link rel="stylesheet" href="css/clothes.css">
     <link rel="stylesheet" href="css/masks.css">
     <link rel="stylesheet" href="css/infobox.css">
@@ -52,7 +52,8 @@
     <link rel="stylesheet" href="fonts/icons.css">
     <script src="js/vue.js"></script>
 </head>
-<body style="display:none">
+<!-- style="display:none" -->
+<body >
     <div class="dial">
         <div class="img base"></div>
         <div class="img num"></div>
@@ -119,10 +120,10 @@
         <p>{{title}}</p>
         <div>
             <input :placeholder="plholder" :maxlength="len" v-model="input">
-            <button @click="send">Подтвердить</button>
         </div>
+        <button @click="send" style="margin-top: 20px;">Подтвердить</button>
     </div>
-    <div class="menu">  <!--Меню 24 на 7-->
+    <div class="menu">
         <h1>Label</h1>
         <div class="elements"></div>
         <div class="buttons">
@@ -132,14 +133,19 @@
         </div>
     </div>
     <div class="atm" v-if="active">
-        <div class="right">
+        <div class="informs__atm">
+            <img src="./res/mzb.svg" alt="">
+            <h1>Выберите операцию</h1>
+            <p>Нажмите <span class="atm_esc">ESC</span> чтобы выйти</p>
+        </div>
+        <div class="right_atm_flex">
             <div v-if="type == 1">
-                <div @click="btn" id="0" class="block1"><p id="0">Внести средства</p></div>
-                <div @click="btn" id="1" class="block2"><p id="1">Вывести средства</p></div>
-                <div @click="btn" id="2" class="block3"><p id="2">Внести налог за дом</p></div>
-                <div @click="btn" id="3" class="block4"><p id="3">Внести налог за бизнес</p></div>
-                <div @click="btn" id="4" class="block5"><p id="4">Перевести на другой счет</p></div>
-                <div @click="btn" id="-1" class="block6"><p id="-1">Выйти</p></div>
+                <div @click="btn" id="0" class="block"><p id="0">Пополнить счёт</p></div>
+                <div @click="btn" id="1" class="block"><p id="1">Снять деньги</p></div>
+                <div @click="btn" id="2" class="block"><p id="2">Внести налог за дом</p></div>
+                <div @click="btn" id="3" class="block"><p id="3">Внести налог за бизнес</p></div>
+                <div @click="btn" id="4" class="block"><p id="4">Перевести деньги</p></div>
+                <div @click="btn" id="-1" class="block"><p id="-1">Выйти</p></div>
             </div>
             <div v-if="type == 2">
                 <input :placeholder="plholder" v-model="value" maxlength="6">
@@ -151,21 +157,40 @@
                 <div v-for="(b, i) in subdata">
                     <div @click="btn" :id="i" class="block"><p :id="i">{{b}}</p></div>
                 </div>
-                <div @click="btn" id="-1" class="block"><p id="-1">Выйти</p></div>
+                <div @click="btn" id="-1" class="block" style="width: auto;"><p id="-1">Выйти</p></div>
             </div>
         </div>
-        <div class="left">
-		<br>
-		<br>
-            <p id="number">{{number}}</p>
-			<br>
-			<br>
-            <p id="holder">{{holder}}</p>
-			<br>
-			<br>
-            <p id="balance">{{balance}}$</p>
-			<br>
-			<br>
+            
+        <div class="left absolute_work">
+            <div class="info_users">
+                <div class="atm_use_left">
+                    <img src="./res/user.svg" alt=""><span>Номер счёта</span>
+                </div>
+                <div class="atm_use_right">
+                    <p id="number">{{number}}</p>
+                </div>
+            </div>
+
+            <div class="info_users">
+                <div class="atm_use_left">
+                    <img src="./res/user.svg" alt=""><span>Владелец счёта</span>
+                </div>
+                <div class="atm_use_right">
+                    <p id="number">{{holder}}</p>
+                </div>
+                
+            </div>
+
+            <div class="info_users">
+                <div class="atm_use_left">
+                    <img src="./res/bank_user.svg" alt=""><span>В банке</span>
+                </div>
+                <div class="atm_use_right">
+                    <p id="number">{{balance}}</p>
+                </div>
+                
+            </div>
+
             <p id="taxacc">{{taxacc}}</p>
         </div>
     </div>
@@ -191,18 +216,18 @@
                 <div class="box">
                     <div class="header">
                         <div class="arrow" @click="btn(0,$event)"></div>
-                        <p class="txtheader"></p>
+                        <p class="txtheader">Управление огранизацией</p>
                     </div>
                     <div class="menubox">
                         <div class="tabs">
                             <input type="radio" name="inset" value="" id="tab_1" checked>
-                            <label for="tab_1" class="one"><img src="images/fmenu/Classic-frac.svg" class="factionlist" @click="menu=1;"></label>
+                            <label for="tab_1" class="one"><img src="images/fmenu/frac.svg" class="factionlist" @click="menu=1;"></label>
                             <input type="radio" name="inset" value="" id="tab_2">
-                            <label for="tab_2" class="two"><img src="images/fmenu/Classic-fracadd.svg" class="factionlist" @click="menu=2;"></label>
+                            <label for="tab_2" class="two"><img src="images/fmenu/fracadd.svg" class="factionlist" @click="menu=2;"></label>
                             <input type="radio" name="inset" value="" id="tab_3">
-                            <label for="tab_3"><img src="images/fmenu/Classic-fracremove.svg" class="factionlist" @click="menu=3;"></label>
+                            <label for="tab_3"><img src="images/fmenu/fracremove.svg" class="factionlist" @click="menu=3;"></label>
                             <input type="radio" name="inset" value="" id="tab_4">
-                            <label for="tab_4"><img src="images/fmenu/Classic-fracrank.svg" class="factionlist" @click="menu=4;"></label>
+                            <label for="tab_4"><img src="images/fmenu/fracrank.svg" class="factionlist" @click="menu=4;"></label>
 
                             <div id="txt_1">
                                 <p class="fractxt">Члены организации</p>
@@ -344,7 +369,7 @@
                 <div class="box">
                     <div class="header">
                         <div v-on:click="closeJobMenu()" class="arrow"></div>
-                        <p class="txtheader"></p>
+                        <p class="txtheader">Устроиться на работу</p>
                     </div>
                     <div class="workbox">
                         <div v-for="job in list" class="workboxes" v-bind:class="job.class">
@@ -379,7 +404,7 @@
         </div>
     </div>
     <div class="plist" v-if="active">
-        <div class="head"><img src="images/hud/Classic-logo.png"><h1>Classic Role Play</h1><span>Players: {{ online }}</span></div>
+        <div class="head"><h1>VEGARP</h1><span>Players: {{ online }}</span></div>
         <div class="list">
             <table>
                 <tr>
@@ -432,18 +457,13 @@
     <div class="auto" v-if="active">
         <h1>{{header}}</h1>
         <div class="items">
-           <!-- <p>Выберите модель:</p>-->
-           <br>
-           <br>
-           <br>
+            <p>Выберите модель:</p>
             <div class="list">
                 <i @click="left(0)" class="left-arrow"></i>
                 <div>{{models[indexM]}}</div>
                 <i @click="right(0)" class="right-arrow"></i>
             </div>
-            <p></p> <!--Выберите цвет:-->
-            <br>
-           <br>
+            <p>Выберите цвет:</p>
             <div class="list">
                 <i @click="left(1)" class="left-arrow"></i>
                 <div>{{colors[indexC]}}</div>
@@ -525,7 +545,6 @@
             <div @click="btn(2,$event)" class="btn smg" v-bind:class="{ active: btns[2] }"></div>
             <div @click="btn(3,$event)" class="btn rifles" v-bind:class="{ active: btns[3] }"></div>
             <div @click="btn(4,$event)" class="btn ammo" v-bind:class="{ active: btns[4] }"></div>
-            
         </div>
         <div class="right">
             <div class="head"></div>
@@ -548,19 +567,15 @@
     </div>
     <div class="clothes" v-if="active">
         <div class="right">
-            <h1></h1> <!-- Магазин одежды-->
+            <h1>Магазин одежды</h1>
             <div class="block">
-                <br>
-                <br>
-                <br>
-                <br>
-                <!--<p></p><-- Выберите стиль:-->
+                <p>Выберите стиль:</p>
                 <div class="list">
                     <i @click="left(0)" class="left-arrow"></i>
                     <div>{{styles[indexS]}}</div>
                     <i @click="right(0)" class="right-arrow"></i>
                 </div>
-                <p></p><!-- Выберите цвет:-->
+                <p>Выберите цвет:</p>
                 <div class="list">
                     <i @click="left(1)" class="left-arrow"></i>
                     <div>{{colors[indexC]}}</div>
@@ -571,8 +586,8 @@
                 <div @click="exit" class="btn exit">Выйти</div>
             </div>
         </div>
-       <!-- <div class="left">
-            <div @click="btn(0,$event)" class="icon hat" v-bind:class="{ active: btns[0] }"></div>  
+        <div class="left">
+            <div @click="btn(0,$event)" class="icon hat" v-bind:class="{ active: btns[0] }"></div>
             <div @click="btn(1,$event)" class="icon jacket" v-bind:class="{ active: btns[1] }"></div>
             <div @click="btn(2,$event)" class="icon shirt" v-bind:class="{ active: btns[2] }"></div>
             <div @click="btn(3,$event)" class="icon pants" v-bind:class="{ active: btns[3] }"></div>
@@ -581,34 +596,19 @@
             <div @click="btn(6,$event)" class="icon watches" v-bind:class="{ active: btns[6] }"></div>
             <div @click="btn(7,$event)" class="icon glasses" v-bind:class="{ active: btns[7] }"></div>
             <div @click="btn(8,$event)" class="icon jewerly" v-bind:class="{ active: btns[8] }"></div>
-        </div>-->
-        <div class="left">
-            <div @click="btn(1,$event)" class="icon jacket" v-bind:class="{ active: btns[1] }"></div><!-- Верхняя одежда -->
-            <div @click="btn(2,$event)" class="icon shirt" v-bind:class="{ active: btns[2] }"></div><!-- Майки-->
-            <div @click="btn(3,$event)" class="icon pants" v-bind:class="{ active: btns[3] }"></div><!-- Брюки-->
-            <div @click="btn(4,$event)" class="icon shoe" v-bind:class="{ active: btns[4] }"></div><!--Обувь -->
-            <div @click="btn(0,$event)" class="icon hat" v-bind:class="{ active: btns[0] }"></div>  <!--Шапки -->
-            <div @click="btn(5,$event)" class="icon gloves" v-bind:class="{ active: btns[5] }"></div><!--Перчатки -->
-            <div @click="btn(6,$event)" class="icon watches" v-bind:class="{ active: btns[6] }"></div><!-- Часы-->
-            <div @click="btn(8,$event)" class="icon jewerly" v-bind:class="{ active: btns[8] }"></div><!--Аксесуары -->
-            <div @click="btn(7,$event)" class="icon glasses" v-bind:class="{ active: btns[7] }"></div><!-- Очки-->
         </div>
     </div>
     <div class="masks" v-if="active">
         <div class="right">
-            <h1></h1><!--Магазин масок-->
+            <h1>Магазин масок</h1>
             <div class="block">
-                <br>
-                <br>
-                <br>
-                <br>
-                <p></p> <!--Выберите стиль:-->
+                <p>Выберите стиль:</p>
                 <div class="list">
                     <i @click="left(0)" class="left-arrow"></i>
                     <div>{{styles[indexS]}}</div>
                     <i @click="right(0)" class="right-arrow"></i>
                 </div>
-               <!-- <p></p> Выберите цвет:-->
+                <p>Выберите цвет:</p>
                 <div class="list">
                     <i @click="left(1)" class="left-arrow"></i>
                     <div>{{colors[indexC]}}</div>
@@ -643,98 +643,98 @@
         <div class="content" v-html="content"></div>
     </div>
     <div class="donate" v-if="active">
-        <div class="balance"><p>GC: {{balance}}</p><div class="GC"></div></div>
+        <div class="balance"><p>AC: {{balance}}</p><div class="starbucks"></div></div>
         <div class="center">
             <div class="btns" v-if="menu == 0">
-                <div class="btn" @click="open(1)"></div> <!-- Изменить внешность-->
-                <div class="btn1" @click="open(2)"></div> <!-- Изменить имя-->
+                <div class="btn" @click="open(1)">Изменить внешность</div>
+                <div class="btn" @click="open(2)">Изменить имя</div>
             </div>
-            <div class="btns1" v-if="menu == 0">
-                <div class="btn2" @click="open(3)"></div> <!-- Перевести GC в игровую валюту-->
-                <div class="btn3" @click="open(4)"></div> <!-- Купить VIP-->
+            <div class="btns" v-if="menu == 0">
+                <div class="btn" @click="open(3)">Перевести VC в игровую валюту</div>
+                <div class="btn" @click="open(4)">Купить VIP</div>
             </div>
-            <div class="btns2" v-if="menu == 0">
-                <div class="btn4" @click="open(9)"></div> <!-- Снять предупреждение-->
+            <div class="btns" v-if="menu == 0">
+                <div class="btn" @click="open(9)">Снять предупреждение</div>
             </div>
             <!--Смена внешности-->
             <div class="btns" v-if="menu == 1">
                 <div class="info">Вы будете направлены в редактор персонажа.</div>
             </div>
-            <div class="btns3" v-if="menu == 1">
-                <div class="btn5" @click="buy(0)"> <b></b></div> <!-- >Изменить за  100 GC-->
-                <div class="btn6" @click="open(0)"></div> <!-- Отмена-->
+            <div class="btns" v-if="menu == 1">
+                <div class="btn" @click="buy(0)">Изменить за <b>100 VC</b></div>
+                <div class="btn" @click="open(0)">Отмена</div>
             </div>
             <!--Смена ника-->
-            <div class="btn18" v-if="menu == 2">
+            <div class="btns" v-if="menu == 2">
                 <input @input="onInputName" v-model="fname" placeholder="Новое Имя" maxlength="30">
                 <input @input="onInputName" v-model="lname" placeholder="Новая Фамилия" maxlength="30">
             </div>
-            <div class="btns4" v-if="menu == 2">
-                <div class="btn7" @click="buy(1)"><b></b></div> <!-- Изменить за 25 GC-->
-                <div class="btn6" @click="open(0)"></div> <!-- Отмена-->
+            <div class="btns" v-if="menu == 2">
+                <div class="btn" @click="buy(1)">Изменить за <b>25 VC</b></div>
+                <div class="btn" @click="open(0)">Отмена</div>
             </div>
             <!--Перевод-->
-            <div class="btn18" v-if="menu == 3">
+            <div class="btns" v-if="menu == 3">
                 <input @input="onInputTrans" v-model="totrans" placeholder="Кол-во для перевода" maxlength="6">
                 <input v-model="aftertrans" placeholder="Будет зачислено" readonly>
             </div>
-            <div class="btns5" v-if="menu == 3">
-                <div class="btn8" @click="buy(2)"></b></div> <!-- Конвертировать-->
-                <div class="btn6" @click="open(0)"></div> <!-- Отмена-->
+            <div class="btns" v-if="menu == 3">
+                <div class="btn" @click="buy(2)">Конвертировать</b></div>
+                <div class="btn" @click="open(0)">Отмена</div>
             </div>
             <!--VIP-->
-            <div class="btns6" v-if="menu == 4">
-                <div class="btn9" @click="open(5)"></div> <!-- Bronze VIP-->
-                <div class="btn10" @click="open(6)"></div> <!-- Silver VIP-->
-            </div>
-            <div class="btns7" v-if="menu == 4">
-                <div class="btn11" @click="open(7)"></div> <!-- Gold VIP-->
-                <div class="btn12" @click="open(8)"></div> <!-- Platinum VIP-->
+            <div class="btns" v-if="menu == 4">
+                <div class="btn" @click="open(5)">Bronze VIP</div>
+                <div class="btn" @click="open(6)">Silver VIP</div>
             </div>
             <div class="btns" v-if="menu == 4">
-                <div class="btn6" @click="open(0)"></div> <!-- Отмена-->
+                <div class="btn" @click="open(7)">Gold VIP</div>
+                <div class="btn" @click="open(8)">Platinum VIP</div>
+            </div>
+            <div class="btns" v-if="menu == 4">
+                <div class="btn" @click="open(0)">Отмена</div>
             </div>
             <!--Bronze VIP-->
             <div class="btns" v-if="menu == 5">
                 <div class="info">Увеличение зарплаты во фракциях и по безработице $200<br>Нет ограничений на help / report<br>Возможность выйти из фракции (/leave)<br>Удвоенное XP в час.</div>
             </div>
-            <div class="btns8" v-if="menu == 5">
-                <div class="btn13" @click="buy(3)"> <b></b></div> <!-- Отмена-->
-                <div class="btn6" @click="back"></div> <!-- Отмена-->
+            <div class="btns" v-if="menu == 5">
+                <div class="btn" @click="buy(3)">Купить за <b>300 VC</b></div>
+                <div class="btn" @click="back">Назад</div>
             </div>
             <!--Silver VIP-->
             <div class="btns" v-if="menu == 6">
                 <div class="info">Увеличение зарплаты на начальных работах на 15%.<br>Увеличение зарплаты во фракциях и по безработице $400<br>Нет ограничений на help / report<br>Возможность выйти из фракции (/leave)<br>Удвоенное XP в час.<br>Ускоренное лечение в больнице (х2)</div>
             </div>
-            <div class="btns8" v-if="menu == 6">
-                <div class="btn14" @click="buy(4)"> <b></b></div> <!-- Отмена-->
-                <div class="btn6" @click="back"></div> <!-- Отмена-->
+            <div class="btns" v-if="menu == 6">
+                <div class="btn" @click="buy(4)">Купить за <b>600 VC</b></div>
+                <div class="btn" @click="back">Назад</div>
             </div>
             <!--Gold VIP-->
             <div class="btns" v-if="menu == 7">
                 <div class="info">Увеличение зарплаты на начальных работах на 25%.<br>Увеличение зарплаты во фракциях и по безработице $550<br>Нет ограничений на help / report<br>Возможность выйти из фракции (/leave)<br>Удвоенное XP в час.<br>Ускоренное лечение в больнице (х2)</div>
             </div>
-            <div class="btns8" v-if="menu == 7">
-                <div class="btn15" @click="buy(5)"> <b></b></div> <!-- Отмена-->
-                <div class="btn6" @click="back"></div> <!-- Отмена-->
+            <div class="btns" v-if="menu == 7">
+                <div class="btn" @click="buy(5)">Купить за <b>800 VC</b></div>
+                <div class="btn" @click="back">Назад</div>
             </div>
             <!--Platinum VIP-->
             <div class="btns" v-if="menu == 8">
                 <div class="info">Увеличение зарплаты на начальных работах на 35%.<br>Увеличение зарплаты во фракциях и по безработице $700<br>Нет ограничений на help / report<br>Возможность выйти из фракции (/leave)<br>Утроенное XP в час.<br>Ускоренное лечение в больнице (х3)</div>
             </div>
-            <div class="btns8" v-if="menu == 8">
-                <div class="btn16" @click="buy(6)"><b></b></div> <!-- Отмена-->
-                <div class="btn6" @click="back"></div> <!-- Отмена-->
+            <div class="btns" v-if="menu == 8">
+                <div class="btn" @click="buy(6)">Купить за <b>1000 VC</b></div>
+                <div class="btn" @click="back">Назад</div>
             </div>
             <!--Warn-->
             <div class="btns" v-if="menu == 9">
                 <div class="info">Снятие варна<br></div>
             </div>
-            <div class="btns9" v-if="menu == 9">
-                <div class="btn17" @click="buy(7)"> <b></b></div> <!-- Отмена-->
-                <div class="btn6" @click="back"></div> <!-- Отмена-->
+            <div class="btns" v-if="menu == 9">
+                <div class="btn" @click="buy(7)">Купить за <b>250 VC</b></div>
+                <div class="btn" @click="back">Назад</div>
             </div>
-            <div class="msg"></div> <!-- Выход из меню F4-->
+            <div class="msg">Выход из меню - F9</div>
         </div>
     </div>
     <script src="js/jquery-3.2.1.min.js"></script>

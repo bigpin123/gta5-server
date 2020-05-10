@@ -7,27 +7,27 @@ body {
 }
 
 .phone {
-	background-image: url(../img/Classic-phone.png);
-    /*background: linear-gradient(to top left, rgb(5, 5, 5), rgb(40, 40, 40));*/
-    height: 530px;
+    background: linear-gradient(to top left, rgb(5, 5, 5), rgb(40, 40, 40));
+    height: 555px;
     width: 280px;
     border-radius: 15px;
-    /*border: 3px solid rgb(124, 31, 34);*/
+    border: 3px solid #ffffff;
+    border-radius: 40px;
     display: inline-block;
     text-align: center;
 }
 
 .phone-speaker {
     text-align: center;
-    background: black;
-    height: 6px;
-    width: 80px;
-    border-radius: 10px;
-    margin-top: 1rem;
+    background: #272727;
+    height: 23px;
+    width: 130px;
+    border-radius: 0 0 15px 15px;
+    /* margin-top: 1rem; */
     display: inline-block;
     position: relative;
 }
-
+/* 
 .phone-camera {
     background: black;
     height: 10px;
@@ -37,29 +37,32 @@ body {
     position: absolute;
     margin-top: 14px;
     margin-left: 14px;
-}
+} */
 
 .phone-screen {
-    /*background: #515c6b;*/
+    background: url('../res/phone.png') no-repeat;
+    background-size: cover;
     width: 260px;
-    height: 470px;
-    max-height: 470px;
-    max-width: 260px;
+    height: 535px;
+    border-radius: 30px;
+    /* max-height: 470px; */
+    /* max-width: 260px; */
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: -18px;
     overflow: hidden;
 }
+
 .phone-button {
     width: 60px;
     height: 20px;
     display: inline-block;
     border-radius: 5px;
     margin-top: 10px;
-    /*border: 2px solid #616161;*/
-    /*background: linear-gradient(to top left, rgb(5, 5, 5), rgb(35, 35, 35));*/
+    border: 2px solid #616161;
+    background: linear-gradient(to top left, rgb(5, 5, 5), rgb(35, 35, 35));
 }
 
     .phone-button:active {
         background: black;
-        /*border-color: #313131;*/
+        border-color: #313131;
     }

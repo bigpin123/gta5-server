@@ -7,7 +7,7 @@ var auto = new Vue({
         models: ["Tesla Model S","Tesla Model 3","Tesla Model X"],
         colors: ["Black Briliant","Blueberry","Cold White"],
         prices: [19,199,1999],
-        header: ""/*Автосалон*/ 
+        header: "Автосалон"
     },
     methods: {
         left: function(type){

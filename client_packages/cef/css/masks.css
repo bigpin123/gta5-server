@@ -1,20 +1,18 @@
 ﻿.masks{
-    margin-left: 150px;
     height: 600px;
-    width: 600px;
+    width: 350px;
     position: absolute;
     text-align: center;
     color: white;
     top: 50%;
     margin-top: -200px;
-    background-image: url(../res/weap/Classic/Classic-mask.png);
 }
 .masks .right{
     float: right;
     height: 100%;
     width: 300px;
-   /* background-color: white;*/
-    border-radius: 10px;
+    background-color: rgba(9, 10, 15, 0.8);
+    border-radius: 3px;
 }
 .masks .left{
     height: 100%;
@@ -23,30 +21,26 @@
     float: left;
 }
 .masks i{
-    margin-top: 35px;
     font-family: "icons";
     font-style: normal;
     cursor: pointer;
     padding: 10px;
-    background-color: rgba(8, 123, 218, 0.877);
-    border-radius: 15px;
+    background-color: #090A0F;
+    border-radius: 5px;
 }
-.masks i:hover{background-color: rgba(14, 72, 119, 0.877)}
+.masks i:hover{background-color: #fff; color: #090A0F;}
 .masks .list div{
-    margin-top: 35px;
-    width: 155px;
+    width: 150px;
     padding: 9px;
     border-radius: 5px;
     display: inline-block;
-    background-color: rgb(31, 31, 31);;
+    background-color: #090A0F;
 }
 .masks h1{
     margin: 0;
     padding: 15px;
     font-size: 20pt;
-    /*background-color: #e53935;*/
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    background-color: #090A0F;
 }
 .masks .left-arrow{
     float: left;
@@ -63,58 +57,46 @@
     height: 200px;
 }
 .masks .btn{
+    transition: .6s;
     padding: 10px;
-    border-radius: 5px;
-    border: 2px solid;
+    border-radius: 3px;
     cursor: pointer;
     margin: 10px;
 }
 .masks .buy{
-    background-color: rgb(218, 125, 20);
+    background-color: #15B84C;
     margin-bottom: 10px;
-    border-radius: 25px;
-    width: 80px;
-    margin-left: 30px;
 }
 .masks .exit{
-    background-color: #3587e5;
-    border-radius: 25px;
-    width: 80px;
-    margin-left: 160px;
-    margin-top: -52px;
+    background-color: #E03C3B
 }
 .masks .buy:hover{
-    background-color: rgb(148, 98, 32);
+    background-color: rgb(16, 138, 57);
 }
 .masks .exit:hover{
-    background-color: #2665ad
+    background-color: rgb(185, 50, 50);
 }
 .masks .icon{
     height: 50px;
-    width: 300px;
-    background-color: #5050505e;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    background-color: #e53935;
     margin-bottom: 10px;
     background-position: center center;
     background-repeat: no-repeat;
-    
+    background-size: 35px;
 }
 .masks .icon.active{
-    background-color: #4d4d4d5b;
+    background-color: #090A0F;
 }
 .masks .icon:hover{
-    background-color: #ad590a80;
+    background-color: #000000de;
 }
 .masks p{
-    
+    color: #fff;
 }
 .masks p span{
-    
+    color: green;
+    font-size: 16pt;
 }
 .masks .mask{
-    background-image: url(../res/weap/Classic/mask.png);
-}
-.masks .mask:hover{
-    background-image: url(../res/weap/Classic/mask1.png);
+    background-image: url('../res/mask.png');
 }

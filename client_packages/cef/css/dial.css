@@ -14,9 +14,9 @@
     height: 300px;
     position: fixed;
 }
-.dial .base{background-image: url('../res/Classic-s1.png')}
-.dial .num{background-image: url('../res/Classic-s2.png')}
-.dial .center{background-image: url('../res/Classic-s3.png')}
+.dial .base{background-image: url('../res/s1.png')}
+.dial .num{background-image: url('../res/s2.png')}
+.dial .center{background-image: url('../res/s3.png')}
 
 @keyframes shake {
     0% { transform: translate(1px, 1px); }

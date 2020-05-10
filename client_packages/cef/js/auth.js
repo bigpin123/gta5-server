@@ -46,7 +46,7 @@ var slots = new Vue({
         blockL: ["На улице rain, на душе pain", "Velikiy_Odmen", "in da future", "in da more future"],
         blockM: ["На улице rain, на душе pain", "Velikiy_Odmen", "in da future", "in da more future"],
         blockR: ["На улице rain, на душе pain", "Velikiy_Odmen", "in da future", "in da more future"],
-        GC: -1,
+        redbucks: -1,
         login: "username",
     },
 })
@@ -149,7 +149,7 @@ function toslots(data) {
         }
     }
 
-    slots.GC = data[3];
+    slots.redbucks = data[3];
     slots.login = data[4];
 
     slotM.addClass('active');
@@ -159,7 +159,7 @@ function toslots(data) {
 function unlockSlot(data) {
     slotR.removeClass('non-active');
     slotR.addClass('free');
-    slots.GC = data;
+    slots.redbucks = data;
 }
 
 function delchar(data) {

@@ -82,7 +82,31 @@ function show() {
     chatvar.css("opacity", 1);
 }
 
-
+function newcfg(a, b) {
+	if(a == 0) {
+		chat.timestamp = b;
+		if(b == 0) chatAPI.push("Отображение времени в сообщениях выключено.");
+		else chatAPI.push("Отображение времени в сообщениях включено.");
+	} else if(a == 1) {
+		if(b == 3) b = 0;
+		chat.chatsize = b;
+		if(b == 0) chatmsgs.style.height = '160px';
+		else if(b == 1) chatmsgs.style.height = '280px';
+		else chatmsgs.style.height = '400px';
+	} else if(a == 2) {
+		if(b == 3) b = 0;
+		chat.fontstep = b;
+		if(b == 0) chatmsgs.style.fontSize = '1.4vh';
+		else if(b == 1) chatmsgs.style.fontSize = '1.65vh';
+		else chatmsgs.style.fontSize = '1.8vh';
+	} else {
+		chat.alpha = b;
+		if(b == 0) {
+			show();
+			chatAPI.push("Таймаут прозрачности чата отключен.");
+		} else chatAPI.push("Таймаут прозрачности чата включен.");
+	}
+}
 
 function savehistory(value) {
     if (chat.steplist < 9) {
@@ -103,8 +127,7 @@ $(document).ready(function () {
     hide();
 
     $(".ui_element").show();
-     //chatAPI.push("Добро пожаловать на сервер Classic RolePlay");
-	//chatAPI.push("Discord chanal https://discord.gg/BQENar");
+    chatAPI.push("VegaRP started on RAGE Multiplayer");
 
     $("body").keydown(function (event) {
         if (event.which == 84 && chat.input == null && chat.active == true) {

@@ -34,6 +34,30 @@ body {
     margin: 0;
 }
 
+
+.help {
+    opacity: .7;
+    text-align: right;
+    position: absolute;
+    right: 1%;
+    bottom: 28%;
+}
+
+.hot_keys{
+    background: #1D2124bb;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+    padding: 8px;
+}
+
+    .help p {
+        padding: 5px 0;
+        font-size: 12pt;
+        margin-bottom: 10px;
+        color: white;
+    }
+
 p {
     margin: 0;
 }
@@ -45,45 +69,31 @@ p {
     flex-direction: column;
     justify-content: space-around;
     font-family: Uni Neue;
-    width: 1757px;
-    height: 850px;
+    width: 177px;
+    height: 45px;
     right: 0;
-   
+    background: #1D2124bb;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    font-weight: 5500;
-    font-size: 125px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
     color: #fff;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    height: 20px;
-    font-weight: 5500;
-    font-size: 125px;
-    color: #fff;
-}
-
-.logo img {
-    width: 44px;
-    padding-left: 10px;
-    padding-right: 9px;
-    
+.logo h1{
+    font-size: 24px;
 }
 
 .players_online {
     display: flex;
-    width: 145px;
+    width: 160px;
     height: 20px;
-	padding-bottom: 1px;
     justify-content: flex-end;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .players_online p {
@@ -95,13 +105,6 @@ p {
     padding-right: 0;
     font-weight: 700;
 }
-.hot_keys { /* помощ меню с лева */
-    background: rgba(0, 0, 0, 0.644);
-     text-shadow: rgb(255, 0, 0) 0 0 6px;
-     padding: 4px;
-      border-radius: 3px;
-      font-size: 14px;
-  }
 
 /* User game hud */
 
@@ -131,14 +134,16 @@ p {
 
 .inGameHud .position 
 {
-    width: 308px;
-    height: 80px;
+    width: 571px;
+    height: 46px;
 }
 
-.inGameHud .hud  /*Настройка нижней панели худа с права*/
+.inGameHud .hud 
 {
-    width: 259px;
-    height: 80px;
+    width: 503px;
+    height: 45px;
+    background:#1D2124bb;
+    position:absolute;
     bottom: 0px;
     right: 0px;
     display: flex;
@@ -148,9 +153,12 @@ p {
 .inGameHud .gunshud 
 {
     width: 90px;
-    height: 80px;
-    background-image: url(../img/hudClassicgunshud.png); /*Патроны*/
-  z-index: 2;
+    height: 45px;
+    background: #1D2124bb;
+    position:absolute;
+    bottom:0px;
+    right: 503px;
+    z-index: 2;
     overflow: hidden;
 }
 
@@ -169,7 +177,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 240;
+    font-weight: 500;
     margin-top: 2px;
     margin-left: 11px;
 }
@@ -193,17 +201,15 @@ p {
 .inGameHud #time 
 {
     font-size: 23px;
-    font-weight: 240;
+    font-weight: 500;
     margin-bottom: -4px;
-	margin-right: -310px;
 }
 
 .inGameHud #datetime 
 {
     font-size: 14px; 
-    font-weight: 240;
+    font-weight: 500;
     margin-top: -25px;
-	margin-right: -310px;
 }
 
 .inGameHud .microhud 
@@ -212,17 +218,16 @@ p {
     height: 24px; 
     margin-left: 24px;
     margin-top: 10px;
-	right: 16px;
 }
 
-.inGameHud .pouch /*Деньги,Банк*/
+.inGameHud .pouch 
 {
-    width: 98px;
+    width: 158px;
     height: 24px;
-    margin-left: -120px;
+    margin-left: 24px;
     margin-top: 10px;
     display: flex;
-    font-weight: 240;
+    font-weight: 500;
 }
 
 .inGameHud .moneyinblock 
@@ -231,25 +236,25 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-    margin-left: 7px;
+    margin-left: 12px;
 }
 
 .inGameHud #money 
 {
-    font-size: 15.15px;
+    font-size: 21.15px;
 }
 
 .inGameHud #jsmoney 
 {
-    font-size: 15.15px;
+    font-size: 21.15px;
 }
 
 .inGameHud .bank 
 {
-    width: 58px; 
+    width: 24px; 
     height: 24px; 
-    margin-left: -98px; /*Нижний банк в худе*/
-    margin-top: 50px; 
+    margin-left: 24px;
+    margin-top: 10px; 
     display: flex;
 }
 
@@ -264,14 +269,17 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-    margin-left: 4px;
-    font-weight: 240;
+    margin-left: 12px;
+    font-weight: 500;
 }
 
 .inGameHud .carhud 
 {
-    width: 130px;
-    height: 80px;
+    width: 270px;
+    height: 45px;
+    background: #1D2124bb;
+    position:absolute;
+    bottom: 55px;
     right: 0px;
     overflow: hidden;
 }
@@ -283,7 +291,7 @@ p {
 
 .inGameHud .speedhud 
 {
-    width: 8px;
+    width: 40px;
     font-weight: 500;
     margin-left: 12px;
     margin-top: -1px;
@@ -296,15 +304,13 @@ p {
 .inGameHud #speed 
 {
     font-size: 23px;
-    margin-bottom: 13px;
-    margin-left: 18px;	
+    margin-bottom: -2px; 
 }
 
 .inGameHud #speedtxt 
 {
     font-size: 14px;
-    margin-top: -45px;
-	margin-left: 18px;
+    margin-top: -25px;
 }
 
 .inGameHud .doorhud 

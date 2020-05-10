@@ -92,8 +92,7 @@ body {
 }
 
 .rd-f10 {
-    /*background: rgba(0, 0, 0, 0.9);*/
-    background: url(../img/Classic-xrom.png);
+    background: rgba(0, 0, 0, 0.9);
     max-width: 1059px;
     height: 560px;
     width: 100%;
@@ -104,7 +103,7 @@ body {
 
 .rd-content {
 	height:100%;
-    color: rgb(255, 255, 255);
+    color: #fff;
 
 }
 
@@ -120,8 +119,7 @@ body {
 }
 
 .rd-f10-main li a {
-    background: rgba(187, 5, 126, 0.932);
-	border-radius: 12px;
+    background: rgba(200, 200, 200, 0.2);
     text-decoration: none;
     color: #fff;
     font-size: 18px;
@@ -135,8 +133,7 @@ body {
 }
 .rd-f10-main .ui-tabs-active {
     transition: all 0.1s ease-in;
-    background: rgba(163, 101, 9, 0.651);
-	border-radius: 25px; 
+    background: rgba(255, 255, 255, 0.25);
 
 }
 
@@ -368,11 +365,11 @@ body {
   position:relative;
 }
 .ls-nav-right-arrow {
-    background: url('/images/icons/Classic-arrow-point-to-right.png');
+    background: url('/images/icons/arrow-point-to-right.png');
     background-position: -4px;
 }
 .ls-nav-left-arrow {
-  background: url('/images/icons/Classic-arrow-point-to-left.png');  
+  background: url('/images/icons/arrow-point-to-left.png');  
 
 }
 
@@ -490,8 +487,8 @@ position: relative;
     width: 73%;
 	}
 	.rd-content .images-rd img {
-    width: 951px;
-    height: 430px;
+    width: 33.333%;
+    height: 33.333%;
 	}
 	.flex-end {
 		display:none;
@@ -524,7 +521,7 @@ position: relative;
     transition: all 0.1s ease-in;
     height: 22px;
     content: "";
-    background: url('/images/icons/Classic-close.png');
+    background: url('/images/icons/close.png');
     border: none;
     position: absolute;
     left: 0;
@@ -534,7 +531,7 @@ position: relative;
     margin: auto;
 }
 .rd-f10-main li a:hover {
-    background: rgba(202, 91, 0, 0.863);
+    background: rgba(200, 200, 200, 0.3);
 }
 .button-exit button:hover {
 	opacity:1;
