@@ -178,7 +178,7 @@ mp.events.add('toslots', function (data) {
 });
 
 mp.events.add('spawnShow', function (data) {
-    if (data === false) {
+    if (!data) {
         if (respawn != null) {
             respawn.destroy();
             respawn = null;
