@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvo\\NeptuneEvo.csproj": {}
+    "c:\\bridge\\resources\\NeptuneEvo\\NeptuneEvo.csproj": {}
   },
   "projects": {
-    "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj": {
+    "c:\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj",
+        "projectUniqueName": "c:\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj",
         "projectName": "NeptuneEvoSDK",
-        "projectPath": "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj",
+        "projectPath": "c:\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj",
         "packagesPath": "C:\\Users\\zeus\\.nuget\\packages\\",
-        "outputPath": "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvoSDK\\obj\\",
+        "outputPath": "c:\\bridge\\resources\\NeptuneEvoSDK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zeus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvo\\NeptuneEvo.csproj": {
+    "c:\\bridge\\resources\\NeptuneEvo\\NeptuneEvo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvo\\NeptuneEvo.csproj",
+        "projectUniqueName": "c:\\bridge\\resources\\NeptuneEvo\\NeptuneEvo.csproj",
         "projectName": "NeptuneEvo",
-        "projectPath": "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvo\\NeptuneEvo.csproj",
+        "projectPath": "c:\\bridge\\resources\\NeptuneEvo\\NeptuneEvo.csproj",
         "packagesPath": "C:\\Users\\zeus\\.nuget\\packages\\",
-        "outputPath": "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvo\\obj\\",
+        "outputPath": "c:\\bridge\\resources\\NeptuneEvo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zeus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
         "frameworks": {
           "netcoreapp2.0": {
             "projectReferences": {
-              "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj": {
-                "projectPath": "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj"
+              "c:\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj": {
+                "projectPath": "c:\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj"
               }
             }
           }

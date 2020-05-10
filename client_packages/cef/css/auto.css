@@ -1,0 +1,92 @@
+.auto{
+    /*background-color: #212121;*/
+    background-image: url(../res/weap/Classic/Classic-avto.png);
+    color: white;
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -200px;
+    left: 20px;
+    top: 50%;
+}
+.auto i{
+    transition: .6s;
+    margin-top: 25px;
+    font-family: "icons";
+    font-style: normal;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(8, 123, 218, 0.877); /*Кнопки переключения в лево и право*/
+    border-radius: 15px;
+}
+.auto i:hover {
+    background-color:rgba(8, 123, 218, 0.877);
+}
+.auto .list div{
+    margin-top: 25px;
+    width: 155px;
+    padding: 9px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgb(31, 31, 31);; /*фон ввода количества товара*/
+}
+.auto h1{
+    margin: 0;
+    padding: 15px;
+    font-size: 20pt;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.auto .left-arrow{
+    float: left;
+}
+.auto .right-arrow{
+    float: right;
+}
+.auto .list{
+    margin-left: 8%;
+    margin-top: 15px;
+    width: 250px;
+}
+.auto .items{
+    height: 200px;
+}
+.auto .btns{
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.auto .btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    cursor: pointer;
+    margin: 10px;
+}
+.auto .buy{
+    margin-top: 75px;
+    background-color: rgb(218, 125, 20);
+    margin-bottom: 10px;
+    border-radius: 25px;
+    transition: .6s;
+    width: 80px;
+    margin-left: 30px;
+}
+.auto .exit{
+    margin-top: 75px;
+    background-color: #3587e5;
+    border-radius: 25px;
+    width: 80px;
+    transition: .6s;
+    margin-left: 160px;
+    margin-top: -52px;
+}
+.auto .buy:hover{
+    background-color: rgb(148, 98, 32);
+}
+.auto .exit:hover{
+    background-color: #2665ad
+}

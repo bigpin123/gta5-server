@@ -28,3 +28,14 @@ c:\RAGEMP\server-files\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\Ne
 c:\RAGEMP\server-files\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\NeptuneEvoSDK.pdb
 c:\RAGEMP\server-files\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\NeptuneEvoSDK.csprojAssemblyReference.cache
 c:\RAGEMP\server-files\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+c:\bridge\resources\NeptuneEvoSDK\bin\Debug\netcoreapp2.0\NeptuneEvoSDK.deps.json
+c:\bridge\resources\NeptuneEvoSDK\bin\Debug\netcoreapp2.0\NeptuneEvoSDK.dll
+c:\bridge\resources\NeptuneEvoSDK\bin\Debug\netcoreapp2.0\NeptuneEvoSDK.pdb
+c:\bridge\resources\NeptuneEvoSDK\bin\Debug\netcoreapp2.0\Bootstrapper.dll
+c:\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\NeptuneEvoSDK.csprojAssemblyReference.cache
+c:\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\NeptuneEvoSDK.csproj.CoreCompileInputs.cache
+c:\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\NeptuneEvoSDK.AssemblyInfoInputs.cache
+c:\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\NeptuneEvoSDK.AssemblyInfo.cs
+c:\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\NeptuneEvoSDK.csproj.CopyComplete
+c:\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\NeptuneEvoSDK.dll
+c:\bridge\resources\NeptuneEvoSDK\obj\Debug\netcoreapp2.0\NeptuneEvoSDK.pdb

@@ -1,0 +1,179 @@
+.menu{
+    display: none;
+    position: absolute;
+    width: 750px;
+    height: 600px;
+    color: white;
+    border-radius: 15px;
+    background-image: url(../res/mag/Classic-24fon.png);
+    /*background-color: #e0e0e0;*/
+    top: 50%;
+    margin-top: -250px;
+    margin-left: 650px;
+}
+.menu h1{  /*Верхнее меню описания магазина*/
+    margin: 0;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 18pt;
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    text-transform: uppercase;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.menu .elements{  /*Окно предметов мантировка ит.д.*/
+    width: 500px;
+    height: 350px;
+    font-size: 14pt;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.menu .block{
+    display: flow-root;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #46464648; /*Фон внутреннего блока основного предметов*/
+    border-radius: 20px;
+}
+.menu .block span{
+    float: left;
+    width: 50%;
+    font-size: 14pt;
+    padding: 8px;
+    padding-top: 0;
+    color: rgb(230, 135, 10);
+    font-size: 14px;
+}
+/*.menu .left{
+    float: left;
+    padding: 7px;
+    font-size: 14pt;
+    margin-left: 60px;
+    
+}*/
+.menu .right{  /*Кнопка купить*/
+    float: right;
+    width: 100px;
+    height: 30px; 
+    background-color: #00a2ff;
+    color:white;
+    border-radius: 10px;
+    font-size: 10pt;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.menu .right:hover{
+    background-color: #995d19;
+}
+
+.menu .buttons{
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.menu .btn{
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 40%;
+    cursor: pointer;
+}
+.menu .btn.big{
+    width: 90%;
+}
+
+
+.menu#shop h1,
+.menu#work h1{
+    background-image: url(../res/mag/Classic-24.png);
+}
+.menu#shop .exit,
+.menu#work .exit{
+    width: 150px;
+    height: 20px;
+    margin-left: -100px;
+    background-color: #cf8e16;
+}
+.menu#shop .exit:hover,
+.menu#work .exit:hover{
+    background-color: #7a4010;
+}
+.menu#work .resign{
+    background-color: #2b83b0;
+}
+.menu#work .resign:hover{
+    background-color: #007bbb;
+}
+
+
+
+.menu#fib h1{ background-image: url(../res/mag/Classic-fib.png); }
+.menu#fib .exit{
+    width: 150px;
+    height: 20px;
+    margin-left: -100px;
+    background-color: #cf8e16;
+}
+.menu#fib .exit:hover{
+     background-color: #1056c0; }
+.menu#fib .right{ background-color: #cf8e16; }
+.menu#fib .right:hover{ background-color: #1056c0; }
+
+
+
+.menu#lspd h1 { background-image: url(../res/mag/Classic-lspd.png); }
+.menu#lspd .exit{
+    width: 150px;
+    height: 20px;
+    margin-left: -100px;
+    background-color: #cf8e16;
+}
+.menu#lspd .exit:hover{
+     background-color: #1056c0; }
+
+
+     
+.menu#army h1{ background-image: url(../res/mag/Classic-army.png); }
+.menu#army .exit{
+    width: 150px;
+    height: 20px;
+    margin-left: -100px;
+    background-color: #cf8e16;
+}
+.menu#army .exit:hover{ 
+    background-color: #1056c0;}
+.menu#army .right{ background-color: #cf8e16; }
+.menu#army .right:hover{ background-color: #1056c0; }
+
+.menu#black h1 { background-image: url(../res/mag/Classic-black.png); }
+.menu#black .exit{
+    width: 150px;
+    height: 20px;
+    margin-left: -100px;
+    background-color: #cf8e16;
+}
+.menu#black .exit:hover{ 
+    background-color: #1056c0;}
+
+.menu#gang h1 { background-color: #121212; }
+.menu#gang .exit{ background-color: #121212; }
+.menu#gang .exit:hover{ background-color: #121212; }
+
+.menu#mafia h1 { background-color: #121212; }
+.menu#mafia .exit{ background-color: #121212; }
+.menu#mafia .exit:hover{ background-color: #121212; }
+
+.menu#gov h1 { background-image: url(../res/mag/Classic-gov.png); }
+.menu#gov .exit{
+    width: 150px;
+    height: 20px;
+    margin-left: -100px;
+    background-color: #cf8e16;
+}
+.menu#gov .exit:hover{ 
+    background-color: #1056c0;}

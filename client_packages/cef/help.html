@@ -1,0 +1,668 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>ZEYS Role Play</title>
+	<meta content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1.0" name="viewport">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link href="css/main.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/animate.min.css">
+	   <script src="js/jquery.min.js"></script>
+	  <script src="js/jquery-ui.js"></script>
+	  <script src="js/jquery.dataTables.min.js"></script>
+
+</head>
+
+<body class="layout" style="display: none;">
+
+
+<div id="tabs" class="rd-f10 rounding">
+<div class="content">
+
+<div class="button-exit">
+<button href="#" id="exit">
+</button>
+</div>
+
+  <ul class="rd-f10-main">
+    <li><a href="#tabs-0">ИНФОРМАЦИЯ</a></li>
+    <li><a href="#tabs-1">ДЕБЮТАНТ</a></li>
+    <li><a href="#tabs-2">РАБОТЫ</a></li>
+    <li><a href="#tabs-3">ДЕЙСТВИЯ</a></li>
+    <li><a href="#tabs-4">FRACTIONS</a></li>
+    <li><a href="#tabs-5">РЕПОРТ</a></li>
+  </ul>
+  
+  <div id="tabs-0" class="rd-content">
+   <div class="content">
+		<img src="/images/content/Classic-info.png" alt="preview-image">
+		</div>
+	</div>
+  </div>
+  <div id="tabs-1" class="rd-content">
+   <div class="content">
+		<div class="images-rd" style="margin-top:20px;">
+		<img src="/images/content/Classic-debutant.png" alt="preview-image">	
+		</div>
+	</div>
+  </div>
+  <div id="tabs-2" class="rd-content">
+   <div class="content">
+		<div class="images-rd" style="margin-top:20px;">
+		<img src="/images/content/Classic-gazon.png" alt="preview-image">
+		
+		</div>
+	</div>
+  </div>
+  <div id="tabs-3" class="rd-content">
+  <table id="command" class="display dataTable" style="width: 100%;" >
+   <thead>
+        <tr>
+            <th>Команда</th>
+            <th>Описание</th>
+            <th>Доступно</th>
+        </tr>
+    </thead>
+    <tbody class="command-table">
+	
+	
+	</tbody>
+	</table>
+  </div>
+
+  <div id="tabs-4" class="rd-content">
+   <section class="liquid-slider" id="main-fractions">
+	  <div>
+		<div class="title">Общее</div>
+		
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p>
+		На сервере реализовано множество фракций, в общем количестве 15:
+		5 банд, 4 мафии, полицейский департамент, федеральное бюро расследований, армия, министерство здравоохранения (EMS), правительство и Los Santos News. Большая часть взаимодействия во фракциях происходят через меню взаимодействия с другими игроками, используя кнопку "G" 
+		</p>
+		<span class="title-sp"></span>
+	    <p><span class="color-yellow">(при этом необходимо быть наведенным на игрока с которым вы желаете взаимодействовать).</span></p>
+		
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/ls.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	  </div>
+
+	    <div>
+		<div class="title">FIB/LSPD</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+			<p><span class="color-yellow">Доступно:</span> 1 уровень.</p>
+			<span class="title-sp"></span>
+			
+			<p><span class="color-yellow">Описание деятельности:</span> 
+			проведение мероприятий нацеленных на уменьшение уровня преступности в стране. Федеральное бюро занимается расследованиями и слежками, сбором информации и работой с ней, задержанием опасных преступников и прочее, полиция же выполняет от самых мелких действий наподобие патрулирования, штрафования и выдачи лицензий, до совместной работы в задержаниях с ФИБ. 
+			</p>
+			
+		    <span class="title-sp color-yellow">Список доступных кнопок/команд:</span>
+			<p>“U” - бортовой компьютер.</p>
+			<p>“X” - надеть наручники на человека. </p>
+			<p>“Z” - вести человека за собой.</p>
+			<p><span class="color-blue">/m</span> - использование мегафона.</p>
+			<p><span class="color-blue">/su</span> - подать человека в розыск.</p>
+			<p><span class="color-blue">/rfp</span> - освободить человека из тюрьмы. </p>
+			<p><span class="color-blue">/incar</span> - затащить человека в машину.</p>
+			<p><span class="color-blue">/pull</span> - вытащить человека из машины.</p>
+			
+			<span class="title-sp"></span>
+
+			<p><span class="color-yellow">Условия трудоустройства: </span>
+			
+			Совершеннолетие, отсутствие связей с криминальным миром, не иметь судимостей, гражданство США, иметь образование, мед. справка о состоянии здоровья. Отличная физическая подготовка.
+
+			</p>
+
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/fibpolice.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	  </div>
+
+	    <div>
+		<div class="title">Армия</div>
+		
+		<div class="wrap-rd scrollbar-inner">
+		
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Доступно:</span> 1 уровень.</p>
+		<span class="title-sp"></span>
+		
+			<p><span class="color-yellow">Описание деятельности:</span> 
+			сухопутные, а также воздушные войска. Армия находится на территории "Форт Занкудо", охраняет свою базу, занимается перевозками материалов и горючего.
+			</p>
+		
+			<span class="title-sp color-yellow">Список доступных кнопок/команд:</span>
+			
+			<p>“X” - надеть наручники на человека</p>
+			<p>“Z” - вести человека за собой.</p>
+			<p><span class="color-blue">/m</span> - использование мегафона.</p>
+			<p><span class="color-blue">/openstock </span> - открыть склад.</p>
+			<p><span class="color-blue">/closestock</span> - закрыть склад. </p>
+			<p><span class="color-blue">/incar</span> - затащить человека в машину.</p>
+			<p><span class="color-blue">/pull</span> - вытащить человека из машины.</p>
+			<span class="title-sp"></span>
+			<p><span class="color-yellow">Условия трудоустройства: </span>
+			Совершеннолетие, отсутствие связей с криминальным миром, не иметь судимостей, гражданство США, иметь образование, мед. справка о состоянии здоровья. Хорошая физическая подготовка.
+			</p>
+			
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/army.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	  </div>
+	  
+
+	  
+			  
+	  
+	<div>
+		<div class="title">EMS</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Доступно:</span> 1 уровень.</p>
+		<span class="title-sp"></span>
+		
+		<p><span class="color-yellow">Описание деятельности:</span> 
+		Служба спасения штата, оказывает помощь гражданам при заболеваниях, зависимостях, травмах и прочем, выдают медицинские справки, и восстановлением общего здоровья человека. Занимаются перевозкой медикаментов и их поставкой для других государственных структур.
+		</p>
+
+		<span class="title-sp color-yellow">Список доступных кнопок/команд:</span>
+
+		<p><span class="color-blue">/heal [id] [цена] </span> - выписать чек за лечение.</p>
+		<p><span class="color-blue">/ems [id]</span> - принять вызов кареты скорой помощи.</p>
+		<p><span class="color-blue">/givemedlic [id]</span> - выдать медицинскую карту.</p>
+		<p><span class="color-blue">/givepmlic [id] [цена]</span> - продать лицензию парамедика.</p>
+		<p><span class="color-blue">/openstock</span> - открыть склад.</p>
+		<p><span class="color-blue">/closestock</span> - закрыть склад.</p>
+		<span class="title-sp"></span>
+		<p><span class="color-yellow">Условия трудоустройства: </span>
+		Совершеннолетие, отсутствие связей с криминальным миром, не иметь судимостей, гражданство США, мед. справка о состоянии здоровья. Высшее медицинское образование.
+		</p>
+		  
+		  
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/ems.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+
+	<div>
+		<div class="title">Правительство</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Доступно:</span> 1 уровень.</p>
+		<span class="title-sp"></span>
+		
+		<p><span class="color-yellow">Описание деятельности:</span> 
+		Главная структура управления штата, состоит из министров и высших руководителей государственных служб, занимается финансированием, управлением всех государственных инстанций и их проверкой.
+		</p>
+
+		<span class="title-sp"></span>
+		<p><span class="color-yellow">Условия трудоустройства: </span>
+		Совершеннолетие, отсутствие связей с криминальным миром, не иметь судимостей, гражданство США, иметь образование, мед. справка о состоянии здоровья.
+		</p>
+		  
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/Gov.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+
+	<div>
+		<div class="title">Los Santos News</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Доступно:</span> 1 уровень.</p>
+		<span class="title-sp"></span>
+		
+		<p><span class="color-yellow">Описание деятельности:</span> 
+		Организация занимающаяся оповещением жителей о всех новостях в штате, редактированием объявлений и проведением различных мероприятий.
+        </p>
+
+		<span class="title-sp color-yellow">Список доступных кнопок/команд:</span>
+
+		<p>“F7” - окно редактирования объявлений.</p>
+	
+		<span class="title-sp"></span>
+		<p><span class="color-yellow">Условия трудоустройства: </span>
+		Совершеннолетие, отсутствие связей с криминальным миром, не иметь судимостей, гражданство США, иметь образование, мед. справка о состоянии здоровья.
+		</p>
+		  
+		  
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/lsnews.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+
+
+
+	<div>
+		<div class="title">Мафии</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Описание деятельности:</span> 
+		Криминальные организации под прикрытием, в основном занимаются крышеванием бизнесов и прочей преступной деятельностью начинающей свой список от кражи авто, до кражи людей, крышевания и прочего.
+        </p>
+		
+		<span class="title-sp color-yellow">Список доступных кнопок/команд:</span>
+		
+		<p><span class="color-blue">/openstock</span> - открыть склад.</p>
+		<p><span class="color-blue">/closestock</span> - закрыть склад.</p>
+		<p><span class="color-blue">/bizwar</span> - начать войну за бизнесы.</p>
+		<p><span class="color-blue">/incar</span> - затащить человека в машину.</p>
+		<p><span class="color-blue">/pull</span> - вытащить человека из машины.</p>
+
+		<span class="title-sp"></span>
+		  
+		<p>Крафт оружия происходит путем использования материалов</p>
+		<p> в инвентаре.</p>
+		
+		<span class="title-sp"></span>
+		
+		<p><span class="color-yellow">Условия трудоустройства: </span>
+		Для каждой мафии свои, от цвета кожи до национальности.
+		</p>
+		
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/mafii.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+	 
+	<div>
+		<div class="title">Русская мафия</div>
+
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Описание:</span> Русская криминальная организация занимающаяся</p>
+		<p>похищением людей, угоном машин, продажей оружие и крышеванием</p>
+		<p>бизнесов, владеют стрип-клубом.</p>
+
+		<span class="title-sp"><span class="color-yellow">Доступно:</span> 1 уровень.</span>
+		<p><span class="color-yellow">Условия поступления:</span> Нужно быть выходцем из СНГ стран, имеющем</p>
+		<p>репутацию в криминальном мире.</p>
+
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/rusmaf.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+
+	  <div>
+		<div class="title">Мексиканский картель</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Описание:</span> Мексиканский картель - криминальная организация занимающиеся крышеванием бизнесов, продажей недвижимости, мошенничеством</p>
+		<p>в экономической сфере, вледеют баром “Galaxy”.</p>
+
+		<span class="title-sp"><span class="color-yellow">Доступно:</span> 1 уровень.</span>
+		<p><span class="color-yellow">Условия поступления:</span> Нужно быть выходцем из Синалоа.</p>
+
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/meks.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+	 
+     <div>
+		<div class="title">Коза ностра</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Описание:</span> Итальянская криминальная организация, давно</p>
+		<p>закрепившаяся в Лос-Сантосе. Занимаются продажей не легального</p>
+		<p>алкоголя, продажей оружия, похищением людей и ограблениями</p>
+		<p>банков, владеют рестораном “Bahama Mamas West”.</p>
+
+		<span class="title-sp"><span class="color-yellow">Доступно:</span> 1 уровень.</span>
+		<p><span class="color-yellow">Условия поступления:</span> Нужно быть выходцем из Италии.</p>
+
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/CosaNostra.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+		
+	 <div>
+		<div class="title">Армянская мафия</div>
+		
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Описание:</span> Армянская криминальная организация проживающая в</p>
+		<p>Лос-Сантосе занимающаяся продажей наркотиков и рэкетом, владеют</p>
+		<p>клубом “Split Sides West Comedy Club”.</p>
+
+		<span class="title-sp"><span class="color-yellow">Доступно:</span> 1 уровень.</span>
+		<p><span class="color-yellow">Условия поступления:</span> Нужно быть выходцем из Армении.</p>
+
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/ArmenianMafia.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+
+      <div>
+		<div class="title">Банды</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		<p><span class="color-blue">/openstock</span> - открыть склад.</p>
+		<p><span class="color-blue">/closestock</span> - закрыть склад.</p>
+		<p><span class="color-blue">/capture</span> - начать войну за территории.</p>
+
+		<span class="title-sp"></span>
+		  
+		<p>Крафт оружия происходит путем использования материалов в</p>
+		<p>инвентаре.</p>
+
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/Gang.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+		  
+	<div>
+		<div class="title">The Families</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Описание:</span> Банда состоящая из чернокожих жителей Гетто.</p>
+		<p>Занимающаяся приступленими ради выживания: рэкет на улицах,</p>
+		<p>продажей наркотиков, ограблениями магазинов. Носят (Зеленый)</p>
+		<p>отличительный цвет.</p>
+
+		<span class="title-sp"><span class="color-yellow">Доступно:</span> 1 уровень.</span>
+		
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/thefamilies.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+
+	  <div>
+		<div class="title">Blood Street Gang</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Описание:</span> Банда состоящая из чернокожих жителей Гетто.</p>
+		<p>Определенно агресивная группировка, занимается продажей</p>
+		<p>наркотиков и оружия. Носят (Красный) отличительный цвет.</p>
+
+		<span class="title-sp"><span class="color-yellow">Доступно:</span> 1 уровень.</span>
+		
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/bloods.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+	  
+	
+	    
+	  <div>
+		<div class="title">Marabunta Grande</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Описание:</span> Выходцы и эмигранты с латинской Америки и Мексики.</p>
+		<p>Занимаются наркотиками, оружием, нелегальным азартным бизнесом</p>
+		<p>и заказными убийствами. Носят (Голубой) отличительный цвет.</p>
+
+		<span class="title-sp"><span class="color-yellow">Доступно:</span> 1 уровень.</span>
+		
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/marabunta.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+
+
+	 <div>
+		<div class="title">Vagos Gang</div>
+
+		<div class="wrap-rd scrollbar-inner">
+		<div class="flex-start">
+		
+		<p><span class="color-yellow">Описание:</span> Мексиканская уличная банда в Лос-Сантосе,</p>
+		<p>контролирующая северную и восточную части города. Более жесткая</p>
+		<p>своими принципами и нравом, имеют связи с мафиозными семьями, с</p>
+		<p>головой вовлечены в торговлю наркотиками. Носят ( Желтый )</p>
+		<p>отличательный цвет.</p>
+
+		<span class="title-sp"><span class="color-yellow">Доступно:</span> 1 уровень.</span>
+		
+		</div>
+		
+		<div class="flex-end">
+				<img src="/images/content/vagos.png" class="rounding" alt="preview-image">
+			</div>
+		</div>
+
+	 </div>
+	  
+	</section>
+  </div>
+  
+  <div id="tabs-5" class="rd-content rd-support">
+  
+	  <div class="logord">
+		<img src="/images/content/Classic-report.png" alt="logo">
+	  </div> 
+	  
+	  
+	  </div>
+  </div>
+</div>
+</div>
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+  
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/jquery.liquid-slider.min.js"></script>
+    <script src="js/jquery.scrollbar.min.js"></script>
+
+	<script>
+		function hhelpshow(state) {
+        if(state){
+           $('body').show();
+        } else {
+			$('body').hide();
+		}
+      }
+	  $( function() {
+
+	  var badges = {
+	  'Фракции':{'style':'badge-fractions'},
+	  'FIB':{'style':'badge-fib'},
+	  'LSPD':{'style':'badge-lspd'},
+	  'Мафия':{'style':'badge-mafia'},
+	  'EMS':{'style':'badge-ems'},
+	  'Армия':{'style':'badge-army'},
+	  'Правительство':{'style':'badge-government'},
+	  'Чат':{'style':'badge-chat'},
+	  'Банды':{'style':'badge-ghetto'},
+	  'Автомеханик':{'style':'badge-mechanic'},
+	  'Такси':{'style':'badge-taxi'},
+	  'LSNEWS':{'style':'badge-lsnews'},
+	  'Лидерские':{'style':'badge-lider'},
+	  'Дальнобойщик':{'style':'badge-trucker'},
+	  'Общие':{'style':'badge-general'},
+	  'Основные команды':{'style':'badge-main'}};
+		
+	  var table = $('#command').DataTable( {
+	   "pageLength": 500,
+	    autoWidth: true,
+		 fixedColumns: true,
+		ajax: {
+			url: 'helpcmd.json',
+			dataType: 'json',
+		},
+	    "scrollY": 200,
+        "scrollX": false,
+		"order": [[ 2, "asc" ]],
+	    "aoColumnDefs": [
+          { 'bSortable': false, 'aTargets': [ 0,1,2 ] }
+        ],
+		columns: [
+			{ data: 'cmd' },
+			{ data: 'descr' },
+			{
+            
+			mRender: function (data, type, row) {
+			var html = '';
+			var tr = row.category.split('|');
+			html = html + '<div class="flx">';
+			$.each(tr, function(num, value){
+			
+			value = $.trim(value);	
+			if (badges[value]) {
+				html = html + '<span class="bg '+badges[value].style+'">'+value+'</span>';
+			} else {
+				html = html + '<span class="bg">'+value+'</span>';
+			}
+			
+			});
+			html = html + '</div>';
+			return html;
+            }
+			}
+		],
+		language: {
+			search: "_INPUT_",
+			searchPlaceholder: "Поиск",
+			zeroRecords: "Команда не найдена",
+		}
+		} );
+	
+	
+		$(document).on('click', '#go_support', function(e) {
+		
+			var val = $('#support_answ').val();
+			mp.trigger('f10report', val);
+			$('#support_answ').val('');
+
+		})
+		
+		$(document).on('click', '#exit', function(e) {
+			hhelpshow(false);
+            mp.trigger('helpClose')
+        })
+	
+		
+		$('.dataTables_scrollBody').scrollbar({scrollx: ''});
+		
+		
+		$('.scrollbar-inner').scrollbar({scrollx: ''});
+
+		var work_active = false, fractions = false;
+		  
+		$( "#tabs" ).tabs({
+		active: "#tabs-1", 
+                   activate: function(event ,ui){
+				   
+					if (!work_active && ui.newTab.index() == 1) {
+						$('#main-slider').liquidSlider({
+						 firstPanelToLoad: 1,
+						 hoverArrows: false,
+						 dynamicArrows: true,
+						 includeTitle: false,
+					    });
+
+						work_active = true;
+	
+					} else if (!fractions && ui.newTab.index() == 3) {
+						$('#main-fractions').liquidSlider({
+						 firstPanelToLoad: 1,
+						 hoverArrows: false,
+						 dynamicArrows: true,
+						 includeTitle: false,
+					    });
+						fractions = true;
+					}
+					
+					if ( ui.newTab.index() == 2) {
+					$($.fn.dataTable.tables(true)).DataTable().columns.adjust();
+					}
+             }
+		});
+
+	  } );
+	  </script>
+</body>

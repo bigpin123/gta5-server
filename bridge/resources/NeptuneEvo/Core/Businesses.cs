@@ -160,82 +160,111 @@ namespace NeptuneEvo.Core
         {
             new List<string>() // premium
             {
-
-                "focusrs",
-                "evo10",
-                "x5e53",
-                "16challenger",
-                "m2f22",
-                "17m760i",
-                "Shelbygt500",
-                "370z",
-                "Z419",
-                "c63s",
-                "vwtoua19c",
-                "gs350",
-                "x5m",
-                "mgt",
-                "m5e60",
-                "srt8",
-                "x6m",
-                "x5m2016",
-                "tts",
-                "2019M5",
-                "e63amg",
-                "gtr",
-                "m3f80",
-                "rs6",
-                "rs7",
-                "bmci",
-                "demonhawk",
-                "CLA45Sb",
-                "gls63",
-                "m4f82",
-                "CLS63S",
-                "a45",
-                "lc200",
-                "lumma750",
+                "Sultan",
+                "SultanRS",
+                "Kuruma",
+                "Fugitive",
+                "Tailgater",
+                "Sentinel",
+                "F620",
+                "Schwarzer",
+                "Exemplar",
+                "Felon",
+                "Schafter2",
+                "Jackal",
+                "Oracle2",
+                "Surano",
+                "Zion",
+                "Dominator",
+                "FQ2",
+                "Gresley",
+                "Serrano",
+                "Dubsta",
+                "Rocoto",
+                "Cavalcade2",
+                "XLS",
+                "Baller2",
+                "Elegy",
+                "Banshee",
+                "Massacro2",
+                "GP1"
 
             }, // premium
             new List<string>() // sport
             {
-                "viper",
-                "panamera17turbo",
-                "i8",
-                "mlbrabus",
-                "g65amg",
+                "bmwe38",
                 "G63",
-                "velar",
-                "brabus850",
-                "slsamg",
+                "Neon",
+                "a45",
+                "x6m",
+                "gls63",
+                "x5m",
+                "e63amg",
+                "rs7",
                 "r8v10",
-                "lhuracan",
-                "ff",
-                "GMT900Escalade",
+                "rs6",
+                "panamera17turbo",
+                "16challenger",
+                "mgt",
+                "lc200",
+                "w210",
+                "2019M5",
                 "chiron",
+                "ff",
+                "demonhawk",
+                "evo10",
+                "velar",
+                "camry55",
                 "bentayga17",
-                "lx2018",
-                "2017chiron",
+                "lhuracan",
+                "i8",
+                "brabus850",
             }, // sport
             new List<string>() // middle
             {
-                "vaz2106",
-                "vaz2113",
-                "vaz21099",
-                "volga",
-                "bmwe34",
-                "volvo850r",
-                "w210",
-                "bmwe38",
-                "v60",
-                "w140",
-                "bmwe36",
-                "750il",
-                "bmwe65",
-                "audis8om",
-                "camry55",
-                "a8lw12",
-                "A6Avant",
+                "Tornado3",
+                "Tornado4",
+                "Emperor2",
+                "Voodoo2",
+                "Regina",
+                "Ingot",
+                "Emperor",
+                "Picador",
+                "Minivan",
+                "Blista2",
+                "Manana",
+                "Dilettante",
+                "Asea",
+                "Glendale",
+                "Voodoo",
+                "Surge",
+                "Primo",
+                "Stanier",
+                "Stratum",
+                "Tampa",
+                "Prairie",
+                "Radi",
+                "Blista",
+                "Stalion",
+                "Asterope",
+                "Washington",
+                "Premier",
+                "Intruder",
+                "Ruiner",
+                "Oracle",
+                "Phoenix",
+                "Gauntlet",
+                "Buffalo",
+                "RancherXL",
+                "Seminole",
+                "Baller",
+                "Landstalker",
+                "Cavalcade",
+                "BJXL",
+                "Patriot",
+                "Bison3",
+                "Issi2",
+                "Panto",
             }, // middle
             new List<string>() // moto
             {
@@ -785,661 +814,797 @@ namespace NeptuneEvo.Core
         public static Dictionary<string, Dictionary<int, List<Tuple<int, string, int>>>> Tuning = new Dictionary<string, Dictionary<int, List<Tuple<int, string, int>>>>()
         {
 
-            { "vaz2106", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "Panto", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель", 7000),
+                    new Tuple<int, string, int>(1, "Хромированный глушитель", 10000),
+                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 12000),
+                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 13000),
+                    new Tuple<int, string, int>(4, "Боковой глушитель", 14000),
                 }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Низкие пороги", 10000),
+                    new Tuple<int, string, int>(1, "Спортивные пороги", 11000),
+                    new Tuple<int, string, int>(2, "Пороги в наклейках", 13000),
+                    new Tuple<int, string, int>(3, "Карбоновые обтекатели", 16000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(0, "Крашеный спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Карбоновый спойлер", 26000),
+                    new Tuple<int, string, int>(2, "Дрифт-спойлер", 16000),
+                    new Tuple<int, string, int>(3, "Багажник на крыше", 13000),
+                    new Tuple<int, string, int>(4, "Багажник с хламом на крыше", 15000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 3000),
+                    new Tuple<int, string, int>(0, "Кенгурятники", 10000),
+                    new Tuple<int, string, int>(1, "Кенгурятник в наклейках", 12000),
+                    new Tuple<int, string, int>(2, "Усиленный кенгурятник", 14000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновая крыша", 10000),
+                    new Tuple<int, string, int>(1, "Крыша и задняя дверь", 15000),
+                    new Tuple<int, string, int>(2, "Крыша в наклейках", 12000),
+                    new Tuple<int, string, int>(3, "Крыша в наклейках и дверь", 16000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 13000),
+                    new Tuple<int, string, int>(1, "Карбоновый сплиттер", 15000),
+                    new Tuple<int, string, int>(2, "Бампер Extreme Aero", 16000),
+                    new Tuple<int, string, int>(3, "Перед.бампер в наклейках", 15000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый зад. бампер", 13000),
+                    new Tuple<int, string, int>(1, "Задний бампер в наклейках", 15000),
                 }},
             }},
-           { "vaz2113", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "Issi2", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель", 7000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 8000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(0, "Капот с забором воздуха", 10000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 7000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной зад. бампер", 8000),
                 }},
             }},
-            { "vaz21099", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "GP1", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель", 7000),
+                    new Tuple<int, string, int>(1, "Сдвоенный глушитель 2", 23000),
+                    new Tuple<int, string, int>(2, "Счетверенный глушитель LM", 15000),
+                    new Tuple<int, string, int>(3, "Глушитель LM (карбон)", 19000),
+                    new Tuple<int, string, int>(4, "Глушитель LM доп.цвета", 18000),
+                    new Tuple<int, string, int>(5, "Большой глушитель", 13000),
+                    new Tuple<int, string, int>(6, "Большой укороченный", 16000),
+                    new Tuple<int, string, int>(7, "Большой (карбон)", 11000),
+                    new Tuple<int, string, int>(8, "Большой доп.цвета", 17000),
+                    new Tuple<int, string, int>(9, "Глушитель Offset (карбон)", 10000),
+                    new Tuple<int, string, int>(10, "Глушитель Offset доп.цвета", 19000),
+                    new Tuple<int, string, int>(11, "Набор глушителей LM", 30000),
+                    new Tuple<int, string, int>(12, "Набор LM (карбон)", 25000),
+                    new Tuple<int, string, int>(13, "Набор LM доп.цвета", 13000),
+                    new Tuple<int, string, int>(15, "Большой набор (карбон)", 24000),
+                    new Tuple<int, string, int>(16, "Большой набор доп.цвета", 20000),
+                    new Tuple<int, string, int>(17, "Набор глушителей Offset", 21000),
+                    new Tuple<int, string, int>(17, "Набор Offset доп.цвета", 21000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Полуспортивные пороги", 20000),
+                    new Tuple<int, string, int>(1, "Спортивные пороги", 21000),
+                    new Tuple<int, string, int>(2, "Заказные пороги", 23000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Заказной капот", 16000),
+                    new Tuple<int, string, int>(1, "Карбоновый капот", 16000),
+                    new Tuple<int, string, int>(2, "Капот с воздухозаборником", 15000),
+                    new Tuple<int, string, int>(3, "Капот с воздухозаборником 2", 15000),
+                    new Tuple<int, string, int>(4, "Капот с мелкой решеткой", 15000),
+                    new Tuple<int, string, int>(5, "Капот со шторками", 15000),
+                    new Tuple<int, string, int>(6, "Капот LM", 18000),
+                    new Tuple<int, string, int>(7, "Капот LM (карбон)", 20000),
+                    new Tuple<int, string, int>(8, "Трековый капот", 17000),
+                    new Tuple<int, string, int>(9, "Спортивный капот", 15000),
+                    new Tuple<int, string, int>(10, "Гоночный капот (карбон)", 15000),
+                    new Tuple<int, string, int>(11, "Капот GT", 20000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(0, "Слегка поднятый спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Поднятый спойлер", 26000),
+                    new Tuple<int, string, int>(2, "Поднятый спойлер (карбон)", 16000),
+                    new Tuple<int, string, int>(3, "Спойлер Branch", 13000),
+                    new Tuple<int, string, int>(4, "Низкий спойлер", 15000),
+                    new Tuple<int, string, int>(5, "Спойлер Tuner", 15000),
+                    new Tuple<int, string, int>(6, "Двухцветный спойлер", 15000),
+                    new Tuple<int, string, int>(7, "Спойлер LM", 15000),
+                    new Tuple<int, string, int>(8, "GT Wing", 15000),
+                    new Tuple<int, string, int>(9, "Поднятый и LM спойлеры", 15000),
+                    new Tuple<int, string, int>(10, "Поднятый и LM (карбон)", 15000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Заказной бампер", 13000),
+                    new Tuple<int, string, int>(1, "Концептуальный бампер", 15000),
+                    new Tuple<int, string, int>(2, "Чемпионский бампер", 15000),
+                    new Tuple<int, string, int>(3, "Спортивный бампер", 15000),
+                    new Tuple<int, string, int>(4, "Бампер Tuner", 15000),
+                    new Tuple<int, string, int>(5, "Бампер LM", 15000),
+                    new Tuple<int, string, int>(6, "Турнирный бампер", 15000),
+                    new Tuple<int, string, int>(7, "Бампер Contest", 15000),
+                    new Tuple<int, string, int>(8, "Бампер GT", 15000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(-1, "Стандартный зад. диффузор", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый диффузор", 13000),
+                    new Tuple<int, string, int>(1, "Диффузор с цветной каймой", 15000),
                 }},
             }},
-            { "volga", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "evo10", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель Tuner", 18000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(-1, "Стандартный спойлер", 5000),
+                    new Tuple<int, string, int>(0, "Нет", 3000),
+                    new Tuple<int, string, int>(1, "Гигантский спойлер", 26000),
                 }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                { 7, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Без раскраски", 5000),
+                    new Tuple<int, string, int>(0, "Раллийная классическая", 18000),
+                    new Tuple<int, string, int>(1, "Раллийная ретро", 10000),
                 }},
             }},
-            { "bmwe34", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
+            { "velar", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(-1, "Стандартный спойлер", 5000),
+                    new Tuple<int, string, int>(0, "Маленький спойлер", 10000),
+                    new Tuple<int, string, int>(1, "Средний спойлер", 15000),
+                    new Tuple<int, string, int>(2, "Высокий спойлер", 25000),
                 }},
             }},
-            { "volvo850r", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "brabus850", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Двойной глушитель", 18000),
+                    new Tuple<int, string, int>(1, "Большой глушитель", 20000),
+                    new Tuple<int, string, int>(2, "Двойной овальный глушитель", 25000),
+                    new Tuple<int, string, int>(3, "Большой овальный глушитель", 22000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Пороги основного цвета", 10000),
+                    new Tuple<int, string, int>(1, "Пороги дополнительного цвета", 15000),
+                    new Tuple<int, string, int>(2, "Карбоновые пороги", 16000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Капот без воздухозаборников", 20000),
+                    new Tuple<int, string, int>(1, "Полоса доп.цвета на капоте", 30000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "w210", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "bmwe38", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "v60", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "w140", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "bmwe36", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "750il", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "bmwe65", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "audis8om", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(-1, "Стандартный спойлер", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер основного цвета", 10000),
+                    new Tuple<int, string, int>(1, "Низкий спойлер дополнительного цвета", 15000),
+                    new Tuple<int, string, int>(2, "Низкий карбоновый спойлер", 25000),
+                    new Tuple<int, string, int>(3, "Маленький спойлер основного цвета", 15000),
+                    new Tuple<int, string, int>(4, "Маленький спойлер дополнительного цвета", 20000),
+                    new Tuple<int, string, int>(5, "Маленький карбоновый спойлер", 25000),
+                    new Tuple<int, string, int>(6, "GT спойлер", 40000),
                 }},
             }},
             { "camry55", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Двойной глушитель", 18000),
+                    new Tuple<int, string, int>(1, "Большой глушитель", 20000),
+                    new Tuple<int, string, int>(2, "Двойной овальный глушитель", 25000),
+                    new Tuple<int, string, int>(3, "Большой овальный глушитель", 22000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги 1", 10000),
+                    new Tuple<int, string, int>(1, "Заказные пороги 2", 15000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Заказной капот", 20000),
+                    new Tuple<int, string, int>(1, "Полоса на капоте 1", 30000),
+                    new Tuple<int, string, int>(2, "Полоса на капоте 2", 30000),
+                    new Tuple<int, string, int>(3, "Карбоновый капот", 30000),
+                    new Tuple<int, string, int>(4, "Заказной карбоновый капот", 30000),
+                    new Tuple<int, string, int>(8, "Карбоновый капот с воздухозаборником", 30000),
+                    new Tuple<int, string, int>(9, "Капот с двумя воздухозаборниками", 30000),
+                    new Tuple<int, string, int>(10, "Капот с тремя воздухозаборниками", 35000),
+                    new Tuple<int, string, int>(11, "Капот с воздухозаборниками", 35000),
+                    new Tuple<int, string, int>(12, "Капот с воздухозаборниками", 35000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(-1, "Стандартный спойлер", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер 1", 10000),
+                    new Tuple<int, string, int>(1, "Низкий спойлер 2", 15000),
+                    new Tuple<int, string, int>(2, "Низкий спойлер 3", 25000),
+                    new Tuple<int, string, int>(3, "Низкий карбоновый спойлер 1", 15000),
+                    new Tuple<int, string, int>(4, "Низкий карбоновый спойлер 2", 20000),
+                    new Tuple<int, string, int>(5, "Низкий карбоновый спойлер 3", 25000),
+                    new Tuple<int, string, int>(6, "Низкий карбоновый спойлер 4", 30000),
+                    new Tuple<int, string, int>(7, "Средний спойлер", 25000),
+                    new Tuple<int, string, int>(8, "Средний карбоновый спойлер", 30000),
                 }},
             }},
-            { "a8lw12", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "bentayga17", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Заказной глушитель", 18000),
+                    new Tuple<int, string, int>(1, "Двойной глушитель", 20000),
+                    new Tuple<int, string, int>(4, "Двойной заказной глушитель", 25000),
+                    new Tuple<int, string, int>(5, "Четырехствольный глушитель 1", 22000),
+                    new Tuple<int, string, int>(11, "Четырехствольный глушитель 2", 30000),
+                    new Tuple<int, string, int>(13, "Четырехствольный глушитель 3", 35000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(-1, "Стандартная раскраска двигателя", 5000),
+                    new Tuple<int, string, int>(1, "Основная раскраска двигателя 1", 10000),
+                    new Tuple<int, string, int>(2, "Дополнительная раскраска двигателя 1", 15000),
+                    new Tuple<int, string, int>(4, "Основная раскраска двигателя 2", 20000),
+                    new Tuple<int, string, int>(5, "Дополнительная раскраска двигателя 2", 25000),
+                    new Tuple<int, string, int>(7, "Основная раскраска двигателя 3", 25000),
+                    new Tuple<int, string, int>(8, "Дополнительная раскраска двигателя 3", 30000),
                 }},
             }},
-            { "A6Avant", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
+            { "lhuracan", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 3, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(0, "Низкий карбоновый спойлер", 7000),
+                    new Tuple<int, string, int>(1, "Поднятый карбоновый спойлер", 8000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Заказной бампер осн.цвета", 13000),
+                    new Tuple<int, string, int>(1, "Заказной бампер доп.цвета", 15000),
+                    new Tuple<int, string, int>(2, "Заказной карбоновый бампер", 20000),
+                    new Tuple<int, string, int>(3, "Спортивный бампер осн.цвета", 15000),
+                    new Tuple<int, string, int>(4, "Спортивный бампер доп.цвета", 20000),
+                    new Tuple<int, string, int>(5, "Спортивный карбоновый бампер", 25000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "viper", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "panamera17turbo", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(-1, "Стандартный зад. диффузор", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый диффузор", 13000),
                 }},
             }},
             { "i8", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Черный глушитель", 7000),
+                    new Tuple<int, string, int>(1, "Четырехствольный глушитель", 10000),
+                    new Tuple<int, string, int>(2, "Четырехствольный черный глушитель", 10000),
+                    new Tuple<int, string, int>(3, "Четырехствольный глушитель 2", 12000),
+                    new Tuple<int, string, int>(4, "Четырехствольный черный глушитель 2", 12000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 7000),
+                    new Tuple<int, string, int>(0, "Заказные карбоновые пороги", 9000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(0, "Линия на капоте", 10000),
+                    new Tuple<int, string, int>(1, "Двойная линия на капоте", 20000),
+                    new Tuple<int, string, int>(2, "Карбоновый капот", 30000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Заказной пер. бампер", 13000),
+                    new Tuple<int, string, int>(0, "Карбоновый пер. бампер", 15000),
+                }},
+            }},
+            { "Primo", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Хромированный глушитель", 7000),
+                    new Tuple<int, string, int>(1, "Расширенный глушитель", 10000),
+                    new Tuple<int, string, int>(2, "Титановый глушитель", 10000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 7000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 7000),
+                    new Tuple<int, string, int>(1, "Поднятый спойлер", 8000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 3000),
+                    new Tuple<int, string, int>(0, "Хромированная решетка", 6000),
+                    new Tuple<int, string, int>(1, "Спортивная решетка", 5000),
+                    new Tuple<int, string, int>(2, "Сетчатая решетка", 7000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной пер. бампер", 13000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной зад. бампер", 13000),
+                }},
+            }},
+            { "Emperor", new Dictionary<int, List<Tuple<int, string, int>>>() { }},
+            { "demonhawk", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Сдвоенный титановый", 7000),
+                    new Tuple<int, string, int>(1, "Двойной титановый (хром)", 30000),
+                    new Tuple<int, string, int>(2, "Парный гоночный", 10000),
+                    new Tuple<int, string, int>(3, "Двойной гоночный титановый", 12000),
+                    new Tuple<int, string, int>(4, "Парный гоночный титановый", 16000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 30000),
+                    new Tuple<int, string, int>(1, "Карбоновые обтекатели", 11000),
+                    new Tuple<int, string, int>(2, "Полуспортивные пороги", 13000),
+                    new Tuple<int, string, int>(3, "Карбоновые пороги (чать)", 12000),
+                    new Tuple<int, string, int>(4, "Перевернутые пороги", 19000),
+                    new Tuple<int, string, int>(5, "Карбоновые пороги (все)", 16000),
+                    new Tuple<int, string, int>(6, "Пороги GT", 16000),
+                    new Tuple<int, string, int>(7, "Карбоновые GT (часть)", 16000),
+                    new Tuple<int, string, int>(8, "Перевернутые GT", 14000),
+                    new Tuple<int, string, int>(9, "Карбоновые GT (все)", 20000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Стандартный капот 2", 16000),
+                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 14000),
+                    new Tuple<int, string, int>(2, "С забором воздуха (карбон)", 15000),
+                    new Tuple<int, string, int>(3, "Стандартный капот (карбон)", 15000),
+                    new Tuple<int, string, int>(4, "Карбоновый капот", 15000),
+                    new Tuple<int, string, int>(5, "Капот с воздухозаборником", 15000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Дрифт-спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Карбоновый спойлер", 26000),
+                    new Tuple<int, string, int>(2, "Спойлер Tuner", 16000),
+                    new Tuple<int, string, int>(3, "Карбоновый спойлер 2", 13000),
+                    new Tuple<int, string, int>(4, "GT Wing", 15000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный двигатель", 3000),
+                    new Tuple<int, string, int>(0, "Модификация для двигателя 1", 6000),
+                    new Tuple<int, string, int>(1, "Модификация для двигателя 2", 15000),
+                    new Tuple<int, string, int>(2, "Модификация для двигателя 3", 17000),
+                    new Tuple<int, string, int>(3, "Модификация для двигателя 4", 27000),
+                    new Tuple<int, string, int>(4, "Модификация для двигателя 5", 17000),
+                    new Tuple<int, string, int>(5, "Модификация для двигателя 6", 27000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный двигатель", 5000),
+                    new Tuple<int, string, int>(0, "Хромированный двигатель", 10000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Бампер с радиатором", 13000),
+                    new Tuple<int, string, int>(1, "Бампер Chin (карбон)", 15000),
+                    new Tuple<int, string, int>(2, "С радиатором (карбон)", 15000),
+                    new Tuple<int, string, int>(3, "Карбоновый сплиттер", 15000),
+                    new Tuple<int, string, int>(4, "Решетка со сплиттером", 15000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Хромированные сплиттеры", 13000),
+                    new Tuple<int, string, int>(1, "Заказной бампер", 15000),
+                    new Tuple<int, string, int>(2, "Передний бампер (карбон)", 17000),
+                    new Tuple<int, string, int>(3, "Задний бампер (карбон)", 17000),
+                    new Tuple<int, string, int>(4, "Бампер Aero (карбон)", 17000),
+                    new Tuple<int, string, int>(5, "Задний бампер Aero (карбон)", 17000),
+                }},
+            }},
+            { "Bison3", new Dictionary<int, List<Tuple<int, string, int>>>() { }},
+            { "ff", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Овальный глушитель", 7000),
+                    new Tuple<int, string, int>(1, "Хромированный глушитель", 10000),
+                    new Tuple<int, string, int>(2, "Гоночный глушитель", 15000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый спойлер", 22000),
+                    new Tuple<int, string, int>(1, "GT Wing", 26000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Крашеная крыша", 30000),
+                }},
+            }},
+            { "gls63", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Овальный глушитель", 7000),
+                    new Tuple<int, string, int>(1, "Хромированный глушитель", 14000),
+                    new Tuple<int, string, int>(2, "Гоночный глушитель", 16000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 30000),
+                    new Tuple<int, string, int>(1, "Спортивные пороги", 11000),
+                    new Tuple<int, string, int>(2, "Карбоновые обтекатели", 13000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Крашеный спойлер", 26000),
+                    new Tuple<int, string, int>(2, "Карбоновый спойлер 2", 16000),
+                    new Tuple<int, string, int>(3, "GT Wing", 13000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Задний дефлектор", 30000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 13000),
+                    new Tuple<int, string, int>(1, "Сплиттер с канардами", 15000),
+                    new Tuple<int, string, int>(2, "Сплиттер с крылышками", 15000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Крашеный задний диффузор", 13000),
+                    new Tuple<int, string, int>(1, "Карбоновый зад. диффузор", 15000),
+                }},
+            }},
+            { "Neon", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Пороги осн.цвета", 20000),
+                    new Tuple<int, string, int>(1, "Пороги доп.цвета", 11000),
+                    new Tuple<int, string, int>(2, "Карбоновые пороги", 13000),
+                    new Tuple<int, string, int>(3, "Гоночные осн.цвета", 16000),
+                    new Tuple<int, string, int>(4, "Гоночный доп.цвета", 16000),
+                    new Tuple<int, string, int>(5, "Карбоновые гоночные", 13000),
+                    new Tuple<int, string, int>(6, "Competition осн.цвета", 16000),
+                    new Tuple<int, string, int>(7, "Competition доп.цвета", 19000),
+                    new Tuple<int, string, int>(8, "Карбоновые Competition", 20000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Две полосы", 16000),
+                    new Tuple<int, string, int>(1, "Одна полоса", 14000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Спойлер осн.цвета", 22000),
+                    new Tuple<int, string, int>(1, "Спойлер доп.цвета", 26000),
+                    new Tuple<int, string, int>(2, "Карбоновый спойлер", 16000),
+                    new Tuple<int, string, int>(3, "Гоночный спойлер", 13000),
+                    new Tuple<int, string, int>(4, "Туринговый спойлер", 15000),
+                    new Tuple<int, string, int>(5, "Спойлер Competition", 15000),
+                }},
+                { 5, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартное зеркало", 5000),
+                    new Tuple<int, string, int>(0, "Зеркало 1", 12000),
+                    new Tuple<int, string, int>(1, "Зеркало 2", 12000),
+                    new Tuple<int, string, int>(2, "Зеркало 3", 12000),
+                    new Tuple<int, string, int>(3, "Зеркало 4", 12000),
+                    new Tuple<int, string, int>(4, "Зеркало 5", 12000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Сплиттер осн.цвета", 13000),
+                    new Tuple<int, string, int>(1, "Сплиттер доп.цвета", 13000),
+                    new Tuple<int, string, int>(2, "Карбоновый сплиттер", 15000),
+                    new Tuple<int, string, int>(3, "Сплиттер Competition", 15000),
+                    new Tuple<int, string, int>(4, "Competition доп.цвета", 15000),
+                    new Tuple<int, string, int>(5, "Карбоновый Competition", 17000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад.диффузор", 5000),
+                    new Tuple<int, string, int>(0, "Гоночный диффузор", 13000),
+                    new Tuple<int, string, int>(1, "Гоночный диффузор (карбон)", 15000),
+                }},
+            }},
+            { "Massacro2", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Титановые насадки", 7000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Боковой обтекатель", 30000),
+                    new Tuple<int, string, int>(1, "Карбоновый боковой", 11000),
+                    new Tuple<int, string, int>(2, "Гоночный боковой", 13000),
+                    new Tuple<int, string, int>(3, "Гоночный карбоновый", 16000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый капот", 16000),
+                    new Tuple<int, string, int>(1, "Капот с забором воздуха", 14000),
+                    new Tuple<int, string, int>(2, "Гоночный карбоновый капот", 15000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Низкий карбоновый спойлер", 26000),
+                    new Tuple<int, string, int>(2, "Гоночное крыло", 16000),
+                    new Tuple<int, string, int>(3, "Крыло GT", 13000),
+                }},
+                { 5, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартное крыло", 5000),
+                    new Tuple<int, string, int>(0, "Гоночные воздухозаборники", 22000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый сплиттер", 13000),
+                    new Tuple<int, string, int>(1, "Сплиттер", 15000),
+                    new Tuple<int, string, int>(2, "Гоночный сплиттер", 16000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Задний диффузор", 13000),
+                    new Tuple<int, string, int>(1, "Гоночный задний диффузор", 15000),
+                }},
+            }},
+            { "Turismo2", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновые кончики", 7000),
+                    new Tuple<int, string, int>(1, "Хромированные кончики", 10000),
+                    new Tuple<int, string, int>(2, "Титановые кончики", 14000),
+                    new Tuple<int, string, int>(3, "Широкий глушитель", 13000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Пороги доп.цвета", 30000),
+                    new Tuple<int, string, int>(1, "Пороги (карбон)", 11000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот с полосой", 16000),
+                    new Tuple<int, string, int>(1, "Вентилируемый капот", 14000),
+                    new Tuple<int, string, int>(2, "Вентилируемый с полосой", 15000),
+                    new Tuple<int, string, int>(3, "Гоночный капот", 12000),
+                    new Tuple<int, string, int>(4, "Гоночный с полосой", 14000),
+                    new Tuple<int, string, int>(5, "Капот GT", 15000),
+                    new Tuple<int, string, int>(6, "Капот GT с полосой", 15000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Стандартный спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Спойлер доп.цвета", 26000),
+                    new Tuple<int, string, int>(2, "Карбоновый спойлер", 16000),
+                    new Tuple<int, string, int>(3, "Крыло GT", 13000),
+                    new Tuple<int, string, int>(4, "Крыло GT доп.цвета", 15000),
+                    new Tuple<int, string, int>(5, "Крыло GT (карбон)", 12000),
+                    new Tuple<int, string, int>(6, "Гоночное крыло", 16000),
+                    new Tuple<int, string, int>(7, "Гоночное крыло доп.цвета", 13000),
+                    new Tuple<int, string, int>(8, "Гоночное крыло (карбон)", 18000),
+                    new Tuple<int, string, int>(9, "Турнирный спойлер", 20000),
+                    new Tuple<int, string, int>(10, "Турнирный доп.цвета", 21000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Облегченный бампер", 13000),
+                    new Tuple<int, string, int>(1, "Классический бампер", 15000),
+                    new Tuple<int, string, int>(2, "Гоночный пер. бампер", 15000),
+                    new Tuple<int, string, int>(3, "Гоночный бампер (карбон)", 15000),
+                    new Tuple<int, string, int>(4, "Передний бампер GT", 15000),
+                    new Tuple<int, string, int>(5, "Бампер GT (карбон)", 15000),
+                }},
+            }},
+            { "2019M5", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель", 7000),
+                    new Tuple<int, string, int>(1, "Тройной глушитель", 10000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновые пороги", 30000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый спойлер", 22000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Сплиттер с канардами", 15000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый зад. диффузор", 13000),
+                }},
+            }},
+            { "w210", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель", 7000),
+                    new Tuple<int, string, int>(1, "Гоночный глушитель", 10000),
+                    new Tuple<int, string, int>(2, "Хромированный глушитель", 12000),
+                    new Tuple<int, string, int>(3, "Сдвоенный глушитель 2", 14000),
+                    new Tuple<int, string, int>(4, "Насадка на выхлоп", 16000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 30000),
+                    new Tuple<int, string, int>(1, "Низкие пороги", 11000),
+                    new Tuple<int, string, int>(2, "Полуспортивные пороги", 13000),
+                    new Tuple<int, string, int>(3, "Спортивные пороги", 16000),
+                    new Tuple<int, string, int>(4, "Карбоновые обтекатели", 16000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот с забором воздуха", 16000),
+                    new Tuple<int, string, int>(1, "Карбоновый капот", 14000),
+                    new Tuple<int, string, int>(2, "Накладные арки", 15000),
+                    new Tuple<int, string, int>(3, "Гладкий капот", 15000),
+                    new Tuple<int, string, int>(4, "Двойной воздухозабор", 15000),
+                    new Tuple<int, string, int>(5, "Двойной воздухозабор (накл)", 15000),
+                    new Tuple<int, string, int>(6, "Капот с фильтром", 15000),
+                    new Tuple<int, string, int>(7, "Открытый воздухозаборник", 15000),
+                    new Tuple<int, string, int>(8, "Капот с фильтром (хром)", 15000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Поднятый спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Средний спойлер", 26000),
+                    new Tuple<int, string, int>(2, "Дрифт-спойлер", 16000),
+                    new Tuple<int, string, int>(3, "Крыло GT (высокое)", 13000),
+                    new Tuple<int, string, int>(4, "Спойлер Экстрим", 15000),
+                    new Tuple<int, string, int>(5, "Крыло Атака на асфальт", 16000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная задняя дверь", 5000),
+                    new Tuple<int, string, int>(0, "Задний багажник", 13000),
+                    new Tuple<int, string, int>(1, "Накладной багажник", 15000),
+                    new Tuple<int, string, int>(2, "Багажник (карбон)", 15000),
+                    new Tuple<int, string, int>(3, "Багажник и панели (карбон)", 15000),
+                }},
+                { 5, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартное крыло", 5000),
+                    new Tuple<int, string, int>(0, "Задние надкрылки", 22000),
+                    new Tuple<int, string, int>(1, "Задние надкрылки (карбон)", 22000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Кабрио", 30000),
+                }},
+                { 7, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Без винил", 5000),
+                    new Tuple<int, string, int>(0, "Винилы 1", 13000),
+                    new Tuple<int, string, int>(1, "Винилы 2", 15000),
+                    new Tuple<int, string, int>(2, "Винилы 3", 15000),
+                    new Tuple<int, string, int>(3, "Винилы 4", 18000),
+                    new Tuple<int, string, int>(4, "Винилы 5", 19000),
+                    new Tuple<int, string, int>(5, "Винилы 6", 20000),
+                    new Tuple<int, string, int>(6, "Винилы 7", 35000),
+                    new Tuple<int, string, int>(7, "Винилы 8", 45000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый передний бампер", 13000),
+                    new Tuple<int, string, int>(1, "Накладные арки", 15000),
+                    new Tuple<int, string, int>(2, "Классический бампер RS", 15000),
+                    new Tuple<int, string, int>(3, "Дрифтовый бампер RS", 15000),
+                    new Tuple<int, string, int>(4, "Бампер GT", 15000),
+                    new Tuple<int, string, int>(5, "Бампер Street SPL", 15000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная зад. бампер", 5000),
+                }},
+            }},
+            { "Banshee", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Расширенный глушитель", 7000),
+                    new Tuple<int, string, int>(1, "Сдвоенный глушитель", 10000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот с забором воздуха", 12000),
+                    new Tuple<int, string, int>(1, "Карбоновый капот", 15000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Поднятый спойлер", 12000),
+                    new Tuple<int, string, int>(1, "Средний спойлер", 16000),
+                    new Tuple<int, string, int>(2, "Дрифт-спойлер", 16000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Кабрио", 30000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый пер. бампер", 13000),
+                }},
+            }},
+            { "lc200", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Овальный глушитель", 10000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновые обтекатели", 6000),
+                    new Tuple<int, string, int>(1, "Полуспортивные пороги", 7000),
+                    new Tuple<int, string, int>(2, "Спортивные пороги", 8000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Гладкий капот", 16000),
+                    new Tuple<int, string, int>(1, "Двойной забор воздуха", 14000),
+                    new Tuple<int, string, int>(2, "Двойной карбоновый", 15000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Средний спойлер", 26000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Евробампер", 13000),
+                    new Tuple<int, string, int>(1, "Гоночный бампер", 15000),
+                    new Tuple<int, string, int>(3, "Дрифт-бампер", 15000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
                 }},
             }},
-            { "mlbrabus", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+            { "BJXL", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Подножки", 6000),
                 }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Багажник на крыше", 7000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Силовой бампер", 13000),
                 }},
             }},
-            { "g65amg", new Dictionary<int, List<Tuple<int, string, int>>>() {
+	   { "bmwe38", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Глушитель двустволка", 25000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный спойлер", 5000),
+                    new Tuple<int, string, int>(0, "Поднятый спойлер", 22000),
+                    new Tuple<int, string, int>(1, "GT Wing", 26000),
+                }},
+                { 5, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(0, "Надкрылки", 22000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Сплиттер с канардами", 19000),
+                    new Tuple<int, string, int>(1, "Сплиттер с канардами 2", 22000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
@@ -1448,1078 +1613,90 @@ namespace NeptuneEvo.Core
             { "G63", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Глушитель двустволка", 25000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный спойлер", 5000),
+                    new Tuple<int, string, int>(0, "Поднятый спойлер", 22000),
+                    new Tuple<int, string, int>(1, "GT Wing", 26000),
+                }},
+                { 5, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(0, "Надкрылки", 22000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "velar", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "brabus850", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "slsamg", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "r8v10", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "lhuracan", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "ff", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "GMT900Escalade", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "chiron", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "bentayga17", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "lx2018", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "2017chiron", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "focusrs", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "evo10", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "x5e53", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "16challenger", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "m2f22", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "17m760i", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "Shelbygt500", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "370z", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "Z419", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "c63s", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "vwtoua19c", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "gs350", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "x5m", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Сплиттер с канардами", 19000),
+                    new Tuple<int, string, int>(1, "Сплиттер с канардами 2", 22000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
                 }},
             }},
             { "mgt", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                { 7, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Без раскраски", 5000),
+                    new Tuple<int, string, int>(0, "Монограмма Sessanta Nove", 18000),
+                    new Tuple<int, string, int>(1, "Многоцв. Sessanta Nove", 10000),
+                    new Tuple<int, string, int>(2, "Геометр. Sessanta Nove", 14000),
+                    new Tuple<int, string, int>(3, "Монограмма Perseus Wings", 16000),
+                    new Tuple<int, string, int>(4, "Моногр. Perseus Green Wings", 16000),
+                    new Tuple<int, string, int>(5, "Santo Capra Python", 16000),
+                    new Tuple<int, string, int>(6, "Santo Capra Cheetah", 16000),
+                    new Tuple<int, string, int>(7, "Yeti Mall Ninja", 16000),
                 }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
+
             }},
-            { "m5e60", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
+            { "16challenger", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
             }},
-            { "srt8", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "panamera17turbo", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Хромированный глушитель", 25000),
+                    new Tuple<int, string, int>(1, "Сдвоенный глушитель", 26000),
+                    new Tuple<int, string, int>(2, "Сдвоенный титановый", 26000),
+                    new Tuple<int, string, int>(3, "Расширенный глушитель", 30000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Капот с забором воздуха", 25000),
+                    new Tuple<int, string, int>(1, "С двойным забором воздуха", 26000),
+                    new Tuple<int, string, int>(2, "Карбоновый капот", 26000),
+                    new Tuple<int, string, int>(3, "Карбоновый капот 2", 30000),
                 }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "x6m", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "x5m2016", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "tts", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "2019M5", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "e63amg", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "gtr", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "m3f80", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Багажник на крыше", 25000),
                 }},
             }},
             { "rs6", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "r8v10", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель", 25000),
+                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 26000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Капот внедорожника", 25000),
+                    new Tuple<int, string, int>(1, "Капот с запаской", 26000),
                 }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                { 5, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартное левое крыло", 5000),
+                    new Tuple<int, string, int>(0, "Шноркель", 25000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Багажник на крыше", 25000),
+                    new Tuple<int, string, int>(1, "Багажник с прожекторами", 25000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Кунгурятник с дугой", 19000),
+                    new Tuple<int, string, int>(1, "Кунгурятник с дугой и фары", 22000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
@@ -2528,244 +1705,1098 @@ namespace NeptuneEvo.Core
             { "rs7", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель", 25000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Карбоновый капот", 25000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Средний спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Поднятый спойлер", 26000),
                 }},
             }},
-            { "bmci", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "e63amg", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Сдвоенный заказной", 25000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Поднятый спойлер", 22000),
+                    new Tuple<int, string, int>(1, "GT Wing", 26000),
                 }},
             }},
-            { "demonhawk", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "x5m", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель", 26000),
+                    new Tuple<int, string, int>(1, "Гоночный глушитель", 10000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги 1", 30000),
+                    new Tuple<int, string, int>(1, "Заказные пороги 2", 11000),
+                    new Tuple<int, string, int>(2, "Заказные пороги 3", 13000),
+                    new Tuple<int, string, int>(3, "Заказные пороги 4", 16000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Капот с забором воздуха", 16000),
+                    new Tuple<int, string, int>(1, "С двойным забором воздуха", 14000),
+                    new Tuple<int, string, int>(2, "Карбоновый капот", 15000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Поднятый спойлер", 26000),
+                    new Tuple<int, string, int>(2, "Спойлер Tuner", 16000),
+                    new Tuple<int, string, int>(3, "Карбоновый спойлер", 13000),
+                    new Tuple<int, string, int>(4, "GT Wing", 15000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 3000),
+                    new Tuple<int, string, int>(0, "Черная решетка", 26000),
+                    new Tuple<int, string, int>(1, "Открытый интеркулер", 11000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновая крыша", 30000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Карбоновый сплиттер", 13000),
+                    new Tuple<int, string, int>(1, "Сплиттер с канардами", 15000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый зад. диффузор", 13000),
+                    new Tuple<int, string, int>(1, "Крашеный задний бампер", 15000),
+                    new Tuple<int, string, int>(2, "Крашеный бампер и дифф.", 17000),
                 }},
             }},
-            { "CLA45Sb", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "chiron", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Овальный глушитель", 26000),
+                    new Tuple<int, string, int>(1, "Хромированный титановый", 10000),
+                    new Tuple<int, string, int>(2, "Гоночный глушитель", 14000),
                 }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 30000),
+                    new Tuple<int, string, int>(1, "Спортивные пороги", 11000),
+                    new Tuple<int, string, int>(2, "Карбоновые обтекатели", 13000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(0, "Карбоновый спойлер", 22000),
+                    new Tuple<int, string, int>(1, "Крашеный спойлер", 26000),
+                    new Tuple<int, string, int>(2, "Карбоновый спойлер 2", 11000),
+                    new Tuple<int, string, int>(3, "GT Wing", 15000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Задний дефлектор", 26000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 13000),
+                    new Tuple<int, string, int>(1, "Сплиттер с канардами", 15000),
+                    new Tuple<int, string, int>(2, "Сплиттер с крылышками", 17600),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "gls63", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "m4f82", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
-                }},
-            }},
-            { "CLS63S", new Dictionary<int, List<Tuple<int, string, int>>>() {
-                { 0, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
-                }},
-                { 2, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
-                }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
-                }},
-                { 8, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
-                }},
-                { 9, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Крашеный задний диффузор", 13000),
+                    new Tuple<int, string, int>(1, "Карбоновый зад. диффузор", 15000),
                 }},
             }},
             { "a45", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Хромированный глушитель", 26000),
+                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 30000),
+                    new Tuple<int, string, int>(2, "Расширенный глушитель", 14000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 30000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый капот", 14000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 15000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 17600),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной задний бампер", 13000),
+                }},
+            }},
+            { "x6m", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Хромированный глушитель", 16000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 30000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый капот", 11000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 15000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 17600),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной задний бампер", 17600),
+                }},
+            }},
+            { "Sultan", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 2000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель Tuner", 8000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 3000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 9000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 2000),
+                    new Tuple<int, string, int>(0, "С двойным забором воздуха", 11000),
+                    new Tuple<int, string, int>(1, "Карбоновый капот 1", 14000),
+                    new Tuple<int, string, int>(2, "Карбоновый капот 2", 15000),
+                    new Tuple<int, string, int>(3, "Капот с воздухозаборником", 16000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 1000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 6000),
+                    new Tuple<int, string, int>(1, "Поднятый спойлер", 8000),
+                    new Tuple<int, string, int>(2, "GT Wing", 12000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Полоса на лобовое стекло", 2000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 14000),
+                    new Tuple<int, string, int>(1, "Сплиттер и интеркулер", 18000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый зад. диффузор", 18000),
+                }},
+            }},
+            { "SultanRS", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 2000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель Tuner", 8000),
+                    new Tuple<int, string, int>(1, "Титановый глушитель Tuner", 9000),
+                    new Tuple<int, string, int>(2, "Раздвоенный глушитель", 15000),
+                    new Tuple<int, string, int>(3, "Раздвоенный короткий глушитель", 14000),
+                    new Tuple<int, string, int>(4, "Титановый короткий глушитель Tuner", 10000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 3000),
+                    new Tuple<int, string, int>(0, "Брызговики чёрного цвета", 9000),
+                    new Tuple<int, string, int>(1, "Брызговики основного цвета", 15000),
+                    new Tuple<int, string, int>(2, "Брызговики дополнительного цвета", 15000),
+                    new Tuple<int, string, int>(3, "Заказные пороги", 12000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 2000),
+                    new Tuple<int, string, int>(0, "С двойным забором воздуха", 11000),
+                    new Tuple<int, string, int>(1, "Карбоновый капот 1", 14000),
+                    new Tuple<int, string, int>(2, "Карбоновый капот 2", 15000),
+                    new Tuple<int, string, int>(3, "Карбоновый капот 3", 16000),
+                    new Tuple<int, string, int>(4, "Карбоновый капот 4", 17000),
+                    new Tuple<int, string, int>(5, "Изрисованный капот", 25000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 1000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер 1", 6000),
+                    new Tuple<int, string, int>(1, "Приподнятый спойлер 1", 8000),
+                    new Tuple<int, string, int>(2, "GT Wing 1", 12000),
+                    new Tuple<int, string, int>(3, "Низкий спойлер 2", 11000),
+                    new Tuple<int, string, int>(4, "Низкий спойлер 3", 11000),
+                    new Tuple<int, string, int>(5, "Низкий спойлер 4", 11000),
+                    new Tuple<int, string, int>(6, "Низкий спойлер 5", 11000),
+                    new Tuple<int, string, int>(7, "Низкий спойлер 6", 11000),
+                    new Tuple<int, string, int>(8, "Приподнятый спойлер 2", 13000),
+                    new Tuple<int, string, int>(9, "Приподнятый спойлер 3", 15000),
+                    new Tuple<int, string, int>(10, "Карбоновый спойлер 1", 20000),
+                    new Tuple<int, string, int>(11, "Карбоновый спойлер 2", 20000),
+                    new Tuple<int, string, int>(12, "Карбоновый спойлер 3", 20000),
+                    new Tuple<int, string, int>(13, "Массивный карбоновый спойлер", 21000),
+                    new Tuple<int, string, int>(14, "Высокий спойлер", 25000),
+                    new Tuple<int, string, int>(15, "Комбо-спойлер", 27000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный радиатор", 1000),
+                    new Tuple<int, string, int>(0, "Заказной радиатор", 10000),
+                    new Tuple<int, string, int>(1, "Спортивный радиатор", 15000),
+                }},
+                { 5, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 1000),
+                    new Tuple<int, string, int>(0, "Расширение основного цвета", 10000),
+                    new Tuple<int, string, int>(1, "Расширение черного цвета", 15000),
+                    new Tuple<int, string, int>(5, "Максимальное расширение", 20000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Спойлер на крыше", 15000),
+                    new Tuple<int, string, int>(1, "Острая крыша", 10000),
+                    new Tuple<int, string, int>(2, "Карбоновая крыша", 15000),
+                    new Tuple<int, string, int>(3, "Спойлер с карбоновой крышей", 20000),
+                    new Tuple<int, string, int>(4, "Острая карбоновая крыша", 13000),
+                }},
+                { 7, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Без раскраски", 5000),
+                    new Tuple<int, string, int>(0, "Полоса по бокам", 18000),
+                    new Tuple<int, string, int>(1, "Черная раскраска SULTAN RS", 20000),
+                    new Tuple<int, string, int>(2, "Белая раскраска SULTAN RS", 20000),
+                    new Tuple<int, string, int>(3, "Голубая полоса сбоку", 25000),
+                    new Tuple<int, string, int>(4, "Раскраска KARIN", 26000),
+                    new Tuple<int, string, int>(5, "Раскраска REDWOOD", 26000),
+                    new Tuple<int, string, int>(6, "Раскраска KARIN 2", 26000),
+                    new Tuple<int, string, int>(7, "Изрисованная раскраска", 40000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний бампер 1", 14000),
+                    new Tuple<int, string, int>(1, "Передний бампер 2", 18000),
+                    new Tuple<int, string, int>(2, "Передний бампер 3", 20000),
+                    new Tuple<int, string, int>(3, "Передний бампер 4", 18000),
+                    new Tuple<int, string, int>(4, "Передний бампер 5", 15000),
+                    new Tuple<int, string, int>(5, "Передний бампер 6", 17000),
+                    new Tuple<int, string, int>(6, "Передний бампер 7", 16000),
+                    new Tuple<int, string, int>(7, "Передний бампер 8", 15000),
+                    new Tuple<int, string, int>(8, "Передний бампер 9", 20000),
+                    new Tuple<int, string, int>(9, "Передний бампер 10", 25000),
+                    new Tuple<int, string, int>(10, "Передний бампер 11", 23000),
+                    new Tuple<int, string, int>(11, "Передний бампер 12", 20000),
+                    new Tuple<int, string, int>(12, "Передний бампер 13", 21000),
+                    new Tuple<int, string, int>(13, "Передний бампер 14", 18000),
+                    new Tuple<int, string, int>(14, "Передний бампер 15", 30000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Задний бампер 1", 18000),
+                    new Tuple<int, string, int>(1, "Задний бампер 2", 20000),
+                    new Tuple<int, string, int>(2, "Задний бампер 3", 22000),
+                    new Tuple<int, string, int>(3, "Задний бампер 4", 19000),
+                    new Tuple<int, string, int>(4, "Задний бампер 5", 21000),
+                    new Tuple<int, string, int>(5, "Задний бампер 6", 25000),
+                    new Tuple<int, string, int>(6, "Задний бампер 7", 23000),
+                    new Tuple<int, string, int>(7, "Задний бампер 8", 20000),
+                }},
+            }},
+            { "Fugitive", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Tailgater", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель", 8000),
+                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 10000),
+                    new Tuple<int, string, int>(2, "Хромированный глушитель", 14000),
+                    new Tuple<int, string, int>(3, "Сдвоенный глушитель", 16000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 9000),
+                    new Tuple<int, string, int>(1, "Низкие пороги", 11000),
+                    new Tuple<int, string, int>(2, "Полуспортивные пороги", 13000),
+                    new Tuple<int, string, int>(3, "Спортивные пороги", 16000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот с воздухозаборником", 16000),
+                    new Tuple<int, string, int>(1, "Карбоновый капот", 14000),
+                    new Tuple<int, string, int>(2, "Капот с воздухозаборником 2", 15000),
+                    new Tuple<int, string, int>(3, "Спортивный капот", 19000),
+                    new Tuple<int, string, int>(4, "Капот с забором воздуха", 9000),
+                    new Tuple<int, string, int>(5, "С двойным забором воздуха", 11000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Лип-спойлер", 6000),
+                    new Tuple<int, string, int>(1, "Низкий спойлер", 8000),
+                    new Tuple<int, string, int>(2, "Средний спойлер", 11000),
+                    new Tuple<int, string, int>(3, "Поднятый спойлер", 13000),
+                    new Tuple<int, string, int>(4, "Карбоновый спойлер", 15000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 3000),
+                    new Tuple<int, string, int>(0, "Черная решетка", 7000),
+                    new Tuple<int, string, int>(1, "Хромированная решетка", 11000),
+                    new Tuple<int, string, int>(2, "Сетчатая решетка", 13000),
+                    new Tuple<int, string, int>(3, "Разделенная решетка", 15000),
+                    new Tuple<int, string, int>(4, "Спортивная решетка", 17000),
+                }},
+                { 5, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартное крыло", 5000),
+                    new Tuple<int, string, int>(0, "Надкрылки", 8000),
+                    new Tuple<int, string, int>(1, "Хромовые арки", 10000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновая крыша", 9000),
+                    new Tuple<int, string, int>(1, "Багажник над крышой", 7000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Крашеный сплиттер", 13000),
+                    new Tuple<int, string, int>(1, "Передний сплиттер", 15000),
+                    new Tuple<int, string, int>(2, "Краш. бампер и сплиттер", 17000),
+                    new Tuple<int, string, int>(3, "Сплиттер и интеркулер", 17600),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый зад. диффузор", 13000),
+                    new Tuple<int, string, int>(1, "Крашеный задний бампер", 15000),
+                    new Tuple<int, string, int>(2, "Спортивный задний бампер", 17000),
+                    new Tuple<int, string, int>(3, "Крашеный бампер и дифф.", 17600),
+                }},
+
+            }},
+            { "Kuruma", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Двойной глушитель", 10000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги осн.цвета", 11000),
+                    new Tuple<int, string, int>(1, "Заказные пороги доп.цвета", 15000),
+                    new Tuple<int, string, int>(2, "Заказные карбоновые пороги", 20000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный спойлер", 5000),
+                    new Tuple<int, string, int>(0, "Спойлер доп.цвета", 7000),
+                    new Tuple<int, string, int>(1, "Низкий карбоновый спойлер", 11000),
+                    new Tuple<int, string, int>(2, "Низкий спойлер осн.цвета", 13000),
+                    new Tuple<int, string, int>(3, "Средний карбоновый спойлер", 15000),
+                    new Tuple<int, string, int>(4, "GT Wing", 25000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной бампер осн.цвета", 11000),
+                    new Tuple<int, string, int>(1, "Заказной бампер доп.цвета", 15000),
+                    new Tuple<int, string, int>(2, "Заказной карбоновый бампер", 15000),
+                }},
+            }},
+            { "Sentinel", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель", 10000),
+                    new Tuple<int, string, int>(1, "Титановый глушитель", 12000),
+                    new Tuple<int, string, int>(2, "Расширенный глушитель", 14000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 11000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый капот", 17000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Лип-спойлер", 7000),
+                    new Tuple<int, string, int>(1, "Средний спойлер", 11000),
+                    new Tuple<int, string, int>(2, "Поднятый спойлер", 13000),
+                    new Tuple<int, string, int>(3, "Карбоновый спойлер", 15000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Открытый интеркулер", 11000),
+                    new Tuple<int, string, int>(1, "Сплиттер с канардами", 15000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый зад. диффузор", 11000),
+                    new Tuple<int, string, int>(1, "Карбоновый дифф. и крюк", 15000),
+                }},
+            }},
+
+            { "F620", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+
+            { "Schwarzer", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                    { 0, new List<Tuple<int, string, int>>() {
+                        new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                        new Tuple<int, string, int>(0, "Сдвоенный глушитель", 10000),
+                        new Tuple<int, string, int>(1, "Сдвоенный титановый", 13000),
+                        new Tuple<int, string, int>(2, "Овальный глушитель", 15000),
+                        new Tuple<int, string, int>(3, "Гоночный глушитель", 17000),
+                    }},
+                    { 1, new List<Tuple<int, string, int>>() {
+                        new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                        new Tuple<int, string, int>(0, "Заказные пороги 1", 11000),
+                        new Tuple<int, string, int>(1, "Заказные пороги 2", 13000),
+                    }},
+                    { 2, new List<Tuple<int, string, int>>() {
+                        new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                        new Tuple<int, string, int>(0, "Карбоновый капот", 13000),
+                    }},
+                    { 3, new List<Tuple<int, string, int>>() {
+                        new Tuple<int, string, int>(-1, "Нет", 5000),
+                        new Tuple<int, string, int>(0, "Спойлер утиный хвост", 11000),
+                        new Tuple<int, string, int>(1, "Поднятый спойлер", 13000),
+                        new Tuple<int, string, int>(2, "Карбоновый спойлер", 17000),
+                    }},
+                    { 4, new List<Tuple<int, string, int>>() {
+                        new Tuple<int, string, int>(-1, "Стандартная решетка", 5000),
+                        new Tuple<int, string, int>(0, "Решетка с логотипом", 7000),
+                    }},
+                    { 6, new List<Tuple<int, string, int>>() {
+                        new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                        new Tuple<int, string, int>(0, "Карбоновая крыша", 11000),
+                    }},
+                    { 8, new List<Tuple<int, string, int>>() {
+                        new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                        new Tuple<int, string, int>(0, "Евробампер", 9000),
+                        new Tuple<int, string, int>(1, "Открытый интеркулер", 11000),
+                        new Tuple<int, string, int>(2, "Сплиттер и интеркулер", 13000),
+                    }},
+                    { 9, new List<Tuple<int, string, int>>() {
+                        new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                        new Tuple<int, string, int>(0, "Карбоновый зад. диффузор", 13000),
+                    }},
+                }},
+
+            { "Exemplar", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+
+            { "Felon", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Овальный глушитель", 15000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 13000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот с воздухозаборником", 13000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 9000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 9000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый зад. диффузор", 11000),
+                }},
+            }},
+
+            { "Schafter2", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Овальный глушитель", 13000),
+                    new Tuple<int, string, int>(1, "Хромированный глушитель", 15000),
+                    new Tuple<int, string, int>(2, "Сдвоенный глушитель", 17000),
+                    new Tuple<int, string, int>(3, "Титановый глушитель", 19000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги 1", 11000),
+                    new Tuple<int, string, int>(1, "Карбоновые обтекатели", 13000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот с забором воздуха", 13000),
+                    new Tuple<int, string, int>(1, "Карбоновый капот 1", 17000),
+                    new Tuple<int, string, int>(2, "Карбоновый капот 2", 19000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Лип-спойлер", 9000),
+                    new Tuple<int, string, int>(1, "Карбоновый спойлер", 15000),
+                    new Tuple<int, string, int>(2, "Поднятый спойлер", 19000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 5000),
+                    new Tuple<int, string, int>(0, "Хромированная решетка", 9000),
+                    new Tuple<int, string, int>(1, "Спортивная решетка", 13000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновая крыша", 15000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 15000),
+                    new Tuple<int, string, int>(1, "Карбоновый сплиттер", 17000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 15000),
+                    new Tuple<int, string, int>(0, "Заказной зад. бампер", 17000),
+                }},
+            }},
+
+            { "Patriot", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+
+            { "Cavalcade", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Улучшенный глушитель", 9000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Решетка радиатора с прорезями", 5000),
+                    new Tuple<int, string, int>(0, "Сетчетая решетка", 7000),
+                    new Tuple<int, string, int>(1, "Хромированная решетка", 11000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 9000),
+                    new Tuple<int, string, int>(1, "Бампер Extreme Aero", 13000),
+                }},
+            }},
+
+            { "Landstalker", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Хромированный глушитель", 9000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Багажник на крыше", 9000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 13000),
+                }},
+            }},
+
+            { "Baller", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Заказной глушитель", 13000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 14000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной передний 1", 15000),
+                    new Tuple<int, string, int>(1, "Заказной передний 2", 17000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 15000),
+                    new Tuple<int, string, int>(0, "Заказной задний бампер", 17000),
+                }},
+            }},
+
+            { "Seminole", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+
+            { "RancherXL", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Buffalo", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель Tuner", 15000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 16000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 14000),
+                }},
+            }},
+            { "Gauntlet", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+
+
+            { "Phoenix", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Расширенный глушитель", 9000),
+                    new Tuple<int, string, int>(1, "Титановый глушитель Tuner", 11000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 13000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот с забралом", 9000),
+                    new Tuple<int, string, int>(1, "Тройной суперчарджер", 11000),
+                    new Tuple<int, string, int>(2, "Суперчарджер", 13000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Средний спойлер", 9000),
+                    new Tuple<int, string, int>(1, "Поднятый спойлер", 11000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 5000),
+                    new Tuple<int, string, int>(0, "Железная маска", 9000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Стеклянная крыша", 13000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Широкий передний спойлер", 15000),
+                    new Tuple<int, string, int>(1, "Заказной спойлер", 17000),
+                }},
+            }},
+            { "Radi", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Glendale", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Расширенный глушитель", 9000),
+                    new Tuple<int, string, int>(1, "Двойной глушитель", 11000),
+                    new Tuple<int, string, int>(2, "Глушитель двустволка", 13000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 11000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Доп. цвет капота", 9000),
+                    new Tuple<int, string, int>(1, "Классический капот", 11000),
+                    new Tuple<int, string, int>(2, "Доп. классический капот", 13000),
+                    new Tuple<int, string, int>(3, "Капот в полоску", 15000),
+                    new Tuple<int, string, int>(4, "Доп. капот в полоску", 17000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Багажник на крыше", 5000),
+                    new Tuple<int, string, int>(1, "Багажник для поездки", 5000),
+                    new Tuple<int, string, int>(2, "Загруженный багаж", 7000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной бампер", 7000),
+                }},
+            }},
+            { "Serrano", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Расширенный глушитель", 6000),
+                    new Tuple<int, string, int>(1, "Сдвоенный глушитель", 7000),
+                    new Tuple<int, string, int>(2, "Титановый глушитель", 8000),
+                    new Tuple<int, string, int>(3, "Хромированный глушитель", 9000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый капот", 9000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Спойлер на крыше", 9000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 5000),
+                    new Tuple<int, string, int>(0, "Решетка с логотипом", 9000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной передний спойлер", 9000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной задний бампер", 11000),
+                }},
+            }},
+
+            { "Zion", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Расширенный глушитель", 9000),
+                    new Tuple<int, string, int>(1, "Сдвоенный глушитель", 11000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 13000),
+                }},
+
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Поднятый спойлер", 11000),
+                    new Tuple<int, string, int>(1, "Средний спойлер", 13000),
+                    new Tuple<int, string, int>(2, "Карбоновый спойлер", 15000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновая крыша", 14000),
+                }},
+            }},
+            { "Surge", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 7000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Спойлер Tuner", 9000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 10800),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной задний бампер", 9000),
+                }},
+            }},
+            { "Stanier", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+
+            { "Stratum", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+
+            { "Tampa", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Расширенный глушитель", 7000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Простой воздухозаборник", 7000),
+                    new Tuple<int, string, int>(1, "Двойной воздухозаборник", 9000),
+                    new Tuple<int, string, int>(2, "Тройной суперчарджер", 11000),
+                    new Tuple<int, string, int>(3, "Суперчарджер", 13000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Дрэг-спойлер", 9000),
+                    new Tuple<int, string, int>(1, "Спойлер Утиный хвост", 11000),
+                    new Tuple<int, string, int>(2, "Низкий спойлер", 12000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 5000),
+                    new Tuple<int, string, int>(0, "Разделенная решетка", 7000),
+                    new Tuple<int, string, int>(1, "Хромированная решетка", 9000),
+                    new Tuple<int, string, int>(2, "Открытая решетка", 10000),
+                    new Tuple<int, string, int>(3, "Открытая решетка", 11000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Крашеная крыша", 9000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной передний спойлер", 7000),
+                    new Tuple<int, string, int>(1, "Широкий передний спойлер", 8000),
+                    new Tuple<int, string, int>(2, "Перекрашеный бампер", 9000),
+                    new Tuple<int, string, int>(3, "Перекрашеный спойлер", 11000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Покрашенный бампер", 7000),
+                    new Tuple<int, string, int>(1, "Крашеные отражатели", 9000),
+                    new Tuple<int, string, int>(2, "Крашеная задняя часть", 11000),
+                }},
+            }},
+
+            { "Prairie", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель Tuner", 7000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый капот", 7000),
+                    new Tuple<int, string, int>(1, "Облегченный капот", 8000),
+                    new Tuple<int, string, int>(2, "Облегченный капот (карбон)", 9000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 7000),
+                    new Tuple<int, string, int>(1, "Карбоновый спойлер", 9000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Сплитер с канардами", 9000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый дифф. и крюк", 9000),
+                }},
+            }},
+
+            { "XLS", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+
+            { "Gresley", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель", 9000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 8000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот с забралом", 13000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый сплиттер", 15000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый зад. диффузор", 15000),
+                }},
+            }},
+
+            { "Surano", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Хромированный глушитель", 13000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 11000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот с забором воздуха", 13000),
+                    new Tuple<int, string, int>(1, "Карбоновый капот", 15000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный спойлер", 5000),
+                    new Tuple<int, string, int>(0, "Крашеный спойлер", 9000),
+                    new Tuple<int, string, int>(1, "Поднятый спойлер", 12000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 15000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый зад. диффузор", 17000),
+                }},
+            }},
+
+            { "Tornado3", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+            { "Tornado4", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+            { "Emperor2", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+            { "Voodoo2", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Regina", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Ingot", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+            { "Picador", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+            { "Manana", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Глушитель Двустволка", 7000),
+                    new Tuple<int, string, int>(1, "Двойной глушитель", 9000),
+                }},
+                { 5, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартное крыло", 5000),
+                    new Tuple<int, string, int>(0, "Дуговые огни", 11000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Полоса на лобовое стекло", 9000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Бампер и нижняя губа", 7000),
+                    new Tuple<int, string, int>(1, "Отделка бампера", 9000),
+                    new Tuple<int, string, int>(2, "Нижняя губа", 11000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Габаритные усы", 11000),
+                }},
+            }},
+            { "Asea", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель Tuner", 5000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
                     new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(2, "Капот в наклейках", 5000),
+                    new Tuple<int, string, int>(3, "Накладка и наклейки", 7000),
                 }},
-                { 3, new List<Tuple<int, string, int>>() {
-                    new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                { 5, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартное левое крыло", 5000),
+                    new Tuple<int, string, int>(0, "Левое крыло в наклейках", 3000),
+                    new Tuple<int, string, int>(1, "Стандартное правое крыло", 3000),
+                    new Tuple<int, string, int>(2, "Правое крыло в наклейках", 3000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновая крыша", 5000),
+                    new Tuple<int, string, int>(1, "Кузов в наклейках", 5000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 3000),
+                    new Tuple<int, string, int>(1, "Открытый интеркулер", 5000),
+                    new Tuple<int, string, int>(2, "Раллийный бампер", 5000),
+                    new Tuple<int, string, int>(3, "Бампер в наклейках", 5000),
+                }},
+            }},
+            { "Elegy", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(5, "Титановый глушитель Tuner", 10000),
+                    new Tuple<int, string, int>(6, "Двойной глушитель", 15000),
+                    new Tuple<int, string, int>(7, "Двойной титановый глушитель", 17000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги осн.цвета", 10000),
+                    new Tuple<int, string, int>(0, "Заказные пороги доп.цвета", 12000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Изрисованный капот", 15000),
+                    new Tuple<int, string, int>(2, "Капот с воздухозаборником 1", 10000),
+                    new Tuple<int, string, int>(3, "Капот с воздухозаборником 2", 13000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер 1", 5000),
+                    new Tuple<int, string, int>(1, "Низкий спойлер 2", 6000),
+                    new Tuple<int, string, int>(2, "Низкий спойлер 3", 7000),
+                    new Tuple<int, string, int>(3, "Низкий спойлер 4", 8000),
+                    new Tuple<int, string, int>(4, "Низкий спойлер 5", 9000),
+                    new Tuple<int, string, int>(5, "Средний бампер доп.цвета 1", 15000),
+                    new Tuple<int, string, int>(9, "Средний бампер доп.цвета 2", 25000),
+                    new Tuple<int, string, int>(19, "Заказной спойлер", 35000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Заказная решетка радиатора 1", 5000),
+                    new Tuple<int, string, int>(1, "Заказная решетка радиатора 2", 6000),
+                }},
+                { 5, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартное расширение", 5000),
+                    new Tuple<int, string, int>(2, "Расширение 1", 5000),
+                    new Tuple<int, string, int>(3, "Расширение 2", 8000),
+                }},
+                { 7, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Без раскраски", 5000),
+                    new Tuple<int, string, int>(0, "Двойная белая полоса", 18000),
+                    new Tuple<int, string, int>(1, "Двойная черная полоса", 20000),
+                    new Tuple<int, string, int>(2, "Раскраска Ракета", 20000),
+                    new Tuple<int, string, int>(3, "Раскраска Luxe", 30000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Изрисованный бампер", 15000),
+                    new Tuple<int, string, int>(1, "Карбоновый бампер 1", 12000),
+                    new Tuple<int, string, int>(2, "Бампер осн.цвета", 13000),
+                    new Tuple<int, string, int>(4, "Карбоновый бампер 2", 17000),
+                    new Tuple<int, string, int>(5, "Карбоновый бампер 3", 20000),
+                }},
+            }},
+            { "Baller2", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+            { "Cavalcade2", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+            { "Rocoto", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            }},
+            { "Dubsta", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель ", 9000),
+                    new Tuple<int, string, int>(1, "Сдвоенный титановый ", 11000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот внедорожника", 11000),
+                    new Tuple<int, string, int>(1, "Капот с запаской", 13000),
+
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 5000),
+                    new Tuple<int, string, int>(0, "Сетчатая решетка", 9000),
+                    new Tuple<int, string, int>(1, "Черная решетка", 10000),
+                    new Tuple<int, string, int>(2, "Хромированная решетка", 11000),
+                }},
+                { 5, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартное левое крыло", 5000),
+                    new Tuple<int, string, int>(0, "Шноркель", 11000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Багажник на крыше", 7000),
+                    new Tuple<int, string, int>(1, "Багажник с прожекторами", 9000),
+                    new Tuple<int, string, int>(2, "Черный багажник на крыше", 11000),
+                    new Tuple<int, string, int>(3, "Багажник с прожекторами", 13000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Хромированный кенгурятник", 9000),
+                    new Tuple<int, string, int>(1, "Кенгурятник с дугой", 11000),
+                    new Tuple<int, string, int>(2, "Кенгурятник с фарами", 13000),
+                    new Tuple<int, string, int>(3, "Кенгурятник с дугой и фары", 15000),
+                    new Tuple<int, string, int>(4, "Черный кенгурятник", 13000),
+                    new Tuple<int, string, int>(5, "Кенгурятник с дугой и фыры", 15000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Хромированный бампер", 11000),
+                    new Tuple<int, string, int>(1, "Черный бампер", 13000),
                 }},
             }},
-            { "lc200", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "Oracle2", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Хромированный глушитель", 9000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель", 11000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель", 13000),
+                }},
+            }},
+            { "Oracle", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Ruiner", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
                     new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
@@ -2795,34 +2826,193 @@ namespace NeptuneEvo.Core
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
                 }},
             }},
-            { "lumma750", new Dictionary<int, List<Tuple<int, string, int>>>() {
+            { "Minivan", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Blista2", new Dictionary<int, List<Tuple<int, string, int>>>() {
                 { 0, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
-                    new Tuple<int, string, int>(0, "Расширенный глушитель", 3000),
-                    new Tuple<int, string, int>(1, "Сдвоенный титановый", 5000),
-                    new Tuple<int, string, int>(2, "Титановый глушитель Tuner", 6000),
-                    new Tuple<int, string, int>(3, "Глушитель Shakotan", 7000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель Tuner", 3000),
+                    new Tuple<int, string, int>(1, "Расширенный глушитель", 5000),
+                    new Tuple<int, string, int>(2, "Гоночный глушитель", 6000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 5000),
                 }},
                 { 2, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
-                    new Tuple<int, string, int>(0, "Карбоновый капот", 3000),
-                    new Tuple<int, string, int>(1, "Капот с воздухозаборником", 15000),
-                    new Tuple<int, string, int>(2, "Капот и протекторы фар", 6000),
+                    new Tuple<int, string, int>(0, "Карбоновый капот", 5000),
+                    new Tuple<int, string, int>(1, "Капот с забором воздуха", 6000),
                 }},
                 { 3, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Нет", 5000),
-                    new Tuple<int, string, int>(0, "Средний спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Поднятый спойлер", 6000),
-                    new Tuple<int, string, int>(2, "Дрэг-спойлер", 7000),
-                    new Tuple<int, string, int>(3, "GT Wing", 9000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 3000),
+                    new Tuple<int, string, int>(1, "Крашенный спойлер", 5000),
+                    new Tuple<int, string, int>(2, "Спойлер Tuner", 6000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Полоса на лобовое стекло", 3000),
+                }},
+            }},
+            { "Stalion", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Кабрио", 7000),
+                    new Tuple<int, string, int>(0, "Заказная крыша", 9000),
+                }},
+            }},
+            { "Asterope", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Washington", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Premier", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Овальный глушитель", 3000),
+                    new Tuple<int, string, int>(1, "Расширенный глушитель", 5000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 5000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Спойлер Tuner", 7000),
                 }},
                 { 8, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
-                    new Tuple<int, string, int>(0, "Заказной спойлер", 5000),
-                    new Tuple<int, string, int>(1, "Спойлер и охладитель масла", 7000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 7000),
+                }},
+            }},
+
+            { "Intruder", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Хромированный глушитель ", 5000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Боковые пороги Bippu", 3000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Низкий спойлер", 5000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной передний бампер", 5000),
                 }},
                 { 9, new List<Tuple<int, string, int>>() {
                     new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной задний бампер", 5000),
+                }},
+            }},
+            { "Dilettante", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Voodoo", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Двойной глушитель", 3000),
+                    new Tuple<int, string, int>(1, "Двойной сдвоенный глушитель", 5000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 5000),
+                    new Tuple<int, string, int>(0, "Хромированная решетка", 3000),
+                    new Tuple<int, string, int>(1, "Тонкая хроом. решетка", 5000),
+                    new Tuple<int, string, int>(2, "Зубастая решетка радиатора", 6000),
+                }},
+                { 7, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная раскраска", 5000),
+                    new Tuple<int, string, int>(0, "Зеленые полосы", 7000),
+                    new Tuple<int, string, int>(1, "Синие полосы", 7000),
+                    new Tuple<int, string, int>(2, "Зеленые полосы с фреской", 8000),
+                    new Tuple<int, string, int>(3, "Синие полосы с фреской", 8000),
+                    new Tuple<int, string, int>(4, "Искусно-синий", 11000),
+                    new Tuple<int, string, int>(5, "Искусно-оранжевый", 11000),
+                    new Tuple<int, string, int>(6, "Запутанная геометрия", 2000),
+                    new Tuple<int, string, int>(7, "Формы", 10000),
+                    new Tuple<int, string, int>(8, "Саккубус", 3000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Обтекаемый хромированный", 5000),
+                    new Tuple<int, string, int>(1, "Мощный хромированный", 7000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                }},
+            }},
+            { "FQ2", new Dictionary<int, List<Tuple<int, string, int>>>() {
+
+            }},
+            { "Dominator", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Титановый глушитель ", 9000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 9000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Карбоновый капот", 11000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Спойлер утиный хвост", 11000),
+                    new Tuple<int, string, int>(1, "Поднятый спойлер", 13000),
+                }},
+                { 4, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная решетка", 5000),
+                    new Tuple<int, string, int>(0, "Заказная решетка радиатора", 11000),
+                }},
+                { 6, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартная крыша", 5000),
+                    new Tuple<int, string, int>(0, "Задний дефлектор", 7000),
+                    new Tuple<int, string, int>(1, "Карбоновая крыша", 9000),
+                    new Tuple<int, string, int>(2, "Дефлектор и крыша карбон", 11000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 11000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Крашенный задний бампер", 11000),
+                }},
+            }},
+            { "Jackal", new Dictionary<int, List<Tuple<int, string, int>>>() {
+                { 0, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный глушитель", 5000),
+                    new Tuple<int, string, int>(0, "Сдвоенный глушитель", 9000),
+                }},
+                { 1, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартные пороги", 5000),
+                    new Tuple<int, string, int>(0, "Заказные пороги", 11000),
+                }},
+                { 2, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный капот", 5000),
+                    new Tuple<int, string, int>(0, "Капот с воздухозаборником", 9000),
+                    new Tuple<int, string, int>(1, "Капот с забором воздуха", 11000),
+                }},
+                { 3, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Нет", 5000),
+                    new Tuple<int, string, int>(0, "Заказной спойлер 1", 9000),
+                    new Tuple<int, string, int>(1, "Заказной спойлер 2", 13000),
+                }},
+                { 8, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный пер. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Передний сплиттер", 11000),
+                }},
+                { 9, new List<Tuple<int, string, int>>() {
+                    new Tuple<int, string, int>(-1, "Стандартный зад. бампер", 5000),
+                    new Tuple<int, string, int>(0, "Заказной задний бампер", 13000),
                 }},
             }},
 
@@ -3082,80 +3272,110 @@ namespace NeptuneEvo.Core
             { "Средство для мытья", 200 }, // carwash
             { "Корм для животных", 20 }, // petshop
 
-            { "focusrs", 10 }, // prem
-            { "evo10", 10 }, // prem
-            { "x5e53", 10 }, // prem
-            { "16challenger", 10 }, // prem
-            { "m2f22", 10 }, // prem
-            { "17m760i", 10 }, // prem
-            { "Shelbygt500", 10 }, // prem
-            { "370z", 10 }, // prem
-            { "Z419", 10 }, // prem
-            { "c63s", 10 }, // prem
-            { "vwtoua19c", 10 }, // prem
-            { "gs350", 10 }, // prem
-            { "x5m", 10 }, // prem
-            { "mgt", 10 }, // prem
-            { "m5e60", 10 }, // prem
-            { "srt8", 10 }, // prem
-            { "x6m", 10 }, // prem
-            { "x5m2016", 10 }, // prem
-            { "tts", 10 }, // prem
-            { "2019M5", 10 }, // prem
-            { "e63amg", 10 }, // prem
-            { "gtr", 10 }, // prem
-            { "m3f80", 10 }, // prem
-            { "rs6", 10 }, // prem
-            { "rs7", 10 }, // prem
-            { "bmci", 10 }, // prem
-            { "demonhawk", 10 }, // prem
-            { "CLA45Sb", 10 }, // prem
-            { "gls63", 10 }, // prem
-            { "m4f82", 10 }, // prem
-            { "CLS63S", 10 }, // prem
-            { "a45", 10 }, // prem
-            { "lc200", 10 }, // prem
-            { "lumma750", 10 }, // prem
+            { "Sultan", 10 }, // premium
+            { "SultanRS", 10 },
+            { "Kuruma", 10 },
+            { "Fugitive", 10 },
+            { "Tailgater", 10 },
+            { "Sentinel", 10 },
+            { "F620", 10 },
+            { "Schwarzer", 10 },
+            { "Exemplar", 10 },
+            { "Felon", 10 },
+            { "Schafter2", 10 },
+            { "Jackal", 10 },
+            { "Oracle2", 10 },
+            { "Surano", 10 },
+            { "Zion", 10 },
+            { "Dominator", 10 },
+            { "FQ2", 10 },
+            { "Gresley", 10 },
+            { "Serrano", 10 },
+            { "Dubsta", 10 },
+            { "Rocoto", 10 },
+            { "Cavalcade2", 10 },
+            { "XLS", 10 },
+            { "Baller2", 10 },
+            { "Elegy", 10 },
+            { "Banshee", 10 },
+            { "Massacro2", 10 },
+            { "GP1", 10 },
 
 
-           { "viper", 10 }, //Lux salon
-           { "panamera17turbo", 10 }, //Lux salon
-           { "i8", 10 }, //Lux salon
-           { "mlbrabus", 10 }, //Lux salon
-           { "g65amg", 10 }, //Lux salon
+	   { "bmwe38", 10 }, //Lux salon
            { "G63", 10 }, //Lux salon
-           { "velar", 10 }, //Lux salon
-           { "brabus850", 10 }, //Lux salon
-           { "slsamg", 10 }, //Lux salon
+           { "Neon", 10 }, //Lux salon
+           { "a45", 10 }, //Lux salon
+           { "x6m", 10 }, //Lux salon
+           { "gls63", 10 }, //Lux salon
+           { "x5m", 10 }, //Lux salon
+           { "e63amg", 10 }, //Lux salon
+           { "rs7", 10 }, //Lux salon
            { "r8v10", 10 }, //Lux salon
-           { "lhuracan", 10 }, //Lux salon
-           { "ff", 10 }, //Lux salon
-           { "GMT900Escalade", 10 }, //Lux salon
+           { "rs6", 10 }, //Lux salon
+           { "panamera17turbo", 10 }, //Lux salon
+           { "16challenger", 10 }, //Lux salon
+           { "mgt", 10 }, //Lux salon
+           { "lc200", 10 }, //Lux salon
+           { "w210", 10 }, //Lux salon
+           { "2019M5", 10 }, //Lux salon
            { "chiron", 10 }, //Lux salon
+           { "ff", 10 }, //Lux salon
+           { "demonhawk", 10 }, //Lux salon
+           { "evo10", 10 }, //Lux salon
+           { "velar", 10 }, //Lux salon
+           { "camry55", 10 }, //Lux salon
            { "bentayga17", 10 }, //Lux salon
-           { "lx2018", 10 }, //Lux salon
-           { "2017chiron", 10 }, //Lux salon
+           { "lhuracan", 10 }, //Lux salon
+           { "i8", 10 }, //Lux salon
+           { "brabus850", 10 }, //Lux salon
 
 
-            { "vaz2106", 10 }, // Love salon
-            { "vaz2113", 10 }, // middle
-            { "vaz21099", 10 }, // middle
-            { "volga", 10 }, // middle
-            { "bmwe34", 10 }, // middle
-            { "volvo850r", 10 }, // middle
-            { "w210", 10 }, // middle
-            { "bmwe38", 10 }, // middle
-            { "v60", 10 }, // middle
-            { "w140", 10 }, // middle
-            { "bmwe36", 10 }, // middle
-            { "750il", 10 }, // middle
-            { "bmwe65", 10 }, // middle
-            { "audis8om", 10 }, // middle
-            { "camry55", 10 }, // middle
-            { "a8lw12", 10 }, // middle
-            { "A6Avant", 10 }, // middle
+            { "Tornado3", 10 }, // middle
+            { "Tornado4", 10 },
+            { "Emperor2", 10 },
+            { "Voodoo2", 10 },
+            { "Regina", 10 },
+            { "Ingot", 10 },
+            { "Emperor", 10 },
+            { "Picador", 10 },
+            { "Minivan", 10 },
+            { "Blista2", 10 },
+            { "Manana", 10 },
+            { "Dilettante", 10 },
+            { "Asea", 10 },
+            { "Glendale", 10 },
+            { "Voodoo", 10 },
+            { "Surge", 10 },
+            { "Primo", 10 },
+            { "Stanier", 10 },
+            { "Stratum", 10 },
+            { "Tampa", 10 },
+            { "Prairie", 10 },
+            { "Radi", 10 },
+            { "Blista", 10 },
+            { "Stalion", 10 },
+            { "Asterope", 10 },
+            { "Washington", 10 },
+            { "Premier", 10 },
+            { "Intruder", 10 },
+            { "Ruiner", 10 },
+            { "Oracle", 10 },
+            { "Phoenix", 10 },
+            { "Gauntlet", 10 },
+            { "Buffalo", 10 },
+            { "RancherXL", 10 },
+            { "Seminole", 10 },
+            { "Baller", 10 },
+            { "Landstalker", 10 },
+            { "Cavalcade", 10 },
+            { "BJXL", 10 },
+            { "Patriot", 10 },
+            { "Bison3", 10 },
+            { "Issi2", 10 },
+            { "Panto", 10 },
 
-           
+
 
             { "Faggio2", 10 }, // moto
             { "Sanchez2", 10 },
@@ -3218,78 +3438,108 @@ namespace NeptuneEvo.Core
             {"Средство для мытья",200},
             {"Корм для животных", 450000 }, // petshop
 
-            {"focusrs",80000},
-            {"evo10",90000},
-            {"x5e53",100000},
-            {"16challenger",250000},
-            {"m2f22",260000},
-            {"17m760i",370000},
-            {"Shelbygt500",380000},
-            {"370z",400000},
-            {"Z419",400000},
-            {"c63s",450000},
-            {"vwtoua19c",650000},
-            {"gs350",850000},
-            {"x5m",860000},
-            {"mgt",880000},
-            {"m5e60",920000},
-            {"srt8",1300000},
-            {"x6m",1350000},
-            {"x5m2016",1700000},
-            {"tts",1750000},
-            {"2019M5",1800000},
-            {"e63amg",1850000},
-            {"gtr",1980000},
-            {"m3f80",1990000},
-            {"rs6",2200000},
-            {"rs7",2400000},
-            {"bmci",2500000},
-            {"demonhawk",2600000},
-            {"CLA45Sb",2650000},
-            {"gls63",2700000},
-            {"m4f82",2850000},
-            {"CLS63S",3000000},
-            {"a45",200000},
-            {"lc200",520000},
-            {"lumma750",800000},
+           {"Sultan",112500},
+            {"SultanRS",800000},
+            {"Kuruma",400000},
+            {"Fugitive",92500},
+            {"Tailgater",95000},
+            {"Sentinel",112500},
+            {"F620",120000},
+            {"Schwarzer",182500},
+            {"Exemplar",187500},
+            {"Felon",207500},
+            {"Schafter2",200000},
+            {"Jackal",225000},
+            {"Oracle2",250000},
+            {"Surano",300000},
+            {"Zion",325000},
+            {"Dominator",375000},
+            {"FQ2",225000},
+            {"Gresley",262500},
+            {"Serrano",275000},
+            {"Dubsta",325000},
+            {"Rocoto",337500},
+            {"Cavalcade2",375000},
+            {"XLS",400000},
+            {"Baller2",450000},
+            { "Elegy", 700000 },
+            { "Banshee", 675000 },
+            { "Massacro2", 595000 },
+            { "GP1", 625000 },
 
 
-            {"viper",3000000},
-            {"panamera17turbo",3500000},
-            {"i8",3700000},
-            {"mlbrabus",3800000},
-            {"g65amg",3900000},
-            {"G63",4100000},
-            {"velar",4200000},
-            {"brabus850",4500000},
-            {"slsamg",4700000},
-            {"r8v10",4900000},
-            {"lhuracan",5200000},
-            {"ff",5400000},
-            {"GMT900Escalade",5500000},
-            {"chiron",6000000},
-            {"bentayga17",3100000},
-            {"lx2018",3200000},
-            {"2017chiron",12000000},
+	    {"bmwe38",10000},
+            {"G63",10000},
+            {"Neon",10000},
+            {"a45",10000},
+            {"x6m",10000},
+            {"gls63",10000},
+            {"x5m",10000},
+            {"e63amg",10000},
+            {"rs7",10000},
+            {"r8v10",10000},
+            {"rs6",10000},
+            {"panamera17turbo",10000},
+            {"16challenger",10000},
+            {"mgt",10000},
+            {"lc200",10000},
+            {"w210",10000},
+            {"2019M5",10000},
+            {"chiron",10000},
+            {"ff",10000},
+            {"demonhawk",10000},
+            {"evo10",10000},
+            {"velar",10000},
+            {"camry55",10000},
+            {"bentayga17",10000},
+            {"lhuracan",10000},
+            {"i8",10000},
+            {"brabus850",10000},
             // SUPER PREMIUM
 
-            {"vaz2106",3200},
-            {"vaz2113",6200},
-            {"vaz21099",7800},
-            {"volga",8200},
-            {"bmwe34",14000},
-            {"volvo850r",21000},
-            {"w210",62000},
-            {"bmwe38",72000},
-            {"v60",80000},
-            {"w140",100000},
-            {"bmwe36",125000},
-            {"750il",145000},
-            {"bmwe65",160000},
-            {"audis8om",175000},
-            {"camry55",205000},
-            {"a8lw12",250000},
-            {"A6Avant",300000},
+           {"Tornado3",7500},
+            {"Tornado4",8000},
+            {"Emperor2",8000},
+            {"Voodoo2",8250},
+            {"Regina",8500},
+            {"Ingot",8750},
+            {"Emperor",20000},
+            {"Picador",22500},
+            {"Minivan",20000},
+            {"Blista2",22500},
+            {"Manana",22500},
+            {"Dilettante",25000},
+            {"Asea",25000},
+            {"Glendale",32500},
+            {"Voodoo",25000},
+            {"Surge",32500},
+            {"Primo",33750},
+            {"Stanier",35000},
+            {"Stratum",37500},
+            {"Tampa",38750},
+            {"Prairie",39500},
+            {"Radi",39000},
+            {"Blista",41500},
+            {"Stalion",42500},
+            {"Asterope",47000},
+            {"Washington",49750},
+            {"Premier",50000},
+            {"Intruder",45000},
+            {"Ruiner",50000},
+            {"Oracle",52500},
+            {"Phoenix",62500},
+            {"Gauntlet",70000},
+            {"Buffalo",70000},
+            {"RancherXL",37500},
+            {"Seminole",50000},
+            {"Baller",125000},
+            {"Landstalker",137500},
+            {"Cavalcade",150000},
+            {"BJXL",152500 },
+            {"Patriot",175000},
+            { "Bison3", 75000 },
+            { "Issi2", 85000 },
+            { "Panto", 45000 },
 
 
             {"Faggio2",2500},

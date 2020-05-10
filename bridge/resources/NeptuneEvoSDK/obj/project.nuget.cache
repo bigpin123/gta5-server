@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XuhTgqAEVptyAom/wfCyO6AvdxEQEREjuHaDNp8ozPy4UI/W28iCb8CXGa0BAPrQPeNksdTBz6GWP0ZxLEdulQ==",
+  "dgSpecHash": "+16nslJ+HeCHLijGW2uKxsgxxLE3/fFXWZ6OzDPRytlE2tOKEeTjbv2BRvoJD1sZyCmS5wJ81ZtmghBq50hFMg==",
   "success": true,
-  "projectFilePath": "c:\\RAGEMP\\server-files\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj",
+  "projectFilePath": "c:\\bridge\\resources\\NeptuneEvoSDK\\NeptuneEvoSDK.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeus\\.nuget\\packages\\base36\\1.0.0\\base36.1.0.0.nupkg.sha512",
     "C:\\Users\\zeus\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",

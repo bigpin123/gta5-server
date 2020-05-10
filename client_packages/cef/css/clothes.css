@@ -1,0 +1,170 @@
+.clothes{
+    margin-left: 150px;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    margin-top: -200px;  
+    background-image: url(../res/shop/Classic-zadfonmagaz.png);
+}
+.clothes .right{
+    float: right;
+    height: 100%;
+    width: 300px;
+    background-image: url(../res/shop/Classic-zadfonmagaz2.png);
+    border-radius: 10px;
+    
+}
+.clothes .left{
+    height: 100%;
+    width: 50px;
+    padding-top: 62px;
+    float: left;
+}
+.clothes i{
+    margin-top: 35px;
+    font-family: "icons";
+    font-style: normal;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(8, 123, 218, 0.877); /*Кнопки переключения в лево и право*/
+    border-radius: 15px;
+}
+/*.clothes i:hover{background-color: rgba(255, 255, 255, 0.726);}*/
+.clothes .list div{
+    margin-top: 35px;
+    width: 155px;
+    padding: 9px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgb(31, 31, 31);; /*фон ввода количества товара*/
+}
+.clothes h1{
+    margin: 0;
+    padding: 15px;
+    font-size: 20pt;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.clothes .left-arrow{
+    float: left;
+}
+.clothes .right-arrow{
+    float: right;
+}
+.clothes .list{
+    margin-left: 8%;
+    margin-top: 15px;
+    width: 250px;
+}
+.clothes .items{
+    height: 200px;
+}
+.clothes .btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    cursor: pointer;
+    margin: 10px;
+}
+.clothes .buy{
+    background-color: rgb(218, 125, 20);
+    margin-bottom: 10px;
+    border-radius: 25px;
+    width: 80px;
+    margin-left: 30px;
+}
+.clothes .exit{
+    background-color: #3587e5;
+    border-radius: 25px;
+    width: 80px;
+    margin-left: 160px;
+    margin-top: -52px;
+   
+}
+.clothes .buy:hover{
+    background-color: rgb(148, 98, 32);
+}
+.clothes .exit:hover{
+    background-color: #2665ad
+}
+.clothes .icon{
+    height: 50px;
+    width: 300px;
+    background-color: #5050505e;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 10px; /*расстояние между иконками*/
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+}
+.clothes .icon.active{
+    background-color: #4d4d4d5b;
+}
+.clothes .icon:hover{
+    background-color: #ad590a80;
+}
+.clothes p{
+    
+}
+.clothes p span{
+    
+}
+.clothes .hat{
+    background-image: url('../res/shop/Classic-hat.png');
+}
+.clothes .hat:hover{
+    background-image: url('../res/shop/Classic-hat1.png');
+}
+.clothes .jacket{
+    background-image: url('../res/shop/Classic-jacket.png');
+}
+.clothes .jacket:hover{
+    background-image: url('../res/shop/Classic-jacket1.png');
+}
+.clothes .shirt{
+    background-image: url('../res/shop/Classic-shirt.png');
+}
+.clothes .shirt:hover{
+    background-image: url('../res/shop/Classic-shirt1.png');
+}
+.clothes .pants{
+    background-image: url('../res/shop/Classic-pants.png');  
+}
+.clothes .pants:hover{
+    background-image: url('../res/shop/Classic-pants1.png'); 
+}
+.clothes .shoe{
+    background-image: url('../res/shop/Classic-shoe.png');
+}
+.clothes .shoe:hover{
+    background-image: url('../res/shop/Classic-shoe1.png'); 
+}
+.clothes .gloves{
+    background-image: url('../res/shop/Classic-gloves.png');
+}
+.clothes .gloves:hover{
+    background-image: url('../res/shop/Classic-gloves1.png');
+}
+.clothes .watches{
+    background-image: url('../res/shop/Classic-watches.png');
+}
+.clothes .watches:hover{
+    background-image: url('../res/shop/Classic-watches1.png');
+}
+.clothes .glasses{
+    background-image: url('../res/shop/Classic-glasses.png');
+}
+.clothes .glasses:hover{
+    background-image: url('../res/shop/Classic-glasses1.png');
+}
+.clothes .jewerly{
+    background-image: url('../res/shop/Classic-jewerly.png');
+}
+.clothes .jewerly:hover{
+    background-image: url('../res/shop/Classic-jewerly1.png');
+}

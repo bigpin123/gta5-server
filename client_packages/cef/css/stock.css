@@ -1,0 +1,75 @@
+.stock{
+    display: none;
+    background-size: contain;
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 50%;
+    top: 50%;
+    margin-left: -256px;
+    margin-top: -256px;
+}
+.stock .center{
+    margin-top: 200px;
+    margin-left: 15%;
+    text-align: center;
+    width: 370px;
+}
+.stock .title{
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16pt;
+    border-radius: 5px;
+}
+.stock .title:hover{
+    background-color: rgba(253, 139, 8, 0.925);
+}
+.stock .count{
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+.stock .count:hover{
+    background-color: rgba(253, 139, 8, 0.925);
+}
+.stock .exit{
+    color: white;
+    background-color: #f18e0b;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14pt;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.stock .exit:hover{
+    background-color: rgb(131, 17, 17);
+}
+.stock .title span{cursor: pointer}
+.stock .title #L{
+	float: left;
+	font-family: "icons"
+}
+.stock .title #R{
+	float: right;
+	font-family: "icons"
+}
+.stock .btn{
+    margin: 5px;
+    width: 151px;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.stock .btn:hover{
+    background-color: rgba(253, 139, 8, 0.925);
+}
+.stock.weaponsstock{background-image: url('../res/Classic-weapstock.png')}
+.stock.weapons{background-image: url('../res/Classic-weap.png')}
+.stock.weed{background-image: url('../res/Classic-weed.png')}
+.stock.healkit{background-image: url('../res/Classic-hkit.png')}
+.stock.cash{background-image: url('../res/Classic-cash.png')}
